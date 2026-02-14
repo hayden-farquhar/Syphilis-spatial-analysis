@@ -1,0 +1,10 @@
+Indicator,Period_2023_24,Period_2024_25,Pct_Change
+Testing_rate_per_1000_pop,59.6,60.2,+1
+Notification_rate_per_100k_pop,31.5,33.3,+6
+Test_positivity_per_1000_tests,4.2,4.4,+3
+Syphilis_PoC_tests,2188,1649,-25
+Pct_symptomatic_treated_first_presentation,50,56,+6
+Pct_treated_within_1_week,30,21,-9
+Pct_contacts_treated_first_presentation,56,49,-8
+Pct_pregnant_women_identified_within_2_days,25,24,-1
+Congenital_syphilis_notifications,NA,3,NA

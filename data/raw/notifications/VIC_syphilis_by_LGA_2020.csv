@@ -1,0 +1,160 @@
+LGA,Sex,Cases,Population_ERP,Rate
+Casey (C),Male,31,157114,19.73
+Casey (C),Female,9,156407,5.75
+Greater Geelong (C),Female,5,121750,4.11
+Greater Geelong (C),Male,34,116853,29.10
+Wyndham (C),Male,63,115097,54.74
+Wyndham (C),Female,12,112991,10.62
+Whittlesea (C),Female,8,104455,7.66
+Hume (C),Male,25,104185,24.00
+Brimbank (C),Male,29,103711,27.96
+Hume (C),Female,11,103645,10.61
+Whittlesea (C),Male,21,103426,20.30
+Brimbank (C),Female,1,102030,0.98
+Monash (C),Female,0,97257,
+Monash (C),Male,26,95593,27.20
+Boroondara (C),Female,6,91593,6.55
+Whitehorse (C),Female,5,87415,5.72
+Moreland (C),Female,5,87157,5.74
+Boroondara (C),Male,33,85768,38.48
+Moreland (C),Male,37,84934,43.56
+Whitehorse (C),Male,9,82678,10.89
+Greater Dandenong (C),Male,14,82606,16.95
+Mornington Peninsula (S),Female,4,82489,4.85
+Knox (C),Female,2,81564,2.45
+Kingston (C),Female,3,81022,3.70
+Darebin (C),Female,0,79460,
+Knox (C),Male,10,79101,12.64
+Mornington Peninsula (S),Male,11,78373,14.04
+Greater Dandenong (C),Female,4,78346,5.11
+Yarra Ranges (S),Female,4,78045,5.13
+Kingston (C),Male,19,78001,24.36
+Yarra Ranges (S),Male,10,77267,12.94
+Glen Eira (C),Female,3,76333,3.93
+Darebin (C),Male,41,75562,54.26
+Melbourne (C),Female,9,75327,11.95
+Melbourne (C),Male,143,72712,196.67
+Glen Eira (C),Male,50,72679,68.80
+Melton (C),Female,20,71276,28.06
+Frankston (C),Female,8,70912,11.28
+Melton (C),Male,28,70473,39.73
+Frankston (C),Male,35,68599,51.02
+Banyule (C),Female,3,65102,4.61
+Moonee Valley (C),Female,2,63050,3.17
+Manningham (C),Female,2,62874,3.18
+Banyule (C),Male,11,62591,17.57
+Manningham (C),Male,5,60028,8.33
+Moonee Valley (C),Male,29,59918,48.40
+Maroondah (C),Female,1,58931,1.70
+Stonnington (C),Female,1,58048,1.72
+Greater Bendigo (C),Female,2,57048,3.51
+Maroondah (C),Male,8,56048,14.27
+Port Phillip (C),Female,4,55131,7.26
+Greater Bendigo (C),Male,2,54735,3.65
+Stonnington (C),Male,99,53558,184.85
+Port Phillip (C),Male,75,53427,140.38
+Bayside (C),Female,1,53407,1.87
+Ballarat (C),Female,1,53234,1.88
+Ballarat (C),Male,7,50173,13.95
+Bayside (C),Male,10,49330,20.27
+Cardinia (S),Female,4,49235,8.12
+Cardinia (S),Male,11,48390,22.73
+Yarra (C),Female,2,47699,4.19
+Hobsons Bay (C),Female,0,47104,
+Hobsons Bay (C),Male,20,46288,43.21
+Yarra (C),Male,72,45681,157.61
+Maribyrnong (C),Male,31,44266,70.03
+Maribyrnong (C),Female,0,43089,
+Latrobe (C),Female,0,37691,
+Latrobe (C),Male,7,36638,19.11
+Greater Shepparton (C),Male,14,32625,42.91
+Greater Shepparton (C),Female,1,32451,3.08
+Nillumbik (S),Female,1,32307,3.10
+Nillumbik (S),Male,8,31973,25.02
+Mildura (RC),Female,12,27483,43.66
+Mildura (RC),Male,5,27081,18.46
+Baw Baw (S),Female,2,24976,8.01
+Baw Baw (S),Male,12,24032,49.93
+Macedon Ranges (S),Female,4,23952,16.70
+Macedon Ranges (S),Male,3,23560,12.73
+East Gippsland (S),Female,1,22896,4.37
+East Gippsland (S),Male,2,22530,8.88
+Wellington (S),Male,9,22174,40.59
+Wellington (S),Female,0,21291,
+Mitchell (S),Male,8,21091,37.93
+Mitchell (S),Female,1,20541,4.87
+Wodonga (RC),Female,0,20093,
+Wodonga (RC),Male,5,19751,25.32
+Campaspe (S),Female,1,18780,5.32
+Campaspe (S),Male,0,18649,
+Warrnambool (C),Female,0,17663,
+Bass Coast (S),Female,2,17016,11.75
+Warrnambool (C),Male,0,16582,
+Moorabool (S),Female,0,16332,
+Moorabool (S),Male,1,16326,6.13
+Bass Coast (S),Male,2,16301,12.27
+Surf Coast (S),Male,1,15242,6.56
+Surf Coast (S),Female,0,15203,
+Moira (S),Male,4,14723,27.17
+Wangaratta (RC),Female,0,14664,
+South Gippsland (S),Female,0,14628,
+Moira (S),Female,1,14583,6.86
+South Gippsland (S),Male,0,14308,
+Wangaratta (RC),Male,1,13895,7.20
+Golden Plains (S),Male,1,11264,8.88
+Colac-Otway (S),Male,0,10778,
+Golden Plains (S),Female,0,10665,
+Swan Hill (RC),Male,4,10631,37.63
+Colac-Otway (S),Female,0,10581,
+Swan Hill (RC),Female,1,10273,9.73
+Horsham (RC),Female,2,10048,19.90
+Glenelg (S),Male,1,9912,10.09
+Glenelg (S),Female,0,9814,
+Horsham (RC),Male,1,9769,10.24
+Mount Alexander (S),Male,4,9575,41.78
+Mount Alexander (S),Female,1,9391,10.65
+Moyne (S),Male,2,8437,23.71
+Moyne (S),Female,2,8256,24.22
+Southern Grampians (S),Female,1,8195,12.20
+Corangamite (S),Male,1,8183,12.22
+Indigo (S),Female,0,8050,
+Hepburn (S),Female,0,7985,
+Indigo (S),Male,4,7985,50.09
+Corangamite (S),Female,0,7950,
+Southern Grampians (S),Male,0,7871,
+Hepburn (S),Male,5,7575,66.01
+Murrindindi (S),Male,2,7148,27.98
+Benalla (RC),Female,0,7128,
+Murrindindi (S),Female,0,6845,
+Benalla (RC),Male,0,6834,
+Central Goldfields (S),Female,0,6526,
+Central Goldfields (S),Male,0,6486,
+Alpine (S),Female,1,6264,15.96
+Ararat (RC),Male,1,6261,15.97
+Alpine (S),Male,1,6186,16.17
+Northern Grampians (S),Female,0,5805,
+Northern Grampians (S),Male,0,5772,
+Ararat (RC),Female,0,5446,
+Gannawarra (S),Male,0,5317,
+Gannawarra (S),Female,0,5246,
+Strathbogie (S),Male,2,5181,38.60
+Strathbogie (S),Female,0,5148,
+Mansfield (S),Male,0,4343,
+Mansfield (S),Female,0,4262,
+Loddon (S),Male,0,3909,
+Pyrenees (S),Male,2,3874,51.63
+Loddon (S),Female,0,3646,
+Yarriambiack (S),Male,0,3442,
+Pyrenees (S),Female,0,3427,
+Yarriambiack (S),Female,0,3296,
+Buloke (S),Male,2,3197,62.56
+Towong (S),Male,0,3101,
+Buloke (S),Female,0,3033,
+Hindmarsh (S),Male,0,2900,
+Towong (S),Female,0,2872,
+Hindmarsh (S),Female,0,2841,
+West Wimmera (S),Male,0,1976,
+West Wimmera (S),Female,0,1936,
+Queenscliffe (B),Female,0,1518,
+Queenscliffe (B),Male,0,1386,
+Total,All,1340,6178362,21.69

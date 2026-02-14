@@ -1,0 +1,695 @@
+nhsd_service_id,organization,address,city,state,postcode,latitude,longitude,service_category
+e12b3ab5-fee4-400f-04d2-933d24b4688f,Sexual Health Victoria - CBD Clinic,"Level 1,94 Elizabeth Street",MELBOURNE,VIC,3000,-37.815731048583984,144.96417236328125,sexual_health
+bea2dfca-aaeb-e1a6-bf44-e5314436eaa1,Melbourne Sexual Health Centre,580 Swanston Street,CARLTON,VIC,3053,-37.80314254760742,144.96377563476562,sexual_health
+b49c3a2e-55fd-75e6-9e1f-9f99a35ec834,Family Planning - Launceston,"Family Planning Clinic,269 Wellington Street",SOUTH LAUNCESTON,TAS,7249,-41.44978332519531,147.14137268066406,sexual_health
+72508697-8177-8274-5ca1-703fce298155,Family Planning - Launceston,93 PATERSON STREET,EAST LAUNCESTON,TAS,7250,-41.43863979,147.1344139,sexual_health
+e8fe78fd-62ce-f130-9b6b-e729b7ba2b4b,Family Planning Tasmania,421 Main Road,GLENORCHY,TAS,7010,-42.83221435546875,147.27207946777344,sexual_health
+901472ce-61c3-8c71-ca20-e8bfdf47b97d,Sexual Health and Family Planning ACT (SHFPACT),"Level 1,28 UNIVERSITY AVENUE",CITY,ACT,2601,-35.27982275,149.12569518,sexual_health
+2c7f84dd-9444-3cb6-f088-7d2aab896a80,Clinic 34 - Darwin,"Red Wing, Building 4,Royal Darwin Hospital (RDH) campus,105 ROCKLANDS DRIVE",TIWI,NT,0810,-12.353974,130.88303,sexual_health
+4a1ae0e7-213c-6cdb-5d92-c7a15ddce195,SHINE SA - Hyde Street Practice,"Level 1,57 Hyde Street",ADELAIDE,SA,5000,-34.92613220214844,138.60440063476562,sexual_health
+5bcadf7f-831e-a967-ea40-a75468c4cd27,Lismore Sexual Health Service,4 Shepherd Lane,LISMORE,NSW,2480,-28.80895233154297,153.28872680664062,sexual_health
+0fd613ba-0f7d-406f-3b1f-c35958a9ccce,Albury Sexual Health Service: Clinic 72,590 596 Smollett Street,ALBURY,NSW,2640,-36.0817756652832,146.9119415283203,sexual_health
+c7456b6e-000c-bece-fcdc-c0a3c69c7533,SHINE SA - Woodville,64C Woodville Road,WOODVILLE,SA,5011,-34.879364013671875,138.53665161132812,sexual_health
+a8d9207c-4631-4e29-cb98-8bef9f73f1be,Sexual Health Victoria - Box Hill,901 Whitehorse Road,BOX HILL,VIC,3128,-37.817317962646484,145.12103271484375,sexual_health
+87bd40db-7934-8593-f527-63044e5dfeda,Family Planning - Burnie,199 Mount Street,UPPER BURNIE,TAS,7320,-41.07027816772461,145.9013214111328,sexual_health
+0bc9f681-72c4-96bf-becb-0a796d231f10,Canberra Hospital - Canberra Sexual Health Centre (CSHC),"Canberra Hospital,Building 8 Level 4 ,Yamba Drive",GARRAN,ACT,2605,-35.34601974487305,149.1009063720703,sexual_health
+bd70c931-659f-c3bc-b006-77b55dc24c51,Blue Mountains Sexual Health and HIV Clinic,"Blue Mountains Hospital,Great Western Highway",KATOOMBA,NSW,2780,-33.707359313964844,150.30641174316406,sexual_health
+e9790626-2267-7044-e55e-d5ae9f5d2f71,True Relationships & Reproductive Health - Ipswich,"Ipswich Health Plaza,Shop 5,54 Limestone Street",IPSWICH,QLD,4305,-27.61575698852539,152.7609100341797,sexual_health
+774c6e9b-b24c-9bbb-66b4-733031444b3d,Nepean Sexual Health And HIV Clinic,"Building C Nepean Hospital,Derby Street",KINGSWOOD,NSW,2747,-33.7613639831543,150.71197509765625,sexual_health
+9b2be586-4e75-0130-ad42-e6993085ba93,Sexual Health and HIV Service: Brisbane,"Biala City Community Health Centre,Level 1,270 Roma Street",BRISBANE CITY,QLD,4000,-27.46624755859375,153.01637268066406,sexual_health
+4d925610-85af-8efa-c76b-7067af4de87c,SHQ (Sexual Health Quarters),70 Roe Street,NORTHBRIDGE,WA,6003,-31.948776245117188,115.85653686523438,sexual_health
+fe62025b-f8ed-518e-9219-3c7ee80c1a28,Mount Isa Sexual Health Clinic,1 Barkly Highway,MOUNT ISA,QLD,4825,-20.727018,139.487502,sexual_health
+687c8b7a-b30d-351b-bad3-9ed86f34c370,Clinic 34 - Alice Springs,"Eurilpa House,25 Todd Mall",ALICE SPRINGS,NT,0870,-23.69941161,133.88294168,sexual_health
+0a5610d8-2089-4f60-8017-f7b7d125f5d7,Mount Isa Hospital - Sexual Health Services,30 Camooweal Street,MOUNT ISA CITY,QLD,4825,-20.730871200561523,139.4952850341797,sexual_health
+f15808aa-3fa4-f9ed-b0a8-3e87eb08bbb9,Lightning Ridge Multi Purpose Service Community Health Centre Sexual Health Service @ Walgett,"Walgett Multi Purpose Service,141 Fox Street",WALGETT,NSW,2832,-30.031299591064453,148.11505126953125,sexual_health
+dae2d841-2e7d-a8f5-1e9d-6d4474389a0e,Lightning Ridge Multi Purpose Service Community Health Centre Sexual Health Service @ Goodooga,59 Hammond Street,GOODOOGA,NSW,2838,-29.11012077331543,147.45533752441406,sexual_health
+be499671-d247-c0f8-203c-40ec59dfc3c2,Lightning Ridge Multi Purpose Service Community Health Centre Sexual Health Service @ Collarenebri,"Health Service,62 Walgett Street",COLLARENEBRI,NSW,2833,-29.54427719116211,148.58200073242188,sexual_health
+c272b0a4-5ba0-25cf-8f5d-d657ccdbd68f,Griffith Sexual Health Service,"Griffith Community Health Service,39 Yambil Street",GRIFFITH,NSW,2680,-34.289283752441406,146.04881286621094,sexual_health
+47ca3a39-b855-4997-878e-8d6af2181acb,Aurukun Primary Health Care Centre - Sexual Health Services,Kang Kang Road,AURUKUN,QLD,4892,-13.359514236450195,141.72596740722656,sexual_health
+1e86da8d-5221-4c90-b355-6f0c165fef78,Illawarra Shoalhaven Sexual Health Service,"Port Kembla Hospital,89-91 Cowper Street",WARRAWONG,NSW,2502,-34.48531723022461,150.8878936767578,sexual_health
+527c8e92-8dba-a43d-1270-698e1ea1bd49,Miller Sexual Health Clinic Spec,18 Woodward Crescent,MILLER,NSW,2168,-33.920265197753906,150.88400268554688,sexual_health
+6f4e53a7-5127-7124-0263-7f592d909892,Barwon Health - Sexual Health Clinic,"University Hospital Geleong Outpatients Annexe,Corner Bellerine and Lt Ryrie Street",GEELONG,VIC,3220,-38.151771545410156,144.36434936523438,sexual_health
+865c39d3-0150-5a3a-8e5e-8026a1d5478b,Tweed Valley Sexual Health,"Health Hub,Ground Floor,771 CUDGEN ROAD",CUDGEN,NSW,2487,-28.26557272,153.56627106,sexual_health
+fc7c5d00-1573-82ae-5d35-842be705e673,Sexual Health Service Tasmania (Hobart),60 Collins Street,HOBART,TAS,7000,-42.88112258911133,147.33059692382812,sexual_health
+add18fe2-c325-db0d-3236-1d0220d0f075,True Relationships & Reproductive Health - Rockhampton,"Glenmore Shopping Village,Shop 4B,301 Farm Street",NORMAN GARDENS,QLD,4701,-23.33502,150.51904,sexual_health
+a66a6b2a-a581-317a-eef7-fc553a4281cb,Kobi Place - Sexual Health Service,"Browne House - Baillie Henderson Hospital,Corner of Tor Street and Hogg Street",TOOWOOMBA CITY,QLD,4350,-27.5254852937371,151.934354677662,sexual_health
+9d5d337e-2ba2-726a-385a-de39e42b09c4,Broken Hill Sexual Health Service,"Broken Hill Community Centre,2-4 Sulphide Street",BROKEN HILL,NSW,2880,-31.959823608398438,141.46409606933594,sexual_health
+a17e7667-aaf3-aead-c1a0-874a417cf3dc,Toowoomba Hospital - Aboriginal And Torres Strait Islander Sexual Health Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,sexual_health
+822f8ac7-1d6d-4e09-4cee-91c660629658,Port Kembla Sexual Health Clinic,"Port Kembla Hospital,Cowper Street",WARRAWONG,NSW,2502,-34.48558807373047,150.88438415527344,sexual_health
+27ea348d-184c-9157-9356-a5db5e048645,Gold Coast Sexual Health Service,"Southport Health Precinct,Level 4,16-30 High Street",SOUTHPORT,QLD,4215,-27.971057891845703,153.41000366210938,sexual_health
+20b70846-aad8-f921-009c-5a007d25a9a4,Brisbane Centre for Sexual Health,"The Family Practice Medical Centre,1380 Anzac Avenue",KALLANGUR,QLD,4503,-27.250383377075195,152.99215698242188,sexual_health
+1deee449-01ef-6265-f272-eee50b38bd98,Sexual Health Service - Q Clinic,"Margaret Rose Centre,312 Bourbong Street",BUNDABERG WEST,QLD,4670,-24.87122022,152.3316524,sexual_health
+affec239-3ee6-fbe0-d4a8-53c226f0d5d6,Short Street Centre Sexual Health Clinic,"St George Hospital,Short Street",KOGARAH,NSW,2217,-33.96798324584961,151.13412475585938,sexual_health
+bd543ef8-1e1b-66f5-9c1a-e40197b07fbd,Blood Borne Viruses and Sexual Health Services,92 Bolsover Street,ROCKHAMPTON CITY,QLD,4700,-23.37474231,150.50878593,sexual_health
+7b3a73d7-2e91-4e83-1d23-c535926656b4,Sydney/Sydney Eye Hospital - Sydney Sexual Health Centre (SSHC),"Nightingale Wing Sydney Sexual Health Centre,Level 3,8 Macquarie Street",SYDNEY,NSW,2000,-33.868228,151.212862,sexual_health
+fc07a921-b514-6342-7dd8-a6b2955f4bb9,Young Health Service Family Planning Service,"Young District Hospital,68 Allanan Street",YOUNG,NSW,2594,-34.320587158203125,148.28811645507812,sexual_health
+23cf56f1-a50f-4cf8-99b4-ecc3bc7ba22c,Brisbane Metro South Sexual Health Service,"Logan Hospital,Armstrong Rd & Loganlea Rd ",MEADOWBROOK,QLD,4131,-27.67087,153.13888,sexual_health
+44a1a292-7ce4-9975-cb7d-f4d3005d2c9a,Jundah Primary Health Centre - Sexual Health,1 Hospital Road,JUNDAH,QLD,4736,-25.212289810180664,143.2681884765625,sexual_health
+d23f46b8-7bd3-4acb-d83f-946438e1aa73,Prince of Wales Hospital - HIV/Sexual Health Unit,"Dickinson Building POW HIV Immunology Unit,Level 4,147 Barker Street",RANDWICK,NSW,2031,-33.921047,151.238607,sexual_health
+c8edd679-a484-436c-87b5-e5b10eafe74d,Family Planning Welfare Association - Palmerston,"Medical Precinct,3 Gurd Street",FARRAR,NT,0830,-12.47944,130.99,sexual_health
+91ae1371-a998-443f-ab8f-2b26b8a544b4,Choices Reproductive and Sexual Health,76 CARRINGTON STREET,LISMORE,NSW,2480,-28.81275285,153.27480174,sexual_health
+3c36be37-469e-4ce1-20c3-eea682d458cd,Western Sydney Sexual Health Centre - Parramatta Clinic,"Jeffery House,Level 1,162 Marsden Street",PARRAMATTA,NSW,2150,-33.81291,151.00211,sexual_health
+c4412741-7cba-0943-1514-8515e8ef0ea0,Nowra Sexual Health Clinic,"Shoalhaven District Hospital,Shoalhaven Street",NOWRA,NSW,2541,-34.87540817260742,150.59542846679688,sexual_health
+0d7f17eb-bf47-5c06-3725-6dfb8e15a67e,Townsville Sexual Health Clinic,35 Gregory Street,NORTH WARD,QLD,4810,-19.2529239654541,146.8122100830078,sexual_health
+3ae79180-27f2-c9a1-e77f-82498f3ea631,Wagga Wagga Community Health Service Family Planning Service,"Wagga Wagga Base Hospital,260 Edward Street",WAGGA WAGGA,NSW,2650,-35.118560791015625,147.35699462890625,sexual_health
+ae49f407-90b0-a1c0-c3d9-1571666fbf96,Royal Prince Alfred Community Sexual Health Hiv And Related Programs,"Page Building,119 143 Missenden Road",CAMPERDOWN,NSW,2050,-33.89091491699219,151.1822052001953,sexual_health
+9e00c39a-1f12-232c-8144-87612939dc72,Australian Centre For Sexual Health,"Berry Road Medical Centre,Level 1 Suite 2-4,1a Berry Road",ST LEONARDS,NSW,2065,-33.824642181396484,151.19200134277344,sexual_health
+8c5b5425-3bf5-4c01-b39a-46bd7178b265,True Relationships & Reproductive Health - Toowoomba,661 Ruthven Street,SOUTH TOOWOOMBA,QLD,4350,-27.571001052856445,151.9509735107422,sexual_health
+82f8323d-453f-a19f-7d6a-c8ce0f54f73c,Doomadgee Hospital - Outreach Sexual Health,19 Sharpe Street,DOOMADGEE,QLD,4830,-17.942535400390625,138.8271484375,sexual_health
+370a4af0-04c6-59b0-f8eb-065c5cb80b62,Youth Health (Family Planning),7 Quarry Street,FREMANTLE,WA,6160,-32.04987335205078,115.75080108642578,sexual_health
+3d862b7c-f515-40b4-999d-1f1808e2b530,Wagga Sexual Health and Hepatitis C Service - Brookong Centre,"Wagga Health Services Hub,Level One,268-280 Edward Street",WAGGA WAGGA,NSW,2650,-35.11712362541837,147.35716789762176,sexual_health
+cd196e29-fc7a-2369-a6d9-0ac171e10c22,Royal Prince Alfred Hospital Community Health Sexual Health Service,16 Marsden Street,CAMPERDOWN,NSW,2050,-33.887306213378906,151.17872619628906,sexual_health
+b747bf33-fed6-9000-29cf-0fbaf962782c,Eurobodalla Shire Sexual Health Service,"Narooma Community Health Service,14 Graham Street",NAROOMA,NSW,2546,-36.215660095214844,150.123779296875,sexual_health
+ae061106-4851-27d5-70a6-3b8148475fbf,Western Australian Sexual Health Centre,"Hollywood Specialist Centre,Suite 27,95 Monash Avenue",NEDLANDS,WA,6009,-31.969892501831055,115.8106689453125,sexual_health
+1e43d21d-cbfc-46e0-3ff7-424930f63a15,Sexual Health Clinic Blue Mountains,"Blue Mountains Hospital,173 Great Western Highway",KATOOMBA,NSW,2780,-33.70445251464844,150.32269287109375,sexual_health
+f8c9e8fa-48be-5dc1-ab83-94ad00916989,Bamaga Hospital - Sexual Health Services,Sagaukaz Street,BAMAGA,QLD,4876,-10.898874282836914,142.3822479248047,sexual_health
+d3c6c8f3-0669-4186-964e-75bf8af754b6,Culcairn Multi Purpose Service Sexual Health Service,51-55 BALFOUR STREET,CULCAIRN,NSW,2660,-35.66743786,147.04183214,sexual_health
+88f2d695-25c9-db78-a2fb-65b5cbc37316,Holden Street Clinic Sexual Health,69 HOLDEN STREET,GOSFORD,NSW,2250,-33.42136592400853,151.3409181410221,sexual_health
+d39f28d2-3ad6-026d-7df3-8754af838ed2,Hopevale Primary Health Care Centre - Sexual Health Services,Aerodrome Road,HOPE VALE,QLD,4895,-15.295106887817383,145.10745239257812,sexual_health
+f46964b6-274f-a155-3d8b-9b86c674c4c2,Mornington Island Primary Health Care Centre - Sexual Health,14 Lardil Street,WELLESLEY ISLANDS,QLD,4892,-16.6643009185791,139.17282104492188,sexual_health
+af6400d1-c26b-ea6c-3a43-177ac8a9fd59,Tambo Primary Health Centre - Family Planning,"Hospital & Residence,8 Garden Street",TAMBO,QLD,4478,-24.881694793701172,146.24879455566406,sexual_health
+5727af8b-6f64-4c48-c207-682b9868d207,Tambo Primary Health Centre - Sexual Health,"Hospital & Residence,8 Garden Street",TAMBO,QLD,4478,-24.881694793701172,146.24879455566406,sexual_health
+e32890ae-96d9-920a-af52-e9fdf2c5de55,Kowanyama Primary Health Care Centre - Sexual Health Service,Carrington Street,KOWANYAMA,QLD,4892,-15.480090141296387,141.74234008789062,sexual_health
+ba453264-15bb-5d6a-12f7-8295778bef47,Indigenous Sexual Health,10 Nellie Street,NUNDAH,QLD,4012,-27.39914321899414,153.06471252441406,sexual_health
+b896d991-d599-6ae1-adbe-4c86647cdcf1,Sydney Sexual Health Centre (SSHC),"Sydney Hospital,Macquarie Street",SYDNEY,NSW,2000,-33.864463806152344,151.2127227783203,sexual_health
+f1c1d59b-1113-0950-0966-bf56ff5dfb67,Community Services - Indigenous Sexual Health,"Floor 2,270 Roma Street",BRISBANE CITY,QLD,4000,-27.465993881225586,153.0164337158203,sexual_health
+73943e38-fea6-7400-8d36-45eb0a7814bf,Narooma Community Health - Sexual Health,"Narooma Community Health,Graham Street",NAROOMA,NSW,2546,-36.215030670166016,150.12391662597656,sexual_health
+5983bb9c-1b13-e896-9a53-88f7a2e48df9,Sydney Local Health District Community Health Specialist Services Sexual Health Medical,16 Marsden Street,CAMPERDOWN,NSW,2050,-33.887245178222656,151.17869567871094,sexual_health
+4bd875b8-6fe8-0715-3cca-0af670a7768f,Liverpool Sexual Health Clinic,13 ELIZABETH STREET,LIVERPOOL,NSW,2170,-33.92036785,150.92755997,sexual_health
+bd914d55-ee3b-92a4-5c9f-298995a31376,Ipswich Health Plaza - Sexual Health,21 Bell Street,IPSWICH,QLD,4305,-27.61263084411621,152.76087951660156,sexual_health
+a0d47287-593b-d459-92dd-3d5bd5a0939b,Dubbo Community Health Centre Sexual Health Service,203 Brisbane Street,DUBBO,NSW,2830,-32.25209045410156,148.6022186279297,sexual_health
+2c64bd54-127b-8f02-2b34-b7d8a7f97f01,Bega Shire Sexual Health and Hepatitis C Service,"South East Regional Hospital,4 Virginia Drive",BEGA,NSW,2550,-36.6888313293457,149.85777282714844,sexual_health
+2b777fa7-a708-8c2b-3fc4-6d66e5409114,Mapoon Primary Health Care Centre - Sexual Health Services,Main Street,MAPOON,QLD,4874,-12.022029876708984,141.9037628173828,sexual_health
+afc2f402-e9ef-9c59-a1ec-437df46a6dbf,Dirranbandi Hospital - Family Planning Clinic,Corner Jane and Crothers Street,DIRRANBANDI,QLD,4486,-28.580520629882812,148.22900390625,sexual_health
+19e53a40-f970-df35-563f-899ef4fe1b3e,Brisbane Metro South Sexual Health Service,"Princess Alexandra Hospital,199 Ipswich Road",WOOLLOONGABBA,QLD,4102,-27.498802185058594,153.0333251953125,sexual_health
+bda9fef0-dd6b-59e8-c727-053f931ef7d1,Sexual Health Service Tasmania (Launceston),34 HOWICK STREET,EAST LAUNCESTON,TAS,7250,-41.44656183,147.14452023,sexual_health
+c1cea58e-ec3b-472a-7abb-80ea3acd0b39,Dr Stuart Aitken -  Sexual Health Physician,"Evandale Practice,Floor 1 Suite 2,142 Bundall Road",BUNDALL,QLD,4217,-28.00086212158203,153.41371154785156,sexual_health
+2c5fc1da-427e-eaec-632e-79080e54d181,Bourke Multi Purpose Service Sexual Health Service,"Bourke Primary & Community Health,26 Tarcoon Street",BOURKE,NSW,2840,-30.092731475830078,145.94805908203125,sexual_health
+e7db31ab-d55a-7a24-b256-235e442df052,Jundah Primary Health Centre - Family Planning,1 Hospital Road,JUNDAH,QLD,4736,-25.212289810180664,143.2681884765625,sexual_health
+b2f5eb7e-f7aa-203e-7ddc-a2f453970087,Cairns North Community Health - Sexual Health Clinic,381 Sheridan Street,CAIRNS NORTH,QLD,4870,-16.902101516723633,145.75616455078125,sexual_health
+8faa2b0b-e047-448e-838d-386d50c079ec,Clinic 34 - Tennant Creek,Corner Windly and Schmidt Street,TENNANT CREEK,NT,0860,-19.645959854125977,134.18894958496094,sexual_health
+f89bde8a-6d2b-2240-667d-501744925110,Lightning Ridge Multi Purpose Service Community Health Centre Sexual Health Service,23 Pandora Street,LIGHTNING RIDGE,NSW,2834,-29.429973,147.98197,sexual_health
+bfa04e8b-107d-686e-e3be-4c5b75fdca2b,True Relationships & Reproductive Health - Windsor,"Building 1,230 Lutwyche Road",WINDSOR,QLD,4030,-27.43490982055664,153.0309295654297,sexual_health
+b90e5f2d-81db-f3d7-5f7f-98860bdd992c,Sexual Health and HIV Service: Redcliffe,181 Anzac Avenue,KIPPA-RING,QLD,4021,-27.229768753051758,153.0953826904297,sexual_health
+08b889af-97a6-bd7a-81c9-b5adb4bdc5b8,Cherbourg Hospital - Sexual Health,Fisher Street,CHERBOURG,QLD,4605,-26.29047203063965,151.95648193359375,sexual_health
+9cac9a5c-e7ab-4415-97ec-18df558b75e6,Western Sydney Sexual Health Centre - Mt Druitt Clinic,"Kelly Close Services,Kelly Close",MOUNT DRUITT,NSW,2770,-33.76636723178729,150.82203522814402,sexual_health
+5f2e189a-dc8d-a695-bba6-3c7e5daf2003,Orange Sexual Health Clinic,"Orange Health Service,96 KITE STREET",ORANGE,NSW,2800,-33.28599664,149.09921633,sexual_health
+a64f7034-700d-7d1a-8aad-d3acade4f82d,Sunshine Coast Sexual Health Service,2 WEST TERRACE,CALOUNDRA,QLD,4551,-26.80192925,153.11998655,sexual_health
+fcd3d7eb-806d-c673-4f6d-cce69b0b5d1f,Sexual Health Clinic RPH,"Ainslie House,Level 4,48 Murray Street",PERTH,WA,6000,-31.95456314086914,115.86393737792969,sexual_health
+6a231a8b-5079-e202-ea2c-9d2a07622611,Family Planning NSW Fairfield,24-26 Nelson Street,FAIRFIELD,NSW,2165,-33.86863327026367,150.95457458496094,sexual_health
+70176b10-4d8c-7eb4-f3c2-bae39697c2c8,Family Planning NSW Penrith,13 Reserve Street,PENRITH,NSW,2750,-33.756134033203125,150.6939239501953,sexual_health
+9a4d2cad-dffd-268f-3b19-388bb32eb2ba,Family Planning NSW - Hunter,384 Hunter Street,NEWCASTLE,NSW,2300,-32.92659378051758,151.773681640625,sexual_health
+aa717099-5099-74b0-ee61-08a149305959,Family Planning NSW,8 HOLKER STREET,NEWINGTON,NSW,2127,-33.83240312,151.05587784,sexual_health
+9586ff89-e409-def2-4caf-572d648876f4,Family Planning NSW Dubbo,"Unit 2B,155 Macquarie Street",DUBBO,NSW,2830,-32.249385833740234,148.60025024414062,sexual_health
+10cd3ab4-d58b-0e3f-a88e-affb804d58e4,Blood Borne Virus & Sexual Health Service,92 Bolsover Street,ROCKHAMPTON CITY,QLD,4700,-23.37474231,150.50878593,sexual_health
+48135772-8e4c-4726-7a30-ddb5e9836ea8,True Relationships & Reproductive Health - Gold Coast,"Level 15,2 Corporate Court",BUNDALL,QLD,4217,-27.998136520385742,153.4136199951172,sexual_health
+511f8ebc-4f1d-9d62-112b-196b545265bc,True Relationships & Reproductive Health - Sunshine Coast,"Unit 4,8 Denna Street",MAROOCHYDORE,QLD,4558,-26.643281936645508,153.06814575195312,sexual_health
+536a3534-d9b4-af19-acb2-5eb16cc0a0f2,Clinic 34 - Nhulunbuy,Corner Chesterfield and Matthew Flinders Way,NHULUNBUY,NT,0880,-12.18669319152832,136.7801971435547,sexual_health
+a61897ba-4c46-43a7-b350-38e3e7b53e07,Goulburn Sexual Health and Hepatitis C Service,Corner Goldsmith and Faithful Street,GOULBURN,NSW,2580,-34.74776534450491,149.71457144059295,sexual_health
+bd2b9296-aa65-4bae-a3ef-1a5d734c96bf,Queanbeyan Sexual Health and Hepatitis C Service,Corner Collett Street and Erin Street,QUEANBEYAN,NSW,2620,-35.34725408416235,149.23278817570164,sexual_health
+997cdf88-2fed-e61e-631e-1edd7b0d988c,Adelaide Sexual Health Centre,260 CURRIE STREET,ADELAIDE,SA,5000,-34.92450864,138.58855696,sexual_health
+788974a0-1df1-4fd6-ae75-b5c7d2ad475d,True Relationships & Reproductive Health  - Cairns,"Solander Centre,Ground Floor,182 Grafton Street",CAIRNS CITY,QLD,4870,-16.91783441,145.771217,sexual_health
+4105c3d1-6a64-db51-ed0a-8e3ce2e83bbd,Redlands Family Planning,1 Bunker Road,VICTORIA POINT,QLD,4165,-27.58518409729004,153.28152465820312,sexual_health
+5fd2a12f-5500-83cd-63d0-a94eff5621ae,Aboriginal Health Team,240 Hardey Road,BELMONT,WA,6104,-31.95275115966797,115.94078826904297,aboriginal_health
+199b44c7-bfff-92f6-3969-d936131fea92,Wurli Wurlinjang Health Service,25 Third Street,KATHERINE,NT,0850,-14.460789680480957,132.26490783691406,aboriginal_health
+dd2db179-3f51-11ce-087f-371a4554728f,Coomealla Health Aboriginal Corporation Dareton,51 Sturt Place,DARETON,NSW,2717,-34.09506607055664,142.0442352294922,aboriginal_health
+1b98eca2-9431-819f-4c7c-647449e043f4,Galangoor Duwalami Primary Health Care Service - Hervey Bay,7-11 Central Avenue,HERVEY BAY,QLD,4655,-25.28858184814453,152.83316040039062,aboriginal_health
+e6145720-8a99-52f1-09a1-f5b9c5b6459e,Yulu-Burri-Ba Aboriginal Corporation (North Stradbroke Island),16 Dickson Way,DUNWICH,QLD,4183,-27.491352081298828,153.40652465820312,aboriginal_health
+b2252a11-90ca-40af-58c2-0ddd1de3714d,Caboolture Hospital - Aboriginal And Torres Strait Islander Hospital Liaison,120-124 McKean Street,CABOOLTURE,QLD,4510,-27.0791072845459,152.96466064453125,aboriginal_health
+0e1cacf2-d4db-6bd8-742a-2e61f0373982,Mount Isa Hospital - Indigenous Health Services,30 Camooweal Street,MOUNT ISA CITY,QLD,4825,-20.730871200561523,139.4952850341797,aboriginal_health
+83d0aab9-fc7a-d665-6a59-ffdbb31096f1,Dubbo Regional Aboriginal Medical Service,48-50 Wingewarra Street,DUBBO,NSW,2830,-32.24879455566406,148.60272216796875,aboriginal_health
+3b541e2f-b9ef-a243-fc5c-30ceb91db594,Bawrunga Aboriginal Medical Centre - Nambucca Heads,1 Marshall Way,NAMBUCCA HEADS,NSW,2448,-30.653284072875977,152.9865264892578,aboriginal_health
+b19e0135-a462-dbea-a29a-a66184cee914,Charleville and Western Areas Aboriginal and Torres Strait Islanders Community Health - Quilpie - Outreach Service,49 Brolga Street,QUILPIE,QLD,4480,-26.612953186035156,144.26634216308594,aboriginal_health
+513b5176-1c18-77fa-74c7-bdbbab5a8e8e,Ngangganawili Aboriginal Health Service (NAHS),44 Scotia Street,WILUNA,WA,6646,-26.595165252685547,120.22808074951172,aboriginal_health
+ba9bf7e1-8b2c-e90f-20fd-4810649b2a55,Charleville and Western Areas Aboriginal and Torres Strait Islanders Community Health - Roma,60A Charles Street,ROMA,QLD,4455,-26.570554733276367,148.79287719726562,aboriginal_health
+a2845122-1d77-6947-c74c-3742bf2f8e1d,Tharawal Aboriginal Corporation,21 DEANS ROAD,AIRDS,NSW,2560,-34.08107801,150.83359719,aboriginal_health
+34385503-4e97-666a-5555-1a720f879ce7,Wathaurong Aboriginal Co-operative,62 Morgan Street,NORTH GEELONG,VIC,3215,-38.099822998046875,144.34939575195312,aboriginal_health
+2a9f7af3-7cbe-4b67-6e81-0f64da4d4a2e,Aboriginal and Torres Strait Islander Community Health Service - Logan,41 Station Road,LOGAN CENTRAL,QLD,4114,-27.63750457763672,153.10386657714844,aboriginal_health
+ca3b7e57-2643-f389-72c5-5247c3e6de81,Looma Aboriginal Community,Looma Community Via Derby,DERBY,WA,6728,-17.305082321166992,123.63086700439453,aboriginal_health
+cba0f530-f05b-4f37-6173-8c202a745854,Katungul Aboriginal Corporation Regional Health and Community Services - Bega,25 Bega Street,BEGA,NSW,2550,-36.67235,149.847477,aboriginal_health
+dff65c71-016e-4c87-3820-b9bea3916fc2,Rumbalara Aboriginal Co-Operative Ltd,20 Rumbalara Road,MOOROOPNA,VIC,3629,-36.40473556518555,145.35350036621094,aboriginal_health
+28776a7b-13a0-e4e0-e880-cc537f769dfb,Geraldton Regional Aboriginal Medical Service (GRAMS),"Aboriginal Medical Centre,60 Rifle Range Road",RANGEWAY,WA,6530,-28.784849166870117,114.62938690185547,aboriginal_health
+377546c2-d1ce-be31-2df6-60a36c5e471d,Kalgoorlie Aboriginal Medical Centre,16 18 MacDonald Street,KALGOORLIE,WA,6430,-30.746604919433594,121.47665405273438,aboriginal_health
+2141739b-992e-4095-92c7-d413d6015642,Royal Prince Alfred Hospital - Aboriginal Women and Babies,"Building 75,Level 5,50 Missenden Road",CAMPERDOWN,NSW,2050,-33.88913,151.183109,aboriginal_health
+f2429359-6092-fe80-8bb2-cb0de75d20b5,Yadu Health Aboriginal Corporation,11 MCKENZIE STREET,CEDUNA,SA,5690,-32.1254474338854,133.6749038711638,aboriginal_health
+79dda42a-4ee8-e41e-9576-ba26d67df293,Miwatj Health Aboriginal Corporation - Yirrkala,144 Rankine Road,YIRRKALA,NT,0880,-12.25041675567627,136.893310546875,aboriginal_health
+7becbf39-d106-5033-a6b9-4dae54deb8fb,Ramahyuck Aboriginal Health Services Medical Clinic,15-17 COLLINS STREET,MORWELL,VIC,3840,-38.23491278,146.39684049,aboriginal_health
+f0e22dbb-fcfb-1cbf-e36f-8a219d7614c4,Bendigo and District Aboriginal Cooperative,119 PROUSES ROAD,NORTH BENDIGO,VIC,3550,-36.72869362,144.27855737,aboriginal_health
+cf2dd41b-c0f4-4b14-9ea4-2492e3b86f42,First Peoples' Health and Wellbeing - Thomastown Clinic,258 SETTLEMENT ROAD,THOMASTOWN,VIC,3074,-37.69281243,145.03007212,aboriginal_health
+aca65cb3-222b-653e-ab55-b3d18ba126ea,Pika Wiya Health Service,30-46 Dartmouth Street,PORT AUGUSTA,SA,5700,-32.49441909790039,137.77703857421875,aboriginal_health
+d3be80c4-bef1-8418-a16f-66024ceeae5f,Moorundi Aboriginal Community Controlled Health Service,2 Clara Street,MURRAY BRIDGE,SA,5253,-35.119476318359375,139.27224731445312,aboriginal_health
+57015267-132e-e9db-c87a-4c463a531727,Bidgerdii Mount Morgan Medical Service,83 Morgan Street,MOUNT MORGAN,QLD,4714,-23.644977569580078,150.38905334472656,aboriginal_health
+3ebaeb48-1f10-482b-da1c-9b88bdbd84a8,CRAICCHS - Cherbourg Regional Aboriginal & Islander Community Controlled Health Services,Corner Bligh and Broadway Street,CHERBOURG,QLD,4605,-26.28912925720215,151.9560546875,aboriginal_health
+17518247-335f-8890-f050-dde2a845ddd7,Mamu Community Controlled Health Service,39 41 Grigg Street,RAVENSHOE,QLD,4888,-17.60594940185547,145.48178100585938,aboriginal_health
+65bf3398-8f2b-8b3a-edb8-30cc88dfe345,Kooringal Medical Centre,295 Lake Albert Road,WAGGA WAGGA,NSW,2650,-35.12087631225586,147.3781280517578,aboriginal_health
+1b6dacf4-ea51-6292-9815-9e26e51005de,Port Lincoln Aboriginal Health Service,19A Oxford Terrace,PORT LINCOLN,SA,5606,-34.72657012939453,135.852783203125,aboriginal_health
+b318e417-1a95-42dd-b18d-4776853ded53,Wiyiliin Ta - Aboriginal Child and Youth Counselling Services,"James Fletcher Hospital Tara Lodge,72 WATT STREET",NEWCASTLE,NSW,2300,-32.9313014,151.7818644,aboriginal_health
+b1c17efd-ca21-f013-a56d-f16a11a768c2,Oakey Hospital - Aboriginal And Torres Strait Islander Community Health,110 Campbell Street,OAKEY,QLD,4401,-27.432186126708984,151.7212371826172,aboriginal_health
+51cc8bf8-6f18-dd4d-0b0c-9834099fa62a,Wellington Aboriginal Corporation Health Service,28 Maxwell Street,WELLINGTON,NSW,2820,-32.557762,148.945193,aboriginal_health
+20d74be9-bcc3-931f-cf96-c440f7a49a8a,Townsville Aboriginal and Islander Health Services - Medical Clinic,57-59 Gorden Street,GARBUTT,QLD,4814,-19.263952255249023,146.77584838867188,aboriginal_health
+a782af0f-976c-638a-33bb-4243c27d6aa3,Pangula Mannamurna Aboriginal Corporation,"Gordon Education Centre,191 Commercial Street W",MOUNT GAMBIER,SA,5290,-37.824832916259766,140.76808166503906,aboriginal_health
+e0e3926d-73ea-79c2-a614-abae38751fdd,Bundalung Hacc Aboriginal Home Care Service Taree,16 Albert Street,TAREE,NSW,2430,-31.911155700683594,152.46121215820312,aboriginal_health
+b937af90-0d71-095a-be67-8bdb3ed7eef9,Ngunytju Tjitji Pirni Aboriginal Corporation,459 Hannan Street,KALGOORLIE,WA,6430,-30.752748489379883,121.46736907958984,aboriginal_health
+da0d29a6-299b-4489-2ef2-b353657d27c6,Aboriginal and Torres Strait Islander Community Health Service - Woolloongabba,55 Annerley Road,WOOLLOONGABBA,QLD,4102,-27.488040924072266,153.02813720703125,aboriginal_health
+f622a280-ddb8-fc74-7d35-ca4396c80fc3,Bullinah Aboriginal Health Service,120 Tamar Street,BALLINA,NSW,2478,-28.868011474609375,153.55670166015625,aboriginal_health
+25767ff9-ea97-fb8e-20f8-89b83ea777f5,Biripi Aboriginal Corporation Medical Centre - Bushland Clinic,39-41 Mudford Street,TAREE,NSW,2430,-31.895597457885742,152.46157836914062,aboriginal_health
+a7018c2c-6b56-7c40-9b64-e93f8d648b9c,Gatton Hospital - Aboriginal And Torres Strait Islander Liaison,"Gatton Hospital,97-103 William Street",GATTON,QLD,4343,-27.56682777404785,152.27626037597656,aboriginal_health
+f6aceb90-ca0a-dab7-763b-c37fd2b269f0,Laynhapuy Homelands Aboriginal Corporation,86 Galpu Road,YIRRKALA,NT,0880,-12.255049705505371,136.89125061035156,aboriginal_health
+ea96fd3b-863e-9d00-160f-ffcf580ae6c5,Purple House Primary Health Care,17 STUART HIGHWAY,BRAITLING,NT,0870,-23.68606022,133.87361569,aboriginal_health
+ad8bc235-a8ea-764f-cd21-c5c9c07f3f55,Kingaroy Hospital - Aboriginal Health Services,"Kingaroy Hospital,166 Youngman Street",KINGAROY,QLD,4610,-26.532617568969727,151.8378143310547,aboriginal_health
+171877cc-2c09-ee1b-23e3-f9faa218764e,Wonggangga Turtpandi Aboriginal Primary Health Care,11 Church Street,PORT ADELAIDE,SA,5015,-34.846763610839844,138.50270080566406,aboriginal_health
+9782ddf3-ffb5-7715-e7c2-0b9058c31420,Anyinginyi Health Aboriginal Corporation,74 SCHMIDT STREET,TENNANT CREEK,NT,0860,-19.642877,134.189487,aboriginal_health
+42d9026d-a2fb-55df-4ed6-8dc895059f2f,Nunkuwarrin Yunti - Brady Street Clinic,28-30 Brady Street,ELIZABETH DOWNS,SA,5113,-34.69576644897461,138.6970672607422,aboriginal_health
+9cfea629-e539-3ba6-fbf9-9becda290700,Wuchopperen Health Service - Edmonton Clinic,7 Stokes Street,EDMONTON,QLD,4869,-17.019567489624023,145.743896484375,aboriginal_health
+6c459746-fce2-3626-7d7a-8f5a9e0dc12d,Mallee District Aboriginal Services - Mildura,120 Madden Avenue,MILDURA,VIC,3500,-34.189090728759766,142.16099548339844,aboriginal_health
+d129e99c-4171-22b3-c6b9-38d51c1be177,Kambu Health - Ipswich,27 Roderick Street,IPSWICH,QLD,4305,-27.617525100708008,152.76116943359375,aboriginal_health
+9e01c190-e385-97e4-cd3f-4d0faf621bcc,Bourke Aboriginal Corporation Health Service,61 Oxley Street,BOURKE,NSW,2840,-30.09005355834961,145.9404754638672,aboriginal_health
+f6f4b881-0f2c-0003-adcf-248565f13ac8,Bulgarr Ngaru Medical Aboriginal Corporation - Richmond Valley,153 Canterbury Street,CASINO,NSW,2470,-28.863155364990234,153.04705810546875,aboriginal_health
+052deafa-3ee9-45d1-4042-8d5f3376ed61,PUNTUKURNU ABORIGINAL MEDICAL SERVICE,65 MINDARRA DRIVE,NEWMAN,WA,6753,-23.3551985154514,119.735382184118,aboriginal_health
+07612fa5-4749-1071-05d8-89b6588de561,Njernda Aboriginal Corporation Medical Centre,84 Hare Street,ECHUCA,VIC,3564,-36.13225555419922,144.75099182128906,aboriginal_health
+c1de9854-919e-9ae8-4bee-fc4ecf54cca3,Durri Aboriginal Corporation Medical Service,15-19 York Lane,KEMPSEY,NSW,2440,-31.079452514648438,152.84317016601562,aboriginal_health
+c0508bc7-603b-8937-c90f-fb95a6670407,Cunnamulla Aboriginal Corporation of Health (CACH),26-28 JOHN STREET,CUNNAMULLA,QLD,4490,-28.06886395,145.68446694,aboriginal_health
+8f3d132e-f7e2-9b16-352c-650a5d186235,Kambu Aboriginal and Torres Strait Islander Corporation for Health - Laidley,164 PATRICK STREET,LAIDLEY,QLD,4341,-27.62850805,152.3947635,aboriginal_health
+04f1496c-7224-64a4-a56a-ea894c19c10c,Quilpie Hospital - Indigenous Health,"Hospital,30 Gyrica Street",QUILPIE,QLD,4480,-26.61660385131836,144.2736358642578,aboriginal_health
+5fe34125-3f31-cf17-d25b-b7b1cb9dae83,Darrimba Maarra Aboriginal Health Clinic - Nambucca,"Unit 13,42 Bowra Street",NAMBUCCA HEADS,NSW,2448,-30.64087677001953,153.00167846679688,aboriginal_health
+52f37007-bf8c-7721-1066-b6c5e45bff27,Yulu-Burri-Ba - Wynnum,85 Edith Street,WYNNUM,QLD,4178,-27.44505500793457,153.17288208007812,aboriginal_health
+c6309ce8-b59d-84a8-b385-cfc8f33ffda8,Yulu-Burri-Ba Medical Centre Capalaba,"Shop 2-3,1 Finucane Road",CAPALABA,QLD,4157,-27.522735595703125,153.20130920410156,aboriginal_health
+6211d7ef-8dca-95c3-e7af-020345761df2,Aboriginal Health Service Burnie - Pataway,53 Alexander Street,BURNIE,TAS,7320,-41.05352020263672,145.90377807617188,aboriginal_health
+0f93eb32-1271-a520-9407-c8a33e9fcecd,Aboriginal Health Hobart - Nipaluna,56 Patrick Street,HOBART,TAS,7000,-42.87866973876953,147.32138061523438,aboriginal_health
+f568a32a-3c2f-2292-8bf8-59917d33cff4,Bulgarr Ngaru Medical Aboriginal Corporation - Maclean,17 Woodford Street,MACLEAN,NSW,2463,-29.455827713012695,153.20077514648438,aboriginal_health
+3c2e1cc3-1899-7a32-115a-5bdb11148046,Mallee District Aboriginal Services - Orange Avenue,115 Orange Avenue,MILDURA,VIC,3500,-34.18910217285156,142.1616973876953,aboriginal_health
+3ed49761-3598-2186-f158-1b1310287c90,Illawarra Aboriginal Medical Service - Wollongong,150 Church Street,WOLLONGONG,NSW,2500,-34.43479919433594,150.89279174804688,aboriginal_health
+6639bf1c-c28f-f53c-c7c7-f3580684c3c5,Nunyara Aboriginal Health Service,17-27 Tully Street,WHYALLA STUART,SA,5608,-33.019508361816406,137.52474975585938,aboriginal_health
+823fb5cb-43fb-ae3b-3d25-c888b5fb1989,Umoona Tjutagku Health Service Aboriginal Corporation,"Lot 8,Umoona Road",COOBER PEDY,SA,5723,-29.00715446472168,134.7613067626953,aboriginal_health
+0847371f-76df-7cc6-9230-21ee4f0d8b38,Ballarat & District Aboriginal Co-Operative (BADAC),106 Armstrong Street N,BALLARAT CENTRAL,VIC,3350,-37.55909394,143.85723342,aboriginal_health
+f25ffa0f-e0ff-eac4-6d91-663c829fc1de,Winda-Mara Aboriginal Corporation - Hamilton,107 Thompson Street,HAMILTON,VIC,3300,-37.743125915527344,142.02235412597656,aboriginal_health
+23cbd70f-dc6d-2422-29c1-15424d3745dd,Bulgarr Ngaru Medical Aboriginal Corporation - South Grafton,49 Skinner Street,SOUTH GRAFTON,NSW,2460,-29.70283317565918,152.93544006347656,aboriginal_health
+21199cb1-88ea-bac6-0ead-5533390a7bee,Bulgarr Ngaru Medical Aboriginal Corporation - Grafton,131-133 Bacon Street,GRAFTON,NSW,2460,-29.68722915649414,152.9345245361328,aboriginal_health
+9713834c-efd1-3712-2972-411a5abd11e7,Werin Aboriginal Corporation,14 Lake Road,PORT MACQUARIE,NSW,2444,-31.43559455871582,152.9116973876953,aboriginal_health
+bc95aa92-e7ca-5618-9107-877a9240ae62,Biripi Aboriginal Corporation Medical Centre,2a EDWARDS DRIVE,PURFLEET,NSW,2430,-31.940564,152.46995325,aboriginal_health
+a46fc0f1-19e6-b73e-0d76-beaaf4961ec3,Greater Western Aboriginal Health Service,2 Palmerston Road,MOUNT DRUITT,NSW,2770,-33.76942825317383,150.8126678466797,aboriginal_health
+6c335ae1-d773-2338-0ae6-ea724645fa25,Mulungu Aboriginal Corporation Primary Healthcare Service,162-164 Walsh Street,MAREEBA,QLD,4880,-16.994359970092773,145.4234619140625,aboriginal_health
+735812c6-dd13-6d53-ea63-6e395304420b,Victorian Aboriginal Health Service - VAHS Fitzroy,186 Nicholson Street,FITZROY,VIC,3065,-37.799400329589844,144.97518920898438,aboriginal_health
+488e1476-d056-d252-d25b-7e3e4095440d,Indigenous Wellbeing Centre,184 Barolin Street,WALKERVALE,QLD,4670,-24.88829783,152.35880566,aboriginal_health
+e8508233-bac3-a12e-b28b-3f8739044587,Walgett Aboriginal Medical Service,37 Pitt Street,WALGETT,NSW,2832,-30.022613525390625,148.11895751953125,aboriginal_health
+763dd552-4afe-411f-c803-468bc6221046,Coonamble Aboriginal Health Service,17 Tooloon Street,COONAMBLE,NSW,2829,-30.951635360717773,148.38816833496094,aboriginal_health
+6a1eaf3f-cbee-e163-b9eb-8b9a9cab4bab,Rumbalara Health Service,20 Rumbalara Road,MOOROOPNA,VIC,3629,-36.40473556518555,145.35350036621094,aboriginal_health
+a183ae26-9c78-fcc0-6ed3-6da4db85c2ef,South West Aboriginal Medical Service,"Drive-in Chemist Building,Unit 5,51-55 Forrest Avenue",BUNBURY,WA,6230,-33.33997344970703,115.64610290527344,aboriginal_health
+c76f798d-b757-06f2-98e9-be76a9f0d240,BEGA Garnbirringu Health Service Aboriginal Corporation,16-18 MacDonald Street,KALGOORLIE,WA,6430,-30.74658203125,121.4766616821289,aboriginal_health
+ce6bb60a-409b-4bfa-64f7-8020e4e2b4dc,Gurriny Yealamucka Primary Health Care Centre (Yarrabah),1 Bukki Road,YARRABAH,QLD,4871,-16.926958084106445,145.89028930664062,aboriginal_health
+5c8afad1-612f-b2ff-bb24-b7f1e3c51426,Aboriginal Medical Service,36 Turner Street,REDFERN,NSW,2016,-33.89317321777344,151.20272827148438,aboriginal_health
+d08e3bcb-bf2b-d746-2f32-5e36b61d1f01,South Coast Medical Service Aboriginal Corporation,"Jane Ardler Centre,51-53 Berry Street",NOWRA,NSW,2541,-34.876617431640625,150.599853515625,aboriginal_health
+7d73ba37-42a0-1767-f032-1bb7720a3db4,Griffith Aboriginal Medical Service,38-42 Jondaryan Avenue,GRIFFITH,NSW,2680,-34.29296875,146.04920959472656,aboriginal_health
+d23c24fa-a840-e6da-152e-19b31668b24a,Jigalong Clinic - Puntukurnu Aboriginal Medical Service,"Jigalong Community,Corner of Walyagunya Boulevard & Daisy Street",NEWMAN,WA,6753,-23.358042911782654,120.78074472024075,aboriginal_health
+faf338d2-4ced-b2cf-0c4a-932d1ddf82d1,Mallee District Aboriginal Services - Swan Hill,70 Nyah Road,SWAN HILL,VIC,3585,-35.332759857177734,143.5547332763672,aboriginal_health
+b47b6060-9b93-abe2-fcce-edf268c4db5a,Aboriginal and Torres Strait Islander Community Health Service - Browns Plains,"Village Square,20-24 COMMERCE DRIVE",BROWNS PLAINS,QLD,4118,-27.66360006,153.04625308,aboriginal_health
+dab0368f-9411-315b-bd24-f29e72214e11,Miwatj Health Centre,1424 Arnhem Road,NHULUNBUY,NT,0880,-12.189719200134277,136.77467346191406,aboriginal_health
+4fc08632-da9f-2df8-b593-ab4203288b9d,Carnarvon Medical Service Aboriginal Corporation (CMSAC),14-16 Rushton Street,CARNARVON,WA,6701,-24.884552001953125,113.65890502929688,aboriginal_health
+478dcb6d-f8a5-6314-aedf-c5620656de81,Congress Social & Emotional Wellbeing - SEWB,14 Leichhardt Terrace,ALICE SPRINGS,NT,0870,-23.70035171508789,133.88368225097656,aboriginal_health
+b4a0f791-400d-6784-743b-b082e9f5d0be,Orange Aboriginal Medical Service,27-31 Perc Griffith Way,ORANGE,NSW,2800,-33.3014030456543,149.12319946289062,aboriginal_health
+1a96c315-1dda-75ec-f8ad-192d73989d37,Danila Dilba - Knuckey Street Clinic,32-34 Knuckey Street,DARWIN CITY,NT,0800,-12.460589408874512,130.84439086914062,aboriginal_health
+edd8a257-fd1c-7ca8-2585-07be43f4313e,Murray Valley Aboriginal Co-operative Health Service,87 Latje Road,ROBINVALE,VIC,3549,-34.579532623291016,142.7786407470703,aboriginal_health
+c1bf46f0-c7c3-2009-99f4-85acfaf436cc,Inala Indigenous Health Centre,"Southern Qld Centre of Excellence,37 Wirraway Parade",INALA,QLD,4077,-27.599952697753906,152.9712371826172,aboriginal_health
+2fb5a305-150a-c069-fe39-ee298aa7252f,Wuchopperen Health Service - Manoora Clinic,6 Moignard Street,MANOORA,QLD,4870,-16.923648834228516,145.7361602783203,aboriginal_health
+424392f2-46f5-8e2d-20dd-ba66f70cdee3,Winda-Mara Aboriginal Corporation - Heywood,21 Scott Street,HEYWOOD,VIC,3304,-38.13227844238281,141.62881469726562,aboriginal_health
+7ac4ea4f-53fb-49ca-9a2a-88785c0a45ea,Gippsland and East Gippsland Aboriginal Co-operative,37-53 Dalmahoy Street,BAIRNSDALE,VIC,3875,-37.82965087890625,147.62916564941406,aboriginal_health
+12030c69-7d85-0b0a-da4a-381eab670f83,Tobwabba Aboriginal Medical Service,68a McIntosh Street,FORSTER,NSW,2428,-32.18867874145508,152.51583862304688,aboriginal_health
+53c431d5-8624-a47f-81d2-2bfaa8267009,Goolburri Aboriginal Health Advancement Co. Ltd,"Montana Boarding Hse,20 Scott Street",EAST TOOWOOMBA,QLD,4350,-27.56630971,151.97352564,aboriginal_health
+0b161362-9ca4-69c1-aebe-62889c2a2c84,Albury Wodonga Aboriginal Health Service,664 Daniel Street,GLENROY,NSW,2640,-36.058522,146.912993,aboriginal_health
+ebfeaa7f-2e09-0302-bec9-3e4d7c5d307b,Maari Ma Health Aboriginal Corporation,439-443 ARGENT STREET,BROKEN HILL,NSW,2880,-31.956332562759496,141.46895272846726,aboriginal_health
+4385e053-e5ae-602c-4b0b-043f8b1a63cc,Galambila Aboriginal Health Service - Coffs Harbour,"Located on the corner of Boambee Street and Harbour Drive,9 Boambee Street",COFFS HARBOUR,NSW,2450,-30.305652618408203,153.1287078857422,aboriginal_health
+0ab04b85-bc3f-e0ce-9dbb-7389eaa7fc9c,Goolum Goolum Aboriginal Cooperative - Hamilton Street Medical Clinic,43 Hamilton Street,HORSHAM,VIC,3400,-36.718143463134766,142.20289611816406,aboriginal_health
+03360bb5-13d9-0853-1a41-a10411475f34,Budja Budja Aboriginal Cooperative,20-22 Grampians Road,HALLS GAP,VIC,3381,-37.13240051269531,142.52113342285156,aboriginal_health
+eec297f1-0c05-7f50-4c9e-c48953b547dc,Nunkuwarrin Yunti - Wakefield Street,182-190 Wakefield Street,ADELAIDE,SA,5000,-34.92780685424805,138.6077117919922,aboriginal_health
+614cffeb-c540-cadc-638e-03a76f546ec9,Torres Strait Islanders And Aboriginal Corporation For Legal Services,56 Douglas Street,THURSDAY ISLAND,QLD,4875,-10.583403587341309,142.22039794921875,aboriginal_health
+88698310-5a92-c2d1-fa60-da553cb1652e,MARRIN WEEJALI ABORIGINAL CORPORATION,79-81 Jersey Road,BLACKETT,NSW,2770,-33.74283218383789,150.81405639648438,aboriginal_health
+a17249ac-1791-c821-5963-ac51eb40e776,Aboriginal And Torres Strait Islander Community Health - Aboriginal And Torres Strait Islander Community Health,16 18 Eyre Street,CHARLEVILLE,QLD,4470,-26.40128517150879,146.2427520751953,aboriginal_health
+d2115ede-131e-ec4b-fcfc-4bc4591816ce,Punmu Clinic - Puntukurnu Aboriginal Medical Service,"Punmu Community,PMB 28 via Newman",NEWMAN,WA,6753,-23.180999755859375,119.29900360107422,aboriginal_health
+add3f55a-4695-3bea-7a36-9184e00dad07,Victorian Aboriginal Child Care Agency- Preston,340 Bell Street,PRESTON,VIC,3072,-37.7447395324707,145.00181579589844,aboriginal_health
+6e388fcf-68d1-7c9c-9379-bdfb3e1ef9ff,Goondiwindi Hospital - Community Health and Indigenous Health - Complaints Coordinator,Bowen Street,GOONDIWINDI,QLD,4390,-28.547876358032227,150.3022918701172,aboriginal_health
+08fb7f3d-764f-2148-c68e-56c740ea7397,Injune Hospital - Indigenous Health,1 Fifth Avenue,INJUNE,QLD,4454,-25.846933364868164,148.56344604492188,aboriginal_health
+abb7d441-076b-1074-a9f4-7aeebabb2ac1,Camooweal Health Clinic - Aboriginal And Torres Strait Islander Community Hospital Liaison,52 Morrison Street,CAMOOWEAL,QLD,4828,-19.917865753173828,138.1212158203125,aboriginal_health
+fabb8a7b-7c0c-9452-9580-dc3982d15821,Toowoomba Hospital - Aboriginal And Torres Strait Islander Nutritional Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+23405136-0b6e-e8c0-4b61-4aece28c3b44,Cunnamulla Hospital - Indigenous Services,56 Wicks Street,CUNNAMULLA,QLD,4490,-28.071876525878906,145.6905975341797,aboriginal_health
+317fd7b0-6023-5af6-eb4f-2bed39930586,Boonah Hospital - Aboriginal And Torres Strait Islander Liaison,"Boonah Hospital,11 17 Leonard Street",BOONAH,QLD,4310,-27.999101638793945,152.67904663085938,aboriginal_health
+1662f6b3-65cb-5e16-9c61-e7587948fa7c,Inglewood Multipurpose Health Service - Indigenous Health Services,Cunningham Highway,INGLEWOOD,QLD,4387,-28.424198150634766,151.04222106933594,aboriginal_health
+bf111679-229f-d314-4e03-116002efadea,Toowoomba Hospital - Aboriginal And Torres Strait Islander Community Controlled Health - Toowoomba,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+c22143b1-12bd-35f0-d3e8-dcac3be2e393,Rumbalara Aboriginal Co-Operative Shepparton,89 Drummond Road,SHEPPARTON,VIC,3630,-36.37519073486328,145.42343139648438,aboriginal_health
+ebf18ae2-f8e8-29d4-c18f-53c61646f372,Charleville Hospital - Indigenous Services,72 King Street,CHARLEVILLE,QLD,4470,-26.4112491607666,146.23760986328125,aboriginal_health
+6c7febc3-2f47-fe18-dbea-223009f0ead3,Barcaldine Hospital and Multipurpose Health Service - Aboriginal Health Worker,Oak Street,BARCALDINE,QLD,4725,-23.553096771240234,145.2932586669922,aboriginal_health
+26b1d2e9-c5c4-66b9-2a4e-e68cf3889b12,Miles Hospital - Aboriginal Health Clinic,5-11 Colamba Street,MILES,QLD,4415,-26.658912658691406,150.1918182373047,aboriginal_health
+8d5f479c-41c2-97d7-fe59-a112cf4ab640,Moree CHC Aboriginal Family Health Service,"Moree Community Health,Alice Street",MOREE,NSW,2400,-29.47125816345215,149.8389129638672,aboriginal_health
+ba13de76-494e-8377-59ce-11ff0774d600,Aboriginal Drug And Alcohol Council (SA) Inc,155 Holbrooks Road,UNDERDALE,SA,5032,-34.91817855834961,138.5492401123047,aboriginal_health
+e1eaa5c7-f002-c561-4b2f-52de41bba5c7,Aboriginal Hacc Social Program - Wakefield,36 Robert Street,MAITLAND,SA,5573,-34.37346649169922,137.67300415039062,aboriginal_health
+5e17c8ce-0df0-3afb-0d08-e110f345d1bf,Larrakia Nation Aboriginal Corporation - Indigenous HACC Service,"Aboriginal Community,Bagot Road",LUDMILLA,NT,0820,-12.41656494140625,130.85609436035156,aboriginal_health
+b4b0907c-6003-add4-55a6-cfffac525880,Gunditjmara Aboriginal Co-Op Ltd,135 Kepler Street,WARRNAMBOOL,VIC,3280,-38.38150405883789,142.4817657470703,aboriginal_health
+dd90e248-9b65-fa6c-c0c7-0a4d2e2fafde,ABORIGINAL SOBRIETY GROUP INC,182-190 Wakefield Street,ADELAIDE,SA,5000,-34.92781066894531,138.60763549804688,aboriginal_health
+06a705c9-6aea-64ff-b8ed-469fbc220798,Aboriginal Catholic Ministry Sydney,"Old Council Chambers Station,Corner Henry and Station Street",PENRITH,NSW,2750,-33.751861572265625,150.69546508789062,aboriginal_health
+a6c1d42d-2e02-8678-1b93-133f3d27fe8b,The Park Centre For Mental Health - Aboriginal And Torres Strait Islander Liaison,Ellerton Drive,WACOL,QLD,4076,-27.602418899536133,152.90750122070312,aboriginal_health
+e155e059-2981-93ff-f13c-5136ac9b675d,Aboriginal Hospital Liaison Service,Raymond Terrace,SOUTH BRISBANE,QLD,4101,-27.484813690185547,153.0267333984375,aboriginal_health
+2c7fa502-9ae6-a034-230b-0631f9b721b8,Cooktown Community Health Service - Aboriginal And Torres Strait Islander Service,"Cooktown Multi Purpose Health Service,48 Hope Street",COOKTOWN,QLD,4895,-15.477477073669434,145.25074768066406,aboriginal_health
+04028323-102d-f536-0ab3-e23435b9ff3c,Coonabarabran Community Health Centre Aboriginal Health Service At Baradine,"Baradine Health Service,37A MacQuarie Street",BARADINE,NSW,2396,-30.945148468017578,149.06617736816406,aboriginal_health
+bc7b0c1e-7515-7417-ad33-6739ce88aec4,Danila Dilba - Bagot Clinic,133 BAGOT ROAD,LUDMILLA,NT,0820,-12.415417,130.854602,aboriginal_health
+734e8039-58f3-fdfe-e90f-d61c11021614,Melbourne Institute for Indigenous Development - Murrup Barak,"University of Melbourne Campus (Old Physics Building),Building 128,Grattan Street",PARKVILLE,VIC,3052,-37.7999382019043,144.9595947265625,aboriginal_health
+75bc6a27-8ccd-308d-ab7e-b8511589bf0a,Maryborough Hospital - Indigenous Mental Health,"Maryborough Base Hospital,185 Walker Street",MARYBOROUGH,QLD,4650,-25.522062301635742,152.6900634765625,aboriginal_health
+4edfbdd2-e38e-cb00-2ec2-fc3b1ba5459c,North Coast Aboriginal Corporation for Community Health,"Unit 2,8 Innovation Parkway Street",BIRTINYA,QLD,4575,-26.733470916748047,153.1212921142578,aboriginal_health
+238970ec-2c90-d6a6-196b-ca368ea263b3,Domestic Assistance Bungree Aboriginal Association,48 Victoria Avenue,TOUKLEY,NSW,2263,-33.26504898071289,151.54171752929688,aboriginal_health
+86aba980-cbe1-5132-8901-77f374320fac,Bourke Multi Purpose Service Community Health Aboriginal Maternal Infant Health Service @ Enngonia,"Bourke District Hospital,26 Tarcoon Street",BOURKE,NSW,2840,-30.092731475830078,145.94805908203125,aboriginal_health
+9ed43576-a78b-63de-b2fb-237be7ba2c2d,"Men's Advisory Network, Aboriginal Men's Health","Claisebrook Lotteries House,33 Moore Street",EAST PERTH,WA,6004,-31.95377540588379,115.86841583251953,aboriginal_health
+8a762700-41cf-f702-ee56-39536f6a9dc4,Oolong House Aboriginal Organisation,11 Junction Street,NOWRA,NSW,2541,-34.87314987182617,150.59483337402344,aboriginal_health
+d77b36da-91ad-bda3-4052-69226e78bfbf,Euraba Mungindi Aboriginal Health Service,WALKER STREET,MUNGINDI,NSW,2406,-28.97829288,148.99149997,aboriginal_health
+51e2d2dc-05e4-0cf2-76ed-e42f48211d9f,Juwarki Kapu-Lug Limited - Indigenous Services,229-231 Alma Street,ROCKHAMPTON CITY,QLD,4700,-23.38336077,150.51444162,aboriginal_health
+22ea37b7-9bb7-4aac-450f-e03e1cd8c618,Aboriginal Outreach (Lismore),25 URALBA STREET,LISMORE,NSW,2480,-28.81004666,153.28810143,aboriginal_health
+0468d3f5-06fd-934e-2ca7-5d20566ca726,Queensland Children's Hospital (Lady Cilento Children's Hospital) - Indigenous Liaison Officer,Raymond Terrace,SOUTH BRISBANE,QLD,4101,-27.484813690185547,153.0267333984375,aboriginal_health
+3f2477d8-8f23-af75-99f9-5b3ad81770b3,UNGOOROO ABORIGINAL CORPORATION,"Shop 4 ,157-159 John Street ",SINGLETON,NSW,2330,-32.56397,151.16878,aboriginal_health
+8a6ca1af-6918-4eb6-0c32-f33409f61d08,Gilgandra Community Health Centre Aboriginal Maternal Infant Health Service (AMIHS) Service,"Gilgandra Multi Purpose Service,6 Chelmsford Avenue",GILGANDRA,NSW,2827,-31.7054386138916,148.6646728515625,aboriginal_health
+2545ea1c-abd7-0556-c3d6-8907e756df0f,Parkes Community Health Centre Aboriginal Health Service,"Parkes Hospital,2 Morrissey Way",PARKES,NSW,2870,-33.153316497802734,148.16989135742188,aboriginal_health
+b700eba7-e821-8066-3042-6ffb8cf964fb,Condobolin Community Health Centre Aboriginal Maternal Infant Health Service (AMIHS),"Railway Cottage,1 Madline Street",CONDOBOLIN,NSW,2877,-33.082733154296875,147.15213012695312,aboriginal_health
+fdb06e9f-94a1-d7ea-035d-80a411534337,Murrindindi Shire Council - Yea Office,15 The Semi Circle,YEA,VIC,3717,-37.212501525878906,145.42306518554688,aboriginal_health
+12e5b5f3-2891-0205-a554-bde28366ea07,Gilgandra Community Health Centre Aboriginal Health Service,"Gilgandra District Hospital,6 Chelmsford Avenue",GILGANDRA,NSW,2827,-31.7042236328125,148.66488647460938,aboriginal_health
+a8ed5da4-15f6-0cdc-163a-69d877bed59e,Gilgandra Community Health Centre Aboriginal Maternal Infant Health Service (Amihs) Service At Gula,"Gulargambone Multi Purpose Service,47 Bourbah Street",GULARGAMBONE,NSW,2828,-31.329797744750977,148.46981811523438,aboriginal_health
+426cdbc9-53e6-6cd6-ff17-c3cdbe38fead,Bankstown Mental Health - Aboriginal Mental Health Team,"Bankstown Community Health Centre,36-38 Raymond Street",BANKSTOWN,NSW,2200,-33.92006301879883,151.03623962402344,aboriginal_health
+a48cbfce-7a40-5822-7be5-879996c3d451,Liverpool Community Health Aboriginal Connecting Care Program,18 Woodward Crescent,MILLER,NSW,2168,-33.920265197753906,150.88400268554688,aboriginal_health
+f312ac32-1787-3653-8fee-b59c58059a02,Sunshine Coast Health Service District - Indigenous Health Program,60 64 Currie Street,NAMBOUR,QLD,4560,-26.626020431518555,152.9582061767578,aboriginal_health
+d44c5aec-013b-6319-72da-f54227004311,Indigenous Family And Child Support Service - Child Care,17 Overend Street,EAST BRISBANE,QLD,4169,-27.488643646240234,153.040771484375,aboriginal_health
+e67b7ffc-5e75-bd24-c2f0-6dd6c9169d6c,Pormpur Paanth Aboriginal Cooperation,22 Yalu Street,PORMPURAAW,QLD,4892,-14.89775562286377,141.6201171875,aboriginal_health
+13f1173e-d916-856a-5385-ea8d9d7076bc,Central Gippsland Aboriginal Health Services,Corner Collins and Buckley Streets Morwell,MORWELL,VIC,3840,-38.23526681267715,146.39707294962787,aboriginal_health
+c25bb155-4228-bf4e-d5a2-0c95086864f3,Kooringal Dental Surgery,"Kooringal Mall,Shop 32,269-293 Lake Albert Road",WAGGA WAGGA,NSW,2650,-35.12087631225586,147.3781280517578,aboriginal_health
+39206f63-47c9-8f70-b8e4-fca578679e45,Pine Rivers Community Health Centre - Aboriginal And Torres Strait Islander Community Health,568 Gympie Road,STRATHPINE,QLD,4500,-27.298444747924805,152.9867401123047,aboriginal_health
+5bb1c444-4617-6e39-d9a3-32fbc51fb62b,Bungree Aboriginal Association,7B Pioneer Avenue,TUGGERAH,NSW,2259,-33.318115234375,151.4230499267578,aboriginal_health
+fe4b4dbd-9257-fbe2-f83d-248543dd340b,Illawarra Aboriginal Corporation Cultural Centre and Keeping place,22 Kenny Street,WOLLONGONG,NSW,2500,-34.427738189697266,150.8914794921875,aboriginal_health
+8683ed81-009f-a48b-9835-9e54fcf0b00a,Murray Mer Island Health Centre - Aboriginal And Torres Strait Islander Community Health,Murray Island,MURRAY ISLAND,QLD,4875,-9.91860294342041,144.0493927001953,aboriginal_health
+8ee44b29-24df-1c73-6df6-6442418b4492,Link Up Queensland Aboriginal Corporation,"SHOP 1,214 MULGRAVE ROAD",WESTCOURT,QLD,4870,-16.93117514,145.75721198,aboriginal_health
+bcf5df67-a3d6-8d4b-74c9-53cb7212a560,Cherbourg Hospital - Aboriginal And Torres Strait Islander Community Health,Fisher Street,CHERBOURG,QLD,4605,-26.29047203063965,151.95648193359375,aboriginal_health
+71ab3b1c-1312-249d-d4bd-239612b39052,Indigenous Health Liaison Service - Redcliffe,108 Anzac Avenue,REDCLIFFE,QLD,4020,-27.229536056518555,153.10507202148438,aboriginal_health
+94bec220-c4b8-a659-061f-00b35be8bceb,Jundah Aboriginal Corporation,1 Fisher Street,CHERBOURG,QLD,4605,-26.289186477661133,151.9566192626953,aboriginal_health
+a404c1fc-abef-d1ab-044a-c3b806de9762,The Child & Adolescent Community Health - Aboriginal Health Team,240 HARDEY ROAD,BELMONT,WA,6104,-31.95275,115.94079,aboriginal_health
+4c901369-2271-3f74-acb9-e05266719cb9,Positive Aboriginal and Torres Strait Islander Network (PATSIN),"Newtown Business Centre,Suite G5,1 Erskineville Road",NEWTOWN,NSW,2042,-33.897132873535156,151.1802215576172,aboriginal_health
+64213acb-6150-19fe-ded4-cff48b2c53f9,Mornington Island Aboriginal And Torres Strait Islander And South Sea Islander Health Centre,"Lot 305,Lardil Street",WELLESLEY ISLANDS,QLD,4892,-16.66628646850586,139.1820831298828,aboriginal_health
+f7153107-25af-4695-c0fe-375c895a7798,Broome Regional Aboriginal Medical Service (BRAMS),Corner Dora and Anne Street,BROOME,WA,6725,-17.96086311340332,122.23109436035156,aboriginal_health
+d0f9797e-999a-7eed-785c-2d4bc84ad000,Maternal and Child Health Centre - Rumbalara Aboriginal Cooperative,20 Rumbalara Road,MOOROOPNA,VIC,3629,-36.40473556518555,145.35350036621094,aboriginal_health
+2abe65e6-976e-e257-a7ec-ccd8d0826a33,Great Southern Aboriginal Health Service - Katanning,"Katanning Hospital,11-31 Adam Street",KATANNING,WA,6317,-33.68281936645508,117.56378936767578,aboriginal_health
+ec0af98f-338f-8444-8568-7172e2e0a285,Kumangka Aboriginal Youth Service,6 Mary Street,HINDMARSH,SA,5007,-34.90730285644531,138.57305908203125,aboriginal_health
+cdfc913f-ed38-5e5b-39ce-d70ee24e2af6,JUNGARNI-JUTIYA INDIGENOUS CORPORATION,94 Thomas Street,HALLS CREEK,WA,6770,-18.22454071044922,127.66962432861328,aboriginal_health
+4f62fad2-4c82-1179-d3c0-b32b5e4ca15e,Ayr Hospital - Aboriginal Health Clinic,2 Chippendale Street,AYR,QLD,4807,-19.563791275024414,147.40774536132812,aboriginal_health
+a4e2140e-d6f3-39d3-2f6b-41ad3de4a8b8,NGNOWAR AERWAH ABORIGINAL CORPORATION,60 Great Northern Highway,WYNDHAM,WA,6740,-15.487469673156738,128.1223602294922,aboriginal_health
+4e6f923f-fbe3-964b-685b-4b02ac84750d,Ngunga Group Women's Aboriginal Corporation,25 STANLEY STREET,DERBY,WA,6728,-17.30728,123.64047,aboriginal_health
+6b5114e6-9aa8-f582-017e-fc7cc8b73381,Wyngen Kartup Specialist Aboriginal Mental Health Service,Confidential Address,PERTH,WA,6000,-31.952333056191,115.861333684128,aboriginal_health
+1f3f5a77-31d6-b812-6dfe-02bdaf1f0d60,Bourke Multi Purpose Service Community Health Aboriginal Health Service,"Bourke District Hospital,26 Tarcoon Street",BOURKE,NSW,2840,-30.092731475830078,145.94805908203125,aboriginal_health
+e15a6eeb-acc0-5986-05d9-05d3e3a88167,Hinchinbrook Aboriginal & Torres Strait Islander Home And Community Care Program,2 Gedge Street,INGHAM,QLD,4850,-18.64726448059082,146.15994262695312,aboriginal_health
+57f53b01-56c5-db9a-4c50-7949a757ccf9,Wagga Wagga Rural Referral Hospital Aboriginal Mothers And Babies Clinic,"Wagga Wagga Rural Referral Hospital,260 Edward Street",WAGGA WAGGA,NSW,2650,-35.11800003051758,147.35696411132812,aboriginal_health
+9c8ef6c2-addd-0183-28db-22509cb04ad0,Moort Boodjari Mia - Formerly North Metro Aboriginal Maternity Group Practice,"Unit 1,42 Victoria Street",MIDLAND,WA,6056,-31.89112091064453,116.00325775146484,aboriginal_health
+305f97c6-6a78-f9aa-55c1-4dd2f89d19ac,Koori Kids Mental Health Network,238 250 Plenty Road,PRESTON,VIC,3072,-37.74528503417969,145.00680541992188,aboriginal_health
+4527b2f5-95ef-4726-abeb-8866fd9dfbb1,Aboriginal Legal Service - Carnarvon,58 Robinson Street,CARNARVON,WA,6701,-24.8823299407959,113.65885162353516,aboriginal_health
+47af808a-1b64-c8fa-7531-6a211fcac22b,Murchison Region Aboriginal Corp,25 Crawford Street,GERALDTON,WA,6530,-28.745981216430664,114.63070678710938,aboriginal_health
+9d7a6eb0-d580-9fc7-3031-0e7d9db734cd,Ingham Hospital - Aboriginal Health Clinic,2 16 McIlwraith Street,INGHAM,QLD,4850,-18.651994705200195,146.16433715820312,aboriginal_health
+ee6b9dcf-2613-4cc5-55ce-2e3027e24d75,Biggenden Hospital - Indigenous Health Worker,57 Alice Street,BIGGENDEN,QLD,4621,-25.506162643432617,152.05133056640625,aboriginal_health
+a0d6da8d-df77-9f3e-f293-55fa2ead4d7e,Garl Garl Walbu Alcohol Association Aboriginal Corporation,23 Stanley Street,DERBY,WA,6728,-17.307289123535156,123.63983917236328,aboriginal_health
+66dc6c41-ecba-5b6d-84ca-c19010bc2392,Access Services for Koories,"Level 1,238 250 Plenty Road",PRESTON,VIC,3072,-37.74528503417969,145.00680541992188,aboriginal_health
+64fdbb69-b159-9dcd-f7a2-e9e7dd87bcd3,Centre For Aboriginal Medical And Dental Health (University Of WA),"Forrest Hall,35 Stirling Highway",CRAWLEY,WA,6009,-31.980546951293945,115.81871795654297,aboriginal_health
+c8c67e79-3ea7-3d03-af1a-a997e368d085,Ipswich Child And Youth Mental Health Service - Aboriginal And Torres Strait Islander,"Ipswich Health Plaza,21 Bell Street",IPSWICH,QLD,4305,-27.61263084411621,152.76087951660156,aboriginal_health
+40e9cc6e-06af-729f-20a0-e71d8a256080,Warwick Hospital - Aboriginal Health Services,"Hospital Reserve 278,56 Locke Street",WARWICK,QLD,4370,-28.22435760498047,152.0178680419922,aboriginal_health
+3289c3df-6d94-b4cf-80ea-c4110f97fcb0,Dubbo Community Health Centre Aboriginal Health Service,"Dubbo Community Health Centre,2 Palmer Street",DUBBO,NSW,2830,-32.25579071044922,148.6177215576172,aboriginal_health
+680deaa1-e4cf-69e5-4647-582f6450d5fa,Maternal and Child Health Centre - Rowville - Murrindal Drive,"Cb163 Multi Purpose,100 Murrindal Drive",ROWVILLE,VIC,3178,-37.9100341796875,145.27171325683594,aboriginal_health
+a6a2799b-b743-b490-d7e5-fea481ee0f53,Cairns North Community Health - Cape York And Torres Strait Hacc Continence Advisory Service,"Level 1,381 Sheridan Street",CAIRNS NORTH,QLD,4870,-16.902101516723633,145.75616455078125,aboriginal_health
+e3ef9314-e3f5-e277-2a05-d429962fdd3f,"Toowoomba Hospital - Aboriginal And Torres Strait Islander Drug And Alcohol Support, Education And Information Service",Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+e0da780c-b283-37ac-5f1e-296388ec4039,Proserpine Hospital - Indigenous Liaison Officer,"Proserpine Hospital,26 Taylor Street",PROSERPINE,QLD,4800,-20.399715423583984,148.58413696289062,aboriginal_health
+0871768c-6a1e-f445-0890-30ad1856094b,Toowoomba Hospital - Aboriginal And Torres Strait Islander Antenatal Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+adfcdb86-95d1-7f3b-1fed-b3da3c181f44,"Toowoomba Hospital - Indigenous Diabetes Support, Education and Information",Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+a17e7667-aaf3-aead-c1a0-874a417cf3dc,Toowoomba Hospital - Aboriginal And Torres Strait Islander Sexual Health Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+452a5cff-a7dc-9b8a-dd2c-7263864c55ad,Toowoomba Hospital - Aboriginal And Torres Strait Islander Child Immunisation Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+7dfbea03-ec20-da06-5933-f4b50d15bb0f,Toowoomba Hospital - Aboriginal And Torres Strait Islander Child Health Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+7543bccc-1659-c40b-a704-439707eb0b5c,Link-Up (Qld) Aboriginal Corporation,3-5 Reid Street,WOOLLOONGABBA,QLD,4102,-27.48663902282715,153.03292846679688,aboriginal_health
+b52fc6cb-3ac5-99e1-7a09-4d8fa5d75921,Toowoomba Hospital - Indigenous Hospital Liaison Officer,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+12832b09-535a-b586-a4d3-12ca5a4dee56,Toowoomba Hospital - Aboriginal And Torres Strait Islander Hearing Health Service,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+7ef38336-f2b1-b029-0859-7562d92e9998,Toowoomba Hospital - Aboriginal And Torres Strait Islander Women's And Men's Health,Pechey Street,SOUTH TOOWOOMBA,QLD,4350,-27.5697596156494,151.944269070764,aboriginal_health
+d9349c9d-4bf3-600c-a2c3-06ced0ca6d48,Moa St Paul's Island Health Centre - Torres Strait And Northern Peninsula Ahs Outer Island,"Lot 32, Main Street",MOA ISLAND,QLD,4875,-10.170562744140625,142.25497436523438,aboriginal_health
+7a83a313-d4f6-de16-3c1b-65b900b8f187,Peak Hill Community Health Centre Aboriginal Maternal Infant Health Service (AMIHS) Service,4746 Newell Highway,PEAK HILL,NSW,2869,-32.708641052246094,148.18910217285156,aboriginal_health
+a4005b21-7840-40a2-af6c-bb3d53101f8e,Mungindi Aboriginal Health Service NSW,153 ST GEORGE STREET,MUNGINDI,NSW,2406,-28.9764094,148.98902752,aboriginal_health
+8436ea24-a585-4033-8f5a-5101b2c02a8d,Peak Hill Community Health Centre Aboriginal Health Service,4746 Newell Highway,PEAK HILL,NSW,2869,-32.708641052246094,148.18910217285156,aboriginal_health
+35c1903d-871f-4ee5-f5d3-24ba9fd98103,Child & Family Nursing Service - Aboriginal Maternal Infant Health Service Coffs Harbour,9 Boambee Street,COFFS HARBOUR,NSW,2450,-30.305644989013672,153.12860107421875,aboriginal_health
+f5b9e34c-52b9-8179-ad27-4d95b03b6d5e,Goodooga Health Service Aboriginal Health Service,59 Hammond Street,GOODOOGA,NSW,2838,-29.111595153808594,147.45689392089844,aboriginal_health
+39e10108-b23b-f8b8-6f7c-bfa45184891b,Maddington Aboriginal Health Team Immunisation Clinic,"Champion Centre,76 Champion Drive",SEVILLE GROVE,WA,6112,-32.133296966552734,116.00289916992188,aboriginal_health
+acd294e8-cebf-0858-da25-be1a0dee3763,Pika Wiya (Non Sads) School Dental,"Pika Wiya Health Centre,30 46 Dartmouth Street",PORT AUGUSTA,SA,5700,-32.49441909790039,137.77703857421875,aboriginal_health
+b80b9860-5092-b16d-b9de-c9bb92c97237,ORANA HAVEN ABORIGINAL CORPORATION,Brewarrina Byrock Road,BREWARRINA,NSW,2839,-30.388277053833008,146.8636474609375,aboriginal_health
+3c8178f2-01bd-65c9-6146-136204e6a848,Korrawinga Aboriginal Corporation - Aboriginal And Torres Strait Islander Community Health,"Shop 4,352 Esplanade",SCARNESS,QLD,4655,-25.2843017578125,152.85519409179688,aboriginal_health
+fdc86861-870d-4a12-cd07-7e146c291b49,Thursday Island Primary Health Care Centre - Aboriginal Health Worker,"Primary Health Care Ctr,74 Douglas Street",THURSDAY ISLAND,QLD,4875,-10.58334732055664,142.2195281982422,aboriginal_health
+b0f6901b-34e9-68d8-0d34-219a40aa7a02,Mareeba Hospital - Community And Indigenous Health,"Mareeba Hospital,9 31 Lloyd Street",MAREEBA,QLD,4880,-16.98824119567871,145.42417907714844,aboriginal_health
+255e4a90-deb9-d974-ebb0-232c466f8165,Texas Multipurpose Health Service - Indigenous Health Services,Mingoola Road,TEXAS,QLD,4385,-28.85805320739746,151.1791534423828,aboriginal_health
+562178e4-0341-95aa-9d3f-4e33145826f8,Bidyadanga Aboriginal Community La Grange Inc. (BACLG),634 Great Northern Highway,LAGRANGE,WA,6725,-18.6850528717041,121.77999877929688,aboriginal_health
+caa5ff98-3336-a59f-d672-9f9d5c19a100,Aboriginal Women's Support - AWS,227 Newcastle Street,NORTHBRIDGE,WA,6003,-31.945899963378906,115.85977172851562,aboriginal_health
+52214f59-d06a-31db-db46-ff450e002cd6,Dirranbandi Hospital - Indigenous Health,Jane Street,DIRRANBANDI,QLD,4486,-28.576202392578125,148.23046875,aboriginal_health
+211d37e9-abcc-ef58-9eef-848e5d898bb6,Bundaberg Hospital - Indigenous Health Services,"Hospital Residential Qrts,273 Bourbong Street",BUNDABERG WEST,QLD,4670,-24.86911722,152.33366619,aboriginal_health
+7c957481-b721-1763-d34b-40ddabc593d3,Goondiwindi Hospital - Indigenous Health Services,Bowen Street,GOONDIWINDI,QLD,4390,-28.548267364501953,150.3069305419922,aboriginal_health
+25ee135e-02c0-4c18-50ea-88fc0d298c91,Department of Aboriginal and Torres Strait Islander Partnerships,"Neville Bonner Building,Level 4A,75 William Street",BRISBANE CITY,QLD,4000,-27.474266052246094,153.0255889892578,aboriginal_health
+141ee2ed-b9c1-8822-4711-f4339f566618,Danila Dilba - Rapid Creek Clinic,"Rapid Creek Business Village,Shop 35,48 Trower Road",MILLNER,NT,0810,-12.38705062866211,130.8625030517578,aboriginal_health
+5d155f9a-4814-41d4-2138-2345e7dba6bc,The Sutherland Hospital - Menai Narrangy Booris Aboriginal Child and Family Health Service,"Menai Community Health Centre,32 Allison Cres",MENAI,NSW,2234,-34.014837,151.017355,aboriginal_health
+e26ca6e0-86d4-4f1f-7b56-dcadf2efc840,Kooringal Dental,"Kooringal Mall,27B,269-293 Lake Albert Road",WAGGA WAGGA,NSW,2650,-35.1414565,147.3738736,aboriginal_health
+d7184643-0f7e-4552-bd00-ed396cba7387,Pika Wiya Health Service Aboriginal Corporation,40-46 DARTMOUTH STREET,PORT AUGUSTA,SA,5700,-32.49532524,137.77685985,aboriginal_health
+c7127dc7-f415-4eee-bbb8-7e2a590ae7f2,Kooringal Pharmacy,"Shop 25,269 293 Lake Albert Road",KOORINGAL,NSW,2650,-35.14149841,147.37624074,aboriginal_health
+0934306a-1436-3e15-1e2c-a4e9d23fcbc9,Aramac Primary Health Centre - Indigenous Health,"Aramac Hospital,2 Lodge Street",ARAMAC,QLD,4726,-22.96672248840332,145.2446746826172,aboriginal_health
+9858b82f-b358-488b-f4d6-0a4c9b612312,South Eastern Sydney LHD - South East Aboriginal Health Care (SEAHC) ,"HealthOne Sutherland,126 Kareena Road",CARINGBAH,NSW,2229,-34.037851,151.11321,aboriginal_health
+907607ca-94eb-0881-af02-6a5333cebf0f,Arrunga Aboriginal Health Centre,"La Perouse Public School,Yarra Road",PHILLIP BAY,NSW,2036,-33.9798469543457,151.23382568359375,aboriginal_health
+6f890731-684f-dd82-ee9e-e8f017a9b016,Waroona Aged Care Facility - Indigenous Health Service,72 King Street,CHARLEVILLE,QLD,4470,-26.4112491607666,146.23760986328125,aboriginal_health
+1e66b3a2-70d6-e2f0-0d05-ce23ad387e30,Muttaburra Primary Health Centre - Aboriginal Health Clinic,Edkins Street,MUTTABURRA,QLD,4732,-22.59567642211914,144.54583740234375,aboriginal_health
+edb5f43c-bc5e-4188-d80b-20f2ac1fbdb9,Katta - Koorliny Employment and Enterprise Development Aboriginal Corporation,129 Federal Street,NARROGIN,WA,6312,-32.938541412353516,117.178955078125,aboriginal_health
+f0c72e9b-5a07-b0eb-75f2-370326036286,Wagga Wagga Community Health Mental Health Aboriginal Health Service,"Wagga Wagga Base Hospital,260 Edward Street",WAGGA WAGGA,NSW,2650,-35.118560791015625,147.35699462890625,aboriginal_health
+7be88829-6e42-3c05-87b5-ebffacf2b9a4,Wagga Wagga Community Health Service Child & Family Kooringal Clinic,"Wagga Wagga Base Hospital,260 Edward Street",WAGGA WAGGA,NSW,2650,-35.118560791015625,147.35699462890625,aboriginal_health
+40c06090-8603-4d0b-bca5-28555c8a670b,No. 34 Aboriginal Health Service,34 Alexandra Road,ULVERSTONE,TAS,7315,-41.159425,146.17345,aboriginal_health
+98de3830-c2f8-434e-9e5a-146e6aa326d5,Indigenous - Thomastown Respiratory Clinic,317 - 319 High Street,THOMASTOWN,VIC,3074,-37.675734,145.014344,aboriginal_health
+7b7fe690-0cd5-435e-8e45-9cfc4cf9ecd7,ACCHS - INDIGENOUS ONLY - Nganampa Health Council Inc - Fregon Clinic,4 Fregon Road,KALTJITI,SA,0872,-26.763498,132.027642,aboriginal_health
+b6fe3bed-4dbc-485f-9bd8-1fa888c43c96,Aboriginal Health Service - Launceston,182 Charles Street,LAUNCESTON,TAS,7250,-41.44108963012695,147.1394805908203,aboriginal_health
+6649b110-8217-4b7c-8113-890ce2fa9e18,ACCHS - INDIGENOUS ONLY - Orange Aboriginal Corporation Health Service,27-31 Perc Griffith Way,ORANGE,NSW,2800,-33.30111826,149.12341203,aboriginal_health
+666bb897-712f-4068-bfff-598259439b35,ACCHS - INDIGENOUS ONLY - Nganampa Health Council Inc - Pukatja Clinic,6 Mulga Street,UMUWA,SA,0872,-26.467971,132.037331,aboriginal_health
+43878e41-2eda-4601-bbac-fb4f24f3a8f6,ACCHS - INDIGENOUS ONLY - Girudala Community Co-operative Society Ltd,77 Herbert Street,BOWEN,QLD,4805,-20.010983,148.245002,aboriginal_health
+073386e4-ccb8-4649-a3fb-3d71a4fceccf,Moorditj Koort Aboriginal Corporation,"Parmelia Shopping Centre,1 Sutherland Parade",PARMELIA,WA,6167,-32.2473,115.82699,aboriginal_health
+88b2341b-cb7b-4b57-41df-236b03df9115,ATSICHS  - Aboriginal And Torres Strait Islander Community Health Service Ltd,31 - 33 Victoria Street,MACKAY,QLD,4740,-21.1421165466308,149.190567016601,aboriginal_health
+1b8c98c4-c03e-081f-23ea-e47e023391a3,Victorian Aboriginal Child Care Agency - Brunswick East,340 Bell Street,PRESTON,VIC,3072,-37.74473571777344,145.00181579589844,aboriginal_health
+6334ae08-f04f-e8dd-6709-f1f39059d83a,Laidley Hospital - Aboriginal And Torres Strait Islander  Health Liaison,75 William Street,LAIDLEY,QLD,4341,-27.63249969482422,152.40072631835938,aboriginal_health
+51a598a7-dade-9991-162e-cf31e5e8c373,National Aboriginal Community Controlled Health Organisation (NACCHO),"Level 5 East Tower,2 CONSTITUTION AVENUE",CITY,ACT,2601,-35.28417807,149.13160901,aboriginal_health
+29f774a5-48db-25b2-1051-20159eed956e,Victorian Aboriginal Family Counselling Service,238 250 Plenty Road,PRESTON,VIC,3072,-37.74528503417969,145.00680541992188,aboriginal_health
+72ba3786-5d7b-64a3-4d6e-4a4a23a51158,Woodridge Child And Adolescent Service - Aboriginal And Torres Strait Islander Maternal And Child Health,Wembley Road,WOODRIDGE,QLD,4114,-27.6413516998291,153.10646057128906,aboriginal_health
+b9223038-85fe-dcfc-1683-c34d229c1a00,Caboolture Indigenous & Community Medical Centre,"The Lakes Centre,Suite 13-17,8 22 King Street",CABOOLTURE,QLD,4510,-27.08584976196289,152.9534454345703,aboriginal_health
+261264a4-5d39-3b26-6e98-bac9e385b09a,Tumut Health Service Aboriginal Health Service Otitis Media,105 Simpson Street,TUMUT,NSW,2720,-35.30631637573242,148.21942138671875,aboriginal_health
+21e7a0ff-4140-c4f3-70b2-09eb66311cab,Framlingham Aboriginal Trust,42 Kirrae Avenue,PURNIM,VIC,3278,-38.30661392211914,142.64459228515625,aboriginal_health
+33c9585e-0977-5815-ce8b-e1a50d6571e3,Aboriginal Community Elders Services (ACES),5 Parkview Avenue,BRUNSWICK EAST,VIC,3057,-37.76398468017578,144.9824981689453,aboriginal_health
+6611f5b7-2452-ba8b-b023-150e0b6ecce7,Forbes Community Health Centre Aboriginal Health Service,Elgin Street,FORBES,NSW,2871,-33.39586639404297,148.01382446289062,aboriginal_health
+0092c794-09c7-99af-8dce-46bcb1b520f2,Forbes Community Health Centre Aboriginal Maternal & Infant Health Strategy (AMIHS) Service @ Parkes,Elgin Street,FORBES,NSW,2871,-33.39586639404297,148.01382446289062,aboriginal_health
+b7fbefd7-2200-c96e-df86-f950886a6a6a,Aboriginal and Torres Strait Islander Community Health Service - Mums and Bubs Clinic,5 Charles Avenue,WOODRIDGE,QLD,4114,-27.63874626159668,153.1031036376953,aboriginal_health
+7873a867-c227-46cb-9793-375e5d44fffb,Wheatbelt Health Network - Aboriginal Health Narrogin,Williams Road,NARROGIN,WA,6312,-32.9364127,117.1646928,aboriginal_health
+76e39544-053f-93a3-551c-46391c4c342e,Woodridge Clinic Aboriginal Islander Community Health Service - Jacaranda Ave,8 Jacaranda Avenue,WOODRIDGE,QLD,4114,-27.683883666992188,153.01626586914062,aboriginal_health
+82627385-7481-8bce-0526-7b0c0a7f926d,Royal Brisbane and Women's Hospital - Aboriginal and Torres Strait Islander Rural and Remote Patient Journey,Corner Butterfield Street and Bowen Bridge Road,HERSTON,QLD,4006,-27.44586944580078,153.0295867919922,aboriginal_health
+95d2d1f5-5d61-bd56-ab74-387eea39e5ff,Caalas (Aboriginal Legal Aid),"Creek Cvan Pk,61 Paterson Street",TENNANT CREEK,NT,0860,-19.646255493164062,134.1904754638672,aboriginal_health
+4b2a2ec1-293b-1cc1-522e-90b175a66cbb,Woodridge Clinic Aboriginal Islander Community Health Service - Wembly Road,Wembley Road,WOODRIDGE,QLD,4114,-27.6413516998291,153.10646057128906,aboriginal_health
+34e49f81-abe6-1088-82e3-9a7bcf3963a6,First Peoples Disability Network Australia,"Level 4 Unit 2,161 Redfern Street",REDFERN,NSW,2016,-33.89240264892578,151.19973754882812,aboriginal_health
+0bd65330-04b1-ee33-0e23-e2fed6e8838a,Gulargambone Multi Purpose Service Community Health Centre Aboriginal Health Service,"Residence,47 Bourbah Street",GULARGAMBONE,NSW,2828,-31.32986068725586,148.46957397460938,aboriginal_health
+bf2fd94a-f9f5-69fb-a068-209d608d55bd,Warren Multi Purpose Service Aboriginal Health Service,Doctor Kater Drive,WARREN,NSW,2824,-31.694149017333984,147.8374481201172,aboriginal_health
+65604245-bd9a-96a2-9b8c-b6b6edf646e0,Forbes Community Health Centre Aboriginal Maternal & Infant Health (AMIHS) Service @ Peak Hill,Elgin Street,FORBES,NSW,2871,-33.39586639404297,148.01382446289062,aboriginal_health
+80a764d5-a9b1-dc4d-2005-cf0569164780,Bourke Multi Purpose Service Community Health Aboriginal Maternal Infant Health Service (AMIHS),"Bourke Multi Purpose Service,26 Tarcoon Street",BOURKE,NSW,2840,-30.09259796142578,145.94677734375,aboriginal_health
+7c139cd0-054c-1803-935b-8af1696bb174,Peak Hill Community Health Centre Aboriginal Maternal Infant Health Service (AMIHS) At Forbes,"Lachlan Health Service,Elgin Street",FORBES,NSW,2871,-33.3958625793457,148.0140838623047,aboriginal_health
+b0d47c12-1bdd-6391-f206-347db85d6cd1,Royal Prince Alfred Hospital Gastroenterology And Liver-Redfern Aboriginal Medical Service,132 Redfern Street,REDFERN,NSW,2016,-33.89241409301758,151.2029571533203,aboriginal_health
+a4fd0039-d1a5-6734-7ed6-c970dc16e1bb,Forbes Community Health Centre Aboriginal Maternal & Infant Health Strategy (Amihs) Service,Elgin Street,FORBES,NSW,2871,-33.39586639404297,148.01382446289062,aboriginal_health
+7f5d0fd2-9ed0-f874-e443-e5c0fd55df51,CH CHFN New Directions - Office Of Aboriginal & Torres Strait Island Health,142 Carillon Avenue,CAMPERDOWN,NSW,2050,-33.89104080200195,151.17955017089844,aboriginal_health
+b30dc144-7be5-4011-84f5-907b5466ba54,Gilgandra Local Aboriginal Medical Service,140 WARREN ROAD,GILGANDRA,NSW,2827,-31.71064731,148.65753209,aboriginal_health
+5df57a3e-e24e-4e91-a351-6aa1ad23a438,Moorditj Koort Aboriginal Corporation,57 Wellington Street,NORTHAM,WA,6401,-31.6541336,116.6734602,aboriginal_health
+327143ac-f112-c2b9-bdff-41b04ecd6fb7,Bourke Multi Purpose Service Community Health Aboriginal Health Service (AMIHS) at Enngonia,"Enngonia Community Health Centre,Mitchell Highway",ENNGONIA,NSW,2840,-29.317962646484375,145.8461456298828,aboriginal_health
+914596fd-2b33-9d1f-189b-41887440e8ed,Narromine Community Health Centre Aboriginal Maternal And Infant Health Strategy (Amihs) Service,120 132 Cathundril Street,NARROMINE,NSW,2821,-32.24205017089844,148.2387237548828,aboriginal_health
+d3e4b27f-9d23-ae4c-e870-4e39a5ed7036,Rosemeadow Community Health Connect Care - Aboriginal,5 Thomas Rose Drive,ROSEMEADOW,NSW,2560,-34.099891662597656,150.79930114746094,aboriginal_health
+9b2be907-8261-33d9-d7ae-6e089b193ad5,Dubbo Health Service Aboriginal Welfare Service,"Dubbo Health Service,170 Myall Street",DUBBO,NSW,2830,-32.24112319946289,148.62075805664062,aboriginal_health
+18b0ad7e-38ba-b22a-bb55-5604835d174a,Condobolin Community Health Centre Aboriginal Health Service,"Railway Cottage,1 Madline Street",CONDOBOLIN,NSW,2877,-33.081729888916016,147.15145874023438,aboriginal_health
+da4da486-a67e-6b9a-6aa5-36e3007253fa,Dubbo Health Service Aboriginal Health Chronic Care Service,"Dubbo Health Service,170 Myall Street",DUBBO,NSW,2830,-32.24112319946289,148.62075805664062,aboriginal_health
+4f7fcc23-bc67-89b6-1828-d88ea96ffac7,Forbes Community Health Centre Aboriginal Maternal And Infant Health  Service(AMIHS) At Cowra,"Cowra Health Service,64 Liverpool Street",COWRA,NSW,2794,-33.83271408081055,148.69232177734375,aboriginal_health
+ce5066af-b51d-1966-f0c0-0b016e90f936,Bourke Multi Purpose Service Community Aboriginal Maternal Infant Health Service (AMIHS) At Brewarrina,56 Doyle Street,BREWARRINA,NSW,2839,-29.961589813232422,146.86431884765625,aboriginal_health
+d1a2c6c9-8e53-73bf-62d6-7699336204de,Orange Health Service Aboriginal Health Service,129 Sale Street,ORANGE,NSW,2800,-33.276039123535156,149.09719848632812,aboriginal_health
+cffecb70-ba49-894e-2e76-58a6f52c1a51,Gilgandra Community Health Centre Aboriginal Health Service At Gulargambone,"Gulargambone Multi Purpose Service,Bourbah Street",GULARGAMBONE,NSW,2828,-31.329853057861328,148.4695281982422,aboriginal_health
+7604d0cb-3941-8f02-5888-36ad2be1b7c6,Narromine Community Health Centre Aboriginal Health Service,128 Cathundril Street,NARROMINE,NSW,2821,-32.24299621582031,148.23939514160156,aboriginal_health
+0f15c25b-400b-fe82-ddcc-668181e0cf07,Lightning Ridge Multi Purpose Service Community Health Centre Aboriginal Health Service,42 Pandora Street,LIGHTNING RIDGE,NSW,2834,-29.43017578125,147.98388671875,aboriginal_health
+3425a561-26fe-2185-6643-35ec77654aca,Kalang Respite Care Centre Aboriginal Corporation,133 Denmans Camp Road,WONDUNNA,QLD,4655,-25.29941749572754,152.85862731933594,aboriginal_health
+55904673-95a2-fd6c-63ea-32fbdede9032,Walgett Health Service Aboriginal Health Clinic,"Walgett Multi Purpose Service,141 Fox Street",WALGETT,NSW,2832,-30.03129768371582,148.1150360107422,aboriginal_health
+cfa30733-cd90-eaf8-8e19-476ed54ccd7c,Daramulen Aboriginal Home Care Service Broadmeadow,114 Belford Street,BROADMEADOW,NSW,2292,-32.924102783203125,151.73756408691406,aboriginal_health
+ac2911cf-049a-fe5a-e686-bb57be941228,Peak Hill Community Health Centre Aboriginal Health Service At Parkes,"Parkes Hospital,2 Morrissey Way",PARKES,NSW,2870,-33.153316497802734,148.16989135742188,aboriginal_health
+c5408ddd-0d6a-96a3-103d-73b329f977af,Council For Aboriginal Alcohol Program Services (Caaps) Inc,"Caaps,60 Boulter Road",BERRIMAH,NT,0828,-12.416069030761719,130.9177703857422,aboriginal_health
+50ae7c66-23df-d24a-f98c-52ef49e2c33e,Aboriginal and Torres Strait Islander Disability Network of Queensland,"Brisbane - Head Office,121 Copperfield Street",GEEBUNG,QLD,4034,-27.37244415283203,153.0472412109375,aboriginal_health
+a51d6773-2313-9749-7ac0-5c40224928b6,Maternal And Child Health - Goolum Goolum Aboriginal Cooperative,43 Hamilton Street,HORSHAM,VIC,3400,-36.718143463134766,142.20289611816406,aboriginal_health
+cf52e4f4-b43f-97f7-3e5b-9c593f1ce2ef,Cobar Community Health Centre Aboriginal Health Service,35 Woodiwiss Avenue,COBAR,NSW,2835,-31.509904861450195,145.82510375976562,aboriginal_health
+ffd141c0-b243-631a-eba9-c8f9329215db,Foundation Of Rehabilitation With Aboriginal Alcohol Related Difficulties (Forwaard),33 Charles Street,STUART PARK,NT,0820,-12.443617820739746,130.84579467773438,aboriginal_health
+f0171303-128b-3981-57f7-0abfcc10e6a4,La Perouse Aboriginal Community Health Centre,1 Elaroo Avenue,LA PEROUSE,NSW,2036,-33.981597900390625,151.2309112548828,aboriginal_health
+92cbfa82-a5ca-d6ff-35ea-dc22e91771f3,Gympie Community Health Centre - Indigenous Health Service,"Gympie Hospital,12 Henry Street",GYMPIE,QLD,4570,-26.184358596801758,152.65821838378906,aboriginal_health
+ba3bb084-d259-e899-6c20-a57020066745,Stephen Island Primary Health Care Centre - Torres Strait And Northern Peninsula Ahs Outer Island,"Stephen Island Primary,Health Care",STEPHENS ISLAND,QLD,4875,-9.506877,143.545001,aboriginal_health
+91ae1944-d124-d8bb-ad17-d30c474b3baf,Indigenous Youth Health Services - Alcohol And Drug Services,60 Ferry Road,WEST END,QLD,4101,-27.485559463500977,152.99822998046875,aboriginal_health
+60ac6f8d-5cb3-2027-60d7-a22745398fe6,Blue Care Indigenous Services Cluster Office,267 277 Hartley Street,PORTSMITH,QLD,4870,-16.945005416870117,145.75779724121094,aboriginal_health
+740cf962-edde-2cd3-7887-48d20d4a3e37,Jundah Primary Health Centre - Aboriginal Health Clinic,1 Hospital Road,JUNDAH,QLD,4736,-25.212289810180664,143.2681884765625,aboriginal_health
+16e2142d-8487-4596-bdbd-910b69da1433,Prince of Wales Hospital - Aboriginal and Torres Strait Islander Community Health Service,"Visiting service,1 Elaroo Ave",LA PEROUSE,NSW,2036,-33.982166,151.23035,aboriginal_health
+61c70e3d-5705-4664-4744-858cc718567c,South Eastern Sydney LHD - La Perouse Drug and Alcohol Koori Healing Unit,"La Perouse Aboriginal Health,1 Elaroo Ave",LA PEROUSE,NSW,2036,-33.982166,151.23035,aboriginal_health
+e7aff1ff-a835-685a-aed0-ab3c993e838d,Windorah Primary Health Centre - Indigenous Health,15 Victoria Street,WINDORAH,QLD,4481,-25.420345306396484,142.65472412109375,aboriginal_health
+99895972-a3ae-1ae5-3a4e-86ae69cbbefa,Birdsville Primary Health Centre - Indigenous Health,29 Burt Street,BIRDSVILLE,QLD,4482,-25.90103530883789,139.34921264648438,aboriginal_health
+e3b654fc-6d78-6b4f-c856-d1086ae4782a,Deniliquin Health Service Aboriginal Health Service,"Staff Quarters,411 Charlotte Street",DENILIQUIN,NSW,2710,-35.524436950683594,144.96298217773438,aboriginal_health
+1551f356-a388-673c-fc13-ab4924593f26,Isisford PHC - Aboriginal Health Clinic,St Helena Street,ISISFORD,QLD,4731,-24.2615966796875,144.44033813476562,aboriginal_health
+0f7b16b9-1055-3310-546d-8ad1b5d9feee,Gibalee Aboriginal Learning And Development Centre,"University Of Newcastle Central Coast Campus,10 Chittaway Road",OURIMBAH,NSW,2258,-33.35663604736328,151.3839111328125,aboriginal_health
+7b8b8f52-4c87-4bce-ce63-161389d41f2a,South Eastern Sydney LHD - La Perouse Aboriginal Health Centre Aboriginal Dental Clinic,"La Perouse Aboriginal Health Oral Health Service,1 Elaroo Ave",LA PEROUSE,NSW,2036,-33.982166,151.23035,aboriginal_health
+61a0ab1c-62b0-fd10-af07-9a886f6aa556,Awabakal Multifunctional Aboriginal Children's Services (MACS),5 Grey Street,WICKHAM,NSW,2293,-32.92209243774414,151.75967407226562,aboriginal_health
+063d5b01-b243-d954-80d7-40568448fa3d,GP Down South Aboriginal Health - Harvey,"Unit 5,5 Hayward Street",HARVEY,WA,6220,-33.08006286621094,115.89566802978516,aboriginal_health
+0e38c780-dd3b-685d-10b6-bdad0971946e,Aboriginal Resource and Development Services Aboriginal Corporation,64 Winnellie Road,WINNELLIE,NT,0820,-12.427069664001465,130.87716674804688,aboriginal_health
+14d94af8-fb6a-2dd9-3406-050d8743e30e,Oakey Hospital - Indigenous Health Services,Corner Beale and Fitzpatrick Street,OAKEY,QLD,4401,-27.425264358520508,151.7205352783203,aboriginal_health
+0c671dbd-95b8-2606-7041-29553205ef97,The Townsville Hospital - Child And Youth Mental Health Service - Aboriginal And Torres Strait Islander,"Townsville Hospital,100 Angus Smith Drive",DOUGLAS,QLD,4814,-19.320636749267578,146.7615966796875,aboriginal_health
+a79db543-228d-f363-dd61-3936c8533e2e,Deadly Ears State Wide Aboriginal and Torres Strait Islander Ear Health Program - Outreach Service,"Level 9,199 Grey Street",SOUTH BRISBANE,QLD,4101,-27.48045539855957,153.02247619628906,aboriginal_health
+06960e8d-a3e4-2251-e065-af28ee40d248,Aboriginal Hacc Access/Development Officer Hunter,13 Denison Street,NEWCASTLE WEST,NSW,2302,-32.92499923706055,151.75711059570312,aboriginal_health
+6e2354a6-13c4-f96b-1aa8-31018e085c21,Orange Hospital - Aboriginal Health Clinic,1530 Forest Road,ORANGE,NSW,2800,-33.31807327270508,149.0896759033203,aboriginal_health
+286c2f7a-6aaf-729d-8d40-cb4e55ad2ffb,Bathurst Health Service Aboriginal Health Service,361-365 Howick Street,BATHURST,NSW,2795,-33.40927505493164,149.5736846923828,aboriginal_health
+e1c587b7-43ae-d956-4bed-aa163744ec48,AICRA Indigenous HACC,179 Lakes Creek Road,BERSERKER,QLD,4701,-23.372655868530273,150.5344696044922,aboriginal_health
+94029c99-1388-42e6-7a5a-94bbc6c92306,Royal Brisbane and Women's Hospital - Indigenous Health Liaison Service,"Ned Hanlon Building - Royal Brisbane and Women's Hospital,Level 5,42 Butterfield Street",HERSTON,QLD,4006,-27.446971893310547,153.02789306640625,aboriginal_health
+01dce099-6101-1e14-74fe-eae24d934084,Indigenous Hospital Liaison Service - Chermside,Rode Road,CHERMSIDE,QLD,4032,-27.393014907836914,153.0282745361328,aboriginal_health
+955afbf4-7a0c-4c10-96c7-f39ab9821b88,Weipa Integrated Health Service - Indigenous Liaison Officer Service,John Evans Drive,WEIPA,QLD,4874,-12.676513671875,141.9138641357422,aboriginal_health
+36f477fa-8e95-2b69-2624-2e2d81ece41d,Tambo Primary Health Centre - Aboriginal Health Clinic,"Hospital & Residence,8 Garden Street",TAMBO,QLD,4478,-24.881694793701172,146.24879455566406,aboriginal_health
+a7e2adcf-8d45-f08c-2527-c99436a9f15b,Mornington Island Primary Health Care Centre - Aboriginal And Torres Strait Islander Community Health,10 Lardil Street,WELLESLEY ISLANDS,QLD,4892,-16.665851593017578,139.17723083496094,aboriginal_health
+16ff9853-e727-6a2b-7fbc-3923db2e9b00,Dajarra - Aboriginal Health,12 Matheson Street,DAJARRA,QLD,4825,-21.694490432739258,139.51451110839844,aboriginal_health
+b8682bae-4590-e024-7be6-f8ebfc067928,Warwick Hospital - Aboriginal And Torres Strait Islander Community Hospital Liaison,"Hospital Reserve 278,56 Locke Street",WARWICK,QLD,4370,-28.22435760498047,152.0178680419922,aboriginal_health
+3deea5e9-f3aa-0a26-64a7-2a20956836ce,NGAIMPE ABORIGINAL CORPORATION,50 Church Road,CHITTAWAY POINT,NSW,2261,-33.31944274902344,151.4368438720703,aboriginal_health
+3892a2ec-0013-65aa-0b30-2c2d17f39f34,Indigenous Women's Cancer Prevention And Support Service,Corner Butterfield Street and Bowen Bridge Road,HERSTON,QLD,4006,-27.44586944580078,153.0295867919922,aboriginal_health
+ba453264-15bb-5d6a-12f7-8295778bef47,Indigenous Sexual Health,10 Nellie Street,NUNDAH,QLD,4012,-27.39914321899414,153.06471252441406,aboriginal_health
+5ddfca8b-0254-6467-32d4-aed8b57ab1b0,Logan Hospital - Aboriginal And Torres Strait Islander Hospital Liaison,Cnr Armstrong And Loganlea Road,MEADOWBROOK,QLD,4131,-27.670021057128906,153.14132690429688,aboriginal_health
+2114ca88-b7d7-bd92-aca4-1142da970245,Princess Alexandra Hospital - Aboriginal And Torres Strait Islander Liaison,"Princess Alexandra Hospital,199 Ipswich Road",WOOLLOONGABBA,QLD,4102,-27.497373580932617,153.0335235595703,aboriginal_health
+1741ea31-8100-1671-52cd-8e659eabcc65,Queen Elizabeth II Jubilee Hospital - Aboriginal And Torres Strait Islander Hospital Liaison,Cnr Armstrong And Loganlea Road,COOPERS PLAINS,QLD,4108,-27.564590454101562,153.03927612304688,aboriginal_health
+8d4b6e39-f455-0032-88ea-250969ea5461,Gympie Hospital - Aboriginal And Torres Strait Islander Hospital Liaison,"Gympie Hospital,12 Henry Street",GYMPIE,QLD,4570,-26.184358596801758,152.65821838378906,aboriginal_health
+8f658ec9-d86e-2b71-73c8-92a3633eac22,Lockhart River Aboriginal Council - Family Welfare Services,Paytam Street,LOCKHART RIVER,QLD,4892,-12.786700248718262,143.34432983398438,aboriginal_health
+902ec5be-ec10-8942-f8cc-03838441218b,Wolston Park Hospital Consumer Services - Aboriginal And Torres Strait Islander Community Hospital Liaison,"Yagerra Place Wolston Park Hospital,Ellerton Drive",WACOL,QLD,4076,-27.601970672607422,152.90829467773438,aboriginal_health
+f1c1d59b-1113-0950-0966-bf56ff5dfb67,Community Services - Indigenous Sexual Health,"Floor 2,270 Roma Street",BRISBANE CITY,QLD,4000,-27.465993881225586,153.0164337158203,aboriginal_health
+7fca5edb-f49b-453e-d2ee-ba48b40d8976,The Gladestone Aboriginal & Islanders Co-Operative Society Ltd,"Shop 2,35 Off Street",GLADSTONE CENTRAL,QLD,4680,-23.846450805664062,151.2617950439453,aboriginal_health
+79ce4f45-bfd3-de09-4fea-f4d01158d3e0,Western Aboriginal Legal Service - Outreach Services,23 Carrington Avenue,DUBBO,NSW,2830,-32.245933532714844,148.60508728027344,aboriginal_health
+192fd886-06d7-f722-887a-524e73501f2a,Hoxton Park Community Health Aboriginal Vascular Health,596 Hoxton Park Road,HOXTON PARK,NSW,2171,-33.92784881591797,150.8578643798828,aboriginal_health
+8c9a436d-8e7e-285d-9a49-2e9e95b0545c,Campbelltown Hospital Aboriginal Histories (ANC) Clinic,1 Therry Road,CAMPBELLTOWN,NSW,2560,-34.080055236816406,150.803466796875,aboriginal_health
+5e5ad428-3a6a-6eaf-4be7-2ed90f667734,Community Health Aboriginal Maternal Infant Health Strategy,14 Queen Street,NARELLAN,NSW,2567,-34.04283142089844,150.73541259765625,aboriginal_health
+b6fd1fca-c29e-7c1f-94a0-77bbc01831ea,Bowral Community Health Connect Care - Aboriginal,20 Bendooley Street,BOWRAL,NSW,2576,-34.479671478271484,150.42018127441406,aboriginal_health
+36e2de8c-2826-8b06-b64c-b7ae7038eeb0,MacArthur Community Health Non Indigenous Social Work,14 Queen Street,NARELLAN,NSW,2567,-34.04283142089844,150.73541259765625,aboriginal_health
+3c0788fb-cf52-ff59-c947-9b94d3b135e2,Nyngan Community Health Centre Aboriginal Health Service,"Nyngan Health Service,15 Hoskins Street",NYNGAN,NSW,2825,-31.561927795410156,147.20196533203125,aboriginal_health
+18adb933-765a-198c-e07f-ac83d19c5477,Bourke Multi-Purpose Service Aboriginal Liaison Officer,"Bourke Multi Purpose Service,26 Tarcoon Street",BOURKE,NSW,2840,-30.09259796142578,145.94677734375,aboriginal_health
+4cb9a3dc-b3a3-d7c4-5f16-52714abb5173,Peak Hill Community Health Centre Aboriginal Maternal Infant Health Service (Amihs) At Parkes,2 Morrissey Way,PARKES,NSW,2870,-33.3958625793457,148.0140838623047,aboriginal_health
+e74c989f-e6bf-1de0-3a49-6e2aad7c3b27,Collarenebri Community Health Centre Aboriginal Health Service,64 Walgett Street,COLLARENEBRI,NSW,2833,-29.545360565185547,148.57827758789062,aboriginal_health
+8f144139-8840-3a0f-c94b-0d351d8b35bc,Charleville and Western Areas Aboriginal and Torres Strait Islanders Community Health - Mitchell,46 Cambridge Street,MITCHELL,QLD,4465,-26.487579345703125,147.9762725830078,aboriginal_health
+c7cf45ac-6c36-4481-61b8-c21092ba646e,Institute for Urban Indigenous Health - Salisbury Mums & Bubs,96 Blomfield Street,SALISBURY,QLD,4107,-27.541184,153.025347,aboriginal_health
+a53742ad-0cfe-b872-0b15-fc2dff7af01b,Wagga Wagga Community Health Service Aboriginal Health Service,"Wagga Wagga Base Hospital,260 Edward Street",WAGGA WAGGA,NSW,2650,-35.118560791015625,147.35699462890625,aboriginal_health
+4a1b540d-e6dd-1112-0403-25a26709a2bd,Pika Wiya (Non Sads) Community Dental,"Pika Wiya Health Centre,30 46 Dartmouth Street",PORT AUGUSTA,SA,5700,-32.49441909790039,137.77703857421875,aboriginal_health
+961fb4c8-72d5-d4ab-b2dc-cd72532b8d02,Miles Hospital - Goondir Indigenous Health Clinic,5-11 Colamba Street,MILES,QLD,4415,-26.658912658691406,150.1918182373047,aboriginal_health
+c2488fee-64f6-2e43-24c1-6c24cab5660a,Drug And Alcohol Services South Australia - Aboriginal Connection Program,75 Magill Road,STEPNEY,SA,5069,-34.914913177490234,138.6288604736328,aboriginal_health
+240f4400-2daa-fafd-7207-af0db7f21fa8,Hervey Bay Hospital - Indigenous Health Services,141-169 Urraween Road,HERVEY BAY,QLD,4655,-25.2987213134765,152.820907592773,aboriginal_health
+cd3e1dcf-82d9-c9b0-9655-3828f55db6a7,Gayndah Hospital - Indigenous Health Services,69 Warton Street,GAYNDAH,QLD,4625,-25.6319904327392,151.604949951171,aboriginal_health
+224b1f5d-2123-03e5-d423-156938143b1e,Monto Hospital - Indigenous Health Services,35 FLINDERS STREET,MONTO,QLD,4630,-24.8662815093994,151.112731933593,aboriginal_health
+90e6682a-9754-2306-1b67-dc1c504eec5d,Apunipima Cape York Health Council,186 McCoombe Street,WESTCOURT,QLD,4870,-16.940902709960938,145.7496337890625,aboriginal_health
+bd9f1a02-15f4-34a0-ab46-0a2616e28144,Murri Watch,15 Hubert Street,WOOLLOONGABBA,QLD,4102,-27.487512588500977,153.03378295898438,aboriginal_health
+3e3cb7f0-a025-8f11-fb70-cd47abf1ab44,Eidsvold Hospital - Indigenous Health Services,88 Eidsvold-Theodore Road,EIDSVOLD,QLD,4627,-25.382482528686523,151.1257781982422,aboriginal_health
+d8a835da-715d-8166-bce8-130aa073f68e,Wungening Aboriginal Corporation,211 Royal Street,EAST PERTH,WA,6004,-31.952211380004883,115.86919403076172,aboriginal_health
+09f7ded2-ded6-cf42-eaf4-0603f81434e1,Ipswich Health Plaza - Aboriginal And Torres Strait Islander Liaison,21 Bell Street,IPSWICH,QLD,4305,-27.61263084411621,152.76087951660156,aboriginal_health
+395448c4-1cb7-af79-eabf-57b0473a6eec,Central Australian Aboriginal Congress Aboriginal Corporation (CAAC)  - Head Office,14 Leichhardt Terrace,ALICE SPRINGS,NT,0870,-23.749357223510742,133.8726348876953,aboriginal_health
+d586309d-98da-0687-a55e-ebeb48dc79be,Dalby Hospital - Indigenous Health Services,Pmb 2,DALBY,QLD,4405,-27.169898986816406,151.27706909179688,aboriginal_health
+776ec3c9-84d7-9350-ef7d-f7bf534ec813,Royal Adelaide Hospital - Aboriginal Health Clinic,Port Road,ADELAIDE,SA,5000,-34.923030853271484,138.58729553222656,aboriginal_health
+f6215b89-a2a2-db17-3893-f4a76f607b53,Tara Hospital - Indigenous Health Services,"Hospital,15 Bilton Street",TARA,QLD,4421,-27.273149490356445,150.45663452148438,aboriginal_health
+63e3556d-749b-1afb-098e-dd69ff245d0c,Bathurst Health Service - Aboriginal Maternal Infant Health Service(AMIHS),363-365 Howick Street,BATHURST,NSW,2795,-33.406185150146484,149.572265625,aboriginal_health
+c1a2d6d3-25cd-d3a5-418f-ddf899499139,Karrali Mums and Bubs - Aboriginal Maternal Infant Health Services,"Freda Mott Centre,226 Rusden Street",ARMIDALE,NSW,2350,-30.512859344482422,151.6550750732422,aboriginal_health
+6d8415b4-add7-8366-325d-7194b33914b7,Liverpool Aboriginal Mental Health Service,Elizabeth Street,LIVERPOOL,NSW,2170,-33.9205322265625,150.92672729492188,aboriginal_health
+b997710e-ffa5-c32b-02ed-91ff1f23217a,MacArthur Community Health Aboriginal Connecting Care,1 Bolger Street,CAMPBELLTOWN,NSW,2560,-34.073360443115234,150.79933166503906,aboriginal_health
+894a8252-cb30-5161-4426-db5fb22106fe,Goondiwindi Hospital - Aboriginal And Torres Strait Islander Health Service,Bowen Street,GOONDIWINDI,QLD,4390,-28.548267364501953,150.3069305419922,aboriginal_health
+355399af-1685-adbf-b657-1dec2c495c95,Queensland Aboriginal and Islander Health Council (QAIHC),"Level 2,55 Russell Street",SOUTH BRISBANE,QLD,4101,-27.47824478149414,153.01431274414062,aboriginal_health
+236be188-7457-9bb5-0693-45392a7dfda9,Blackall Hospital - Indigenous Health,Shamrock Street,BLACKALL,QLD,4472,-24.422544479370117,145.44891357421875,aboriginal_health
+f32cf763-1e3a-fa11-7b0f-37d3033e5633,Women's Health Statewide - Aboriginal Women's Health,64 Pennington Terrace,NORTH ADELAIDE,SA,5006,-34.9124641418457,138.59597778320312,aboriginal_health
+446d495c-bf80-58bd-27fb-27b24526f6a0,Atherton Hospital - Aboriginal And Torres Strait Islander Community Hospital Liaison,48 56 Jack Street,ATHERTON,QLD,4883,-17.265928268432617,145.47991943359375,aboriginal_health
+afa27ff8-a8ed-25bc-6d8c-5a09752ca233,Lake Tyers Aboriginal Trust,1 Rules Road,LAKE TYERS,VIC,3887,-37.83926010131836,148.0997314453125,aboriginal_health
+610aedd8-4cee-c780-5d14-3beec910aef2,Innisfail Hospital - Aboriginal Health Clinic,226 Victoria Street,CARDWELL,QLD,4849,-18.25551986694336,146.01681518554688,aboriginal_health
+5c5552fd-f676-3729-809c-2f1df9b50cd0,Ipswich Hospital - Aboriginal And Torres Strait Islander Hospital Liaison,Chelmsford Avenue,IPSWICH,QLD,4305,-27.61933135986328,152.75726318359375,aboriginal_health
+735b383f-7920-c19b-9336-827834a9f0a4,Murrindindi Shire Council - Kinglake Office,19 Whittlesea-kinglake Road,KINGLAKE,VIC,3763,-37.53105545043945,145.3397216796875,aboriginal_health
+2e3f95c5-8213-8a24-be70-7f144b90ad27,Nungeena Aboriginal Corporation for Womens Business,60 Streek Road,GLASS HOUSE MOUNTAINS,QLD,4518,-26.900863647460938,152.89404296875,aboriginal_health
+b0d0b626-51d4-e713-4790-06e91a05ea09,Dirranbandi Hospital - Aboriginal Health Services,Corner Jane and Crothers Street,DIRRANBANDI,QLD,4486,-28.580520629882812,148.22900390625,aboriginal_health
+8475dc5f-88e2-6855-e9c0-881103973ad5,Queensland Health - Aboriginal and Torres Strait Islander Health Unit,"Queensland Health Building,147-163 Charlotte Street",BRISBANE CITY,QLD,4000,-27.470115661621094,153.028076171875,aboriginal_health
+0913f9cb-209b-1f01-591e-9631510bad91,Mundubbera Hospital - Indigenous Health Services,96 Leichhardt Street,MUNDUBBERA,QLD,4626,-25.5884017944335,151.294281005859,aboriginal_health
+b81f3553-c003-c982-4936-7137f083b119,Coonabarabran Community Health Centre Aboriginal Health Service,"Coonabarabran Hospital,91-103 Edwards Street",COONABARABRAN,NSW,2357,-31.274642944335938,149.28428649902344,aboriginal_health
+8d0ffda0-5786-ec3d-63ff-d7a2a843181a,Goodna Community - Aboriginal And Torres Strait Islander Liaison,81 QUEEN STREET,GOODNA,QLD,4300,-27.61614343,152.89260983,aboriginal_health
+08acc81d-89d1-e561-38bb-a1c64ceb53b6,Maryborough Hospital - Indigenous Health Services,185 Walker Street,MARYBOROUGH,QLD,4650,-25.5222415924072,152.69026184082,aboriginal_health
+f1f43a38-8233-b7b2-e172-9f16616c2527,Pintupi Homelands Health Service Aboriginal Corporation,Kintore Road,KINTORE,NT,0872,-23.276308059692383,129.39022827148438,aboriginal_health
+e2ed8502-90a6-c4e9-766d-adf5a88e9088,Aboriginal And Torres Strait Islander Controlled Community Health,"Number 5,Cnr of Bligh and Broadway Street",CHERBOURG,QLD,4605,-26.290691375732422,151.95367431640625,aboriginal_health
+c622261e-6cd0-ac8c-70a7-961fa6c91700,Mudth Niyleta  - Aboriginal And Torres Strait Islander Community Controlled Health,35 Central Street,SARINA,QLD,4737,-21.423675537109375,149.2145233154297,aboriginal_health
+62b513bd-efef-8495-723f-b8313fa8daf5,Warwick Health Service - Aboriginal And Torres Strait Islander Service,"Warwick Hospital,56 Locke Street",WARWICK,QLD,4370,-28.22435760498047,152.0178680419922,aboriginal_health
+eadcd49e-a2d2-1916-b76b-ebea86e2c397,Merana Aboriginal Social Support Service,96 Windsor Street,RICHMOND,NSW,2753,-33.600154876708984,150.75723266601562,aboriginal_health
+0af42570-9c55-c529-eac7-af32061bd55b,Illawarra Koori Men's Support Group,2 Wilga Close,ALBION PARK RAIL,NSW,2527,-34.570716857910156,150.8103790283203,aboriginal_health
+bada8769-e5e1-15b4-c97c-2e6c8ad33d81,Dubbo Community Health Centre Aboriginal Maternal Infant Health Service (AMIHS),"Dubbo Community Health Centre,2 Palmer Street",DUBBO,NSW,2830,-32.25579071044922,148.6177215576172,aboriginal_health
+03a0290a-3adb-53be-c229-013b1c6c8a35,Macarthur Aboriginal Mental Health Service,6 Browne Street,CAMPBELLTOWN,NSW,2560,-34.064999,150.817047,aboriginal_health
+324f9613-0cc6-737c-06f5-992d6bb3f243,Northern Territory Stolen Generations Aboriginal Corporation (NTSGAC),"Building 3 Cascom Centre,Ground Floor  Suite A,13 17 Scaturchio Street",CASUARINA,NT,0810,-12.372740745544434,130.88189697265625,aboriginal_health
+0b01c5ed-4a4e-10c1-4c10-b5b11e749ba5,Central Coast Aboriginal Podiatry Support Service,48 Victoria Avenue,TOUKLEY,NSW,2263,-33.26504898071289,151.54171752929688,aboriginal_health
+77d959ba-11fa-4689-a864-48e6b78e3ea5,St George Hospital - Indigenous Health,"Hospital,1 Victoria Street",ST GEORGE,QLD,4487,-28.02724266052246,148.59268188476562,aboriginal_health
+8c213c1a-ecaa-52f7-824f-97890f3c9795,Winton Hospital and Multipurpose Health Service - Indigenous Health,"Winton Hospital,70 Oondooroo Street",WINTON,QLD,4735,-22.381813,143.040359,aboriginal_health
+9d52a928-c402-2333-59b5-3d8e100cbe9b,Port Augusta Pika Wiya Child And Family Health Centre,30 46 Dartmouth Street,PORT AUGUSTA,SA,5700,-32.49441909790039,137.77703857421875,aboriginal_health
+59ddc5fe-8feb-50e6-250d-8b345f2df564,Aboriginal Family Support Services Inc,503 Cross Road,SOUTH PLYMPTON,SA,5038,-34.9683723449707,138.55636596679688,aboriginal_health
+b956b02b-5563-ac36-2be1-61d4cf087696,Aboriginal Family Support Services Inc,134 Waymouth Street,ADELAIDE,SA,5000,-34.92579650878906,138.59478759765625,aboriginal_health
+603c35d4-899e-2d65-811b-680fee9a5d79,Kimberley Aboriginal Medical Services Council (KAMSC),12 Napier Terrace,DJUGUN,WA,6725,-17.95427894592285,122.24040222167969,aboriginal_health
+4df06beb-aaeb-b8c4-5464-26c5641551e3,Shoalhaven Aboriginal Multi Service Outlet,53-55 Judith Drive,NORTH NOWRA,NSW,2541,-34.85773468017578,150.57704162597656,aboriginal_health
+09e4c317-f769-06b3-de66-6fb4955366f7,GUMALA ABORIGINAL CORPORATION,"Stadium Road Shopping Mall,1 Stadium Road",TOM PRICE,WA,6751,-22.693452835083008,117.79730224609375,aboriginal_health
+dcb6d5ab-804d-74b8-f771-8d7865398306,Coonamble Multi Purpose Service Community Aboriginal Health Service,150 CASTLEREAGH STREET,COONAMBLE,NSW,2829,-30.96509382,148.38766619,aboriginal_health
+d6995786-cc1b-e7e8-6ada-b0502d4b3042,Link Up - NSW Aboriginal Corporation - St Marys,,ST MARYS,NSW,2760,-33.766658782958984,150.77435302734375,aboriginal_health
+87bd2c6a-fc53-95ec-c724-8c29ee7584c3,Specialist Aboriginal Mental Health Service,"De Grey House, Graylands Health Campus,1 Brockway Road",MOUNT CLAREMONT,WA,6010,-31.96255874633789,115.78952026367188,aboriginal_health
+754cb886-09e4-df7c-f54c-1d29aa834838,Indigenous Psychological Services,Confidential Address,PERTH,WA,6000,-31.952573776245117,115.86104583740234,aboriginal_health
+c081331f-5bd0-2d81-50af-abebd92e2d3d,Sydney Dental Hospital Aboriginal Oral Health Clinic,2 Chalmers Street,SURRY HILLS,NSW,2010,-33.88420486450195,151.20794677734375,aboriginal_health
+dc2339cd-183b-9316-99b2-80446808cf56,Bungee Bidgel Clinic (Aboriginal Health),3-7 Derby Road,HORNSBY,NSW,2077,-33.70295715332031,151.1136474609375,aboriginal_health
+8fec9851-e387-2af1-e5d8-a50afa0c0fb7,Australian Indigenous Healthinfonet,"Edith Cowan University,2 BRADFORD STREET",MOUNT LAWLEY,WA,6050,-31.9190849,115.8690055,aboriginal_health
+7edc6e9e-a610-a166-2566-41e826577d61,Nganampa Health Council - Alice Springs Admin Office,3 Wilkinson Street,CICCONE,NT,0870,-23.700685501098633,133.87074279785156,aboriginal_health
+d123df69-b7ab-6244-6346-d0899a0f9eb5,Apunipima Cape York Health Council,186 McCoombe Street,BUNGALOW,QLD,4870,-16.940902709960938,145.7496337890625,aboriginal_health
+e034ea14-cd9e-bf5a-eee5-f5a0d28b7a72,Lake Cargelligo Community Health Service Aboriginal Health Service,34 Uabba Street,LAKE CARGELLIGO,NSW,2672,-33.2914924621582,146.3753662109375,aboriginal_health
+98c13114-4bc0-8396-130a-71c61d1bdcb9,Aboriginal Family Violence Prevention Legal Service,151 Langtree Avenue,MILDURA,VIC,3500,-34.187801361083984,142.15652465820312,aboriginal_health
+325a41c9-4b51-97f9-2023-3054dd84faa5,Ngunnawal Aboriginal Corporation,147 Meehan Street,YASS,NSW,2582,-34.84396743774414,148.90682983398438,aboriginal_health
+28cf7b9c-1acb-4e68-b31f-2f5f08dd6e1b,ACCHS - INDIGENOUS ONLY - Galangoor Duwalami Primary Health Care Service Hervey Bay,11 Central Ave,URRAWEEN,QLD,4655,-25.28890265,152.83334278,aboriginal_health
+1c3112ae-119d-4abb-9999-53d2a29c071e,Gurriny Yealamucka Health and Wellbeing Centre - Workshop Road,6 WORKSHOP ROAD,YARRABAH,QLD,4871,-16.90769053,145.86722317,aboriginal_health
+fddb86b5-72a0-40cd-8166-932c3e2d1ae6,Grand Pacific Health- Aboriginal Health Team Moruya,84 MURRAY STREET,MORUYA,NSW,2537,-35.91342573,150.07670862,aboriginal_health
+af20362c-579d-456f-1702-c756c02c1836,Lismore Community Health - Integrated Aboriginal Chronic Care,29 Molesworth Street,LISMORE,NSW,2480,-28.806756,153.276778,aboriginal_health
+10c2f7d5-2053-40fb-97c4-c244def52b24,Katungul Aboriginal Corporation Regional Health and Community Services - Batemans Bay,1/3 Old Princes Highway,BATEMANS BAY,NSW,2536,-35.71210861206055,150.17738342285156,aboriginal_health
+7f06dcab-fddf-4b3b-8ed6-386a8583f002,ACCHS - INDIGENOUS ONLY - Nganampa Health Council Inc - Mimili Clinic,6 - 8 Puti Ilykuwara Road,MIMILI,SA,0872,-27.006837,132.708154,aboriginal_health
+ee0bc612-5391-4a87-9fed-5a2ca29f566d,ACCHS - INDIGENOUS ONLY - Miwatj Aboriginal Corporation Milingimbi,Madmungun Road,MILINGIMBI,NT,0822,-12.102961,134.923682,aboriginal_health
+b10685ee-404e-4be1-ba94-816477ba03ea,Charleville and Western Areas Aboriginal and Torres Strait Islanders Community Health,94 Edward Street,CHARLEVILLE,QLD,4470,-26.400347,146.246374,aboriginal_health
+e452fdff-4d15-44c8-a2ee-55b512d04dc0,Moorditj Koort Aboriginal Corporation,22 Junction Parade,MIDLAND,WA,6056,-31.88721392,116.00651267,aboriginal_health
+06ca0005-2fab-4a4e-b142-c26e452a8ca8,Mala'la Aboriginal Health Service Aboriginal Corporation Inc,"Lot 480,6 Parap Place",MANINGRIDA,NT,0822,-12.43173,130.844297,aboriginal_health
+c0211594-49b2-bf2a-475a-daa59603d953,Ord Valley Aboriginal Health Service (OVAHS),1125 Ironwood Drive,KUNUNURRA,WA,6743,-15.767060279846191,128.73570251464844,aboriginal_health
+dcdeb139-baf0-81d8-1d8f-0f14439b6ca5,Kunawarritji Health Clinic - Puntukurnu Aboriginal Medical Service,"Well 33,Canning Stock Route",GIBSON DESERT NORTH,WA,0872,-22.586641311645508,123.8612060546875,aboriginal_health
+c8a28908-c866-495e-b134-8fafb895fb06,Coomealla Health Aboriginal Corporation Wentworth,"SHOP 3,61 Darling Street",WENTWORTH,NSW,2648,-34.105899,141.919712,aboriginal_health
+9c32ae2d-5fe1-4d28-2e42-48ca3067f94c,Coen Apunipima Health Centre,38 Regent Street,COEN,QLD,4892,-13.944593,143.200781,aboriginal_health
+e733ed8a-13f7-4ae8-bc42-6419f3c25a24,Danila Dilba Health Service Humpty Doo Clinic,"Unit 2,3 Skewes Street",HUMPTY DOO,NT,0836,-12.5732936,131.0982837,aboriginal_health
+358aa9f9-3274-941e-c2cb-b77baf1da6c3,Mungabareena Aboriginal Corporation,21 Hovell Street,WODONGA,VIC,3690,-36.11640930175781,146.89332580566406,aboriginal_health
+f531f45a-6ba7-abc5-88b1-1b77a47aed8c,Milliya Rumurra Aboriginal Corporation - Residential Rehab,78 Great Northern Highway,BROOME,WA,6725,-17.90114974975586,122.25297546386719,aboriginal_health
+22eee110-0f88-090e-7a70-835e4879c0e1,Bunbury Aboriginal Medical Service,Bussell Highway,BUNBURY,WA,6230,-33.36259078979492,115.6441421508789,aboriginal_health
+9ea9ee33-03df-1d63-5a2f-0a2a1d87b77d,Nganampa Health Council - Umuwa Office,1 Main Street,ALICE SPRINGS,NT,0870,-23.697105407714844,133.8777313232422,aboriginal_health
+d19a2937-27e0-f11b-bf54-dbac66e05444,Aboriginal Catholic Ministry,434 St Georges Road,THORNBURY,VIC,3071,-37.75511169433594,144.9947052001953,aboriginal_health
+5491a7c5-0390-f420-552a-9c02db82e897,Sunrise Health Barunga Clinic,1 Barunga Community,KATHERINE,NT,0852,-14.522404670715332,132.864990234375,aboriginal_health
+88b08f05-4a75-b6b5-3f05-d83ccc166910,Walhallow Aboriginal Corporation - Coledale,2B Kenny Drive,TAMWORTH,NSW,2340,-31.11050796508789,150.895263671875,aboriginal_health
+2f615cff-dda2-32d1-afe8-e685b9195f98,Jullums Lismore Aboriginal Medical Service,92 Uralba Street,LISMORE,NSW,2480,-28.808266368862366,153.29506959689476,aboriginal_health
+cf7a7748-9742-e0dc-4f99-d1ca960376f5,Eleanor Duncan Aboriginal Health Centre,"Suite 8-9,36 Allison Road",WYONG,NSW,2259,-33.28303146362305,151.4222412109375,aboriginal_health
+6b9213db-129b-418e-e6f5-5c4ee2c65267,Murrin Bridge Aboriginal Health Service,35 Nyampaa Street,MURRIN BRIDGE,NSW,2672,-33.214595794677734,146.37286376953125,aboriginal_health
+e7e0c82f-fd8c-73b3-767c-bb019a25ebf4,Walhallow Aboriginal Corporation - Quirindi,"Shop 5-6,8-22 Station Street",QUIRINDI,NSW,2343,-31.505456924438477,150.6797637939453,aboriginal_health
+578f4740-41e3-19f4-5cb0-d1b1e64e2c01,Pius X Aboriginal Corporation - Administration,1 Anne Street,MOREE,NSW,2400,-29.473482131958008,149.8510284423828,aboriginal_health
+3e5b23e3-cc9c-7a16-d953-e45e1bf29709,Charleville and Western Areas Aboriginal and Torres Strait Islanders Community Health - Charleville,94 Edward Street,CHARLEVILLE,QLD,4470,-26.40289878845215,146.24176025390625,aboriginal_health
+046f1c43-7832-d0e9-f673-c40629183566,Riverina Medical and Dental Aboriginal Corporation,271 Edward Street,WAGGA WAGGA,NSW,2650,-35.1165657043457,147.35716247558594,aboriginal_health
+7edf4293-b9d9-2b98-4955-68bc73e16acd,Wellington Community Health Centre Aboriginal Health Service,"Bindawalla Hospital,100-106 Gisborne Street",WELLINGTON,NSW,2820,-32.549842834472656,148.95225524902344,aboriginal_health
+f2442851-03e1-ebfc-f742-2d73d577b0bd,Bawrunga Aboriginal Medical Service - Gilgandra,5 Miller Street,GILGANDRA,NSW,2827,-31.71192169189453,148.66802978515625,aboriginal_health
+bbb1ef6b-803f-9882-b5af-1999419ed6a6,Goolburri Mobile Dental Service,"Montana Boarding Hse,20 Scott Street",EAST TOOWOOMBA,QLD,4350,-27.56630971,151.97352564,aboriginal_health
+3096b034-4d07-f4a5-c1a4-f193e22e3212,Danila Dilba - Palmerston Clinic,"Unit 1,7 Rolyat Street",PALMERSTON CITY,NT,0830,-12.48200253,130.98664128,aboriginal_health
+592a0112-fd92-46dc-f313-546b4d2165cc,Moorundi Aboriginal Community Controlled Health Service Inc. (Moorundi ACCHS Inc),"Lot 1 ,WHARF ROAD",MURRAY BRIDGE,SA,5253,-35.11858863,139.28058505,aboriginal_health
+d12f502e-7825-7a1a-d1b3-70b872a85f50,Southern Aboriginal Corporation,"Corner Locke Street and,Kelly Street",ALBANY,WA,6330,-34.99821090698242,117.86527252197266,aboriginal_health
+396cde1f-35ac-0c5f-81b1-e98d4d68f26a,Pika Wiya HACC Whyalla,30-46 Dartmouth Street,PORT AUGUSTA,SA,5700,-32.49441909790039,137.77703857421875,aboriginal_health
+1240753d-1c91-1423-d2c7-30ef5a96df71,RAMAHYUCK DISTRICT ABORIGINAL CORPORATION,117 Foster Street,SALE,VIC,3850,-38.11116409301758,147.06704711914062,aboriginal_health
+47fd9181-9c4e-738e-26db-e6465d261e84,Katherine West Health Board,"Riverbank Office Village,Unit 10,38 First Street",KATHERINE,NT,0850,-14.462235450744629,132.26100158691406,aboriginal_health
+4941280c-8c8b-dbab-b8d6-ca7b0ad24de9,Ngaanyatjarra Health Service,"Shop 2,58 Head Street",BRAITLING,NT,0870,-23.680246353149414,133.86846923828125,aboriginal_health
+1520fb49-bffa-6e5d-d81e-6d30433865fe,Moogji Aboriginal Council East Gippsland Incorporated,52-54 Stanley Street,ORBOST,VIC,3888,-37.70193099975586,148.459228515625,aboriginal_health
+fe0acf23-e00a-71f9-a19c-b970776e4568,Kimberley Aboriginal Medical Services Council,Terone Street,HALLS CREEK,WA,6770,-18.22556495666504,127.67040252685547,aboriginal_health
+e91431e0-3251-c41d-bea8-114b5a0bf3d5,Pilbara Meta Maya Regional Aboriginal Corporation (PMMRAC),3 Yanana Street,WEDGEFIELD,WA,6721,-20.370155334472656,118.5940933227539,aboriginal_health
+38a580c7-c171-3bcf-3af4-2e13f94ad8d4,"Tackling Indigenous Smoking and Healthy Lifestyle Program, Yaka Ngarali",1424 Arnhem Road,NHULUNBUY,NT,0880,-12.187987327575684,136.77239990234375,aboriginal_health
+424a8331-6c64-e76d-5b3d-a7809ebb065a,North Stradbroke Island Aboriginal And Islander Housing Co Operative Society,18 Welsby Street,DUNWICH,QLD,4183,-27.496768951416016,153.4049835205078,aboriginal_health
+17c0dc65-cb45-2bd2-7c06-0d005b527156,Aboriginal Health Council of WA (AHCWA),450 Beaufort Street,HIGHGATE,WA,6003,-31.940126419067383,115.86942291259766,aboriginal_health
+bd4f5b29-7afc-a455-0207-8dc9fadd518b,Aboriginal Elders And Community Care Services Incorporated,3 Ninth Street,BOWDEN,SA,5007,-34.90373992919922,138.581787109375,aboriginal_health
+516a22b6-d693-00d9-f4b8-7f62abad8f6e,ABORIGINAL HOSTELS LIMITED,2 Clements Street,DUDLEY PARK,SA,5008,-34.87525939941406,138.5791015625,aboriginal_health
+b28dcc17-8b0e-bade-cfd8-50ea3a06a3ce,Winnam Aboriginal And Torres Strait Islander Corporation,"Unit 2,124 Florence Street",WYNNUM,QLD,4178,-27.444957733154297,153.17237854003906,aboriginal_health
+6ec6d981-f5c0-a1ca-2a5c-13014dbab663,Umpi Korumba Aboriginal And Torres Strait Islander Corporation - Family Accommodation Services,74 Handford Road,ZILLMERE,QLD,4034,-27.35648536682129,153.038330078125,aboriginal_health
+d78a1cd8-0679-b625-88b9-754b8507277b,VACCHO,17 23 Sackville Street,COLLINGWOOD,VIC,3066,-37.798580169677734,144.98548889160156,aboriginal_health
+bd8e23e4-6c50-28d8-8dbb-f4c17339352d,NORTHERN REGIONAL ABORIGINAL AND TORRES STRAIT ISLANDER CORPORATION,"Unit 1,67 Leyland Street",GARBUTT,QLD,4814,-19.271705627441406,146.76123046875,aboriginal_health
+aff0814f-7772-1191-1405-98b5cb1886ad,Carers SA - Aboriginal And Torres Strait Islander Carers,66 Greenhill Road,WAYVILLE,SA,5034,-34.941993713378906,138.594970703125,aboriginal_health
+d10fbac4-e3a0-c7b8-3eca-48bfd265e631,Cape York And Torres Strait Child Safety Service Centre,"Level 3,63-67 Spence Street",CAIRNS CITY,QLD,4870,-16.92551295,145.77569584,aboriginal_health
+18b70b8f-99a2-72b3-4c9c-2418bd55f435,Kununurra-Waringarri Aboriginal Corporation,"Lot 2229,Speargrass Road",KUNUNURRA,WA,6743,-15.762157440185547,128.7376251220703,aboriginal_health
+290802bc-2e34-3cef-27b1-c5b3317e5a7b,Aboriginal Legal Service - Kununurra,81 Konkerberry Drive,KUNUNURRA,WA,6743,-15.775347709655762,128.7393341064453,aboriginal_health
+5fee47ca-bd6b-19d2-61ee-a70197a5d9d5,Mullum Mullum Indigenous Gathering Place,3 Croydon Way,CROYDON,VIC,3136,-37.80368423461914,145.27166748046875,aboriginal_health
+639a4865-cb6b-c3f2-a0b7-6cc21e829a81,Echlin Street Townsville Aboriginal And Islander Health Service,35 36 Echlin Street,WEST END,QLD,4810,-19.264415740966797,146.79685974121094,aboriginal_health
+68360be1-bcc3-7c4a-e5bb-6a58140067f7,Blue Mountains Aboriginal Social Support Service,14 Oak Street,KATOOMBA,NSW,2780,-33.726444244384766,150.2979736328125,aboriginal_health
+1699135f-2fbb-12ca-8f5d-750635833d29,Zebra Finch Aboriginal Mens Group,"Corner of Harrold Street,208 Lady Gowrie Drive",LARGS BAY,SA,5016,-34.824466705322266,138.4873809814453,aboriginal_health
+5a897a1c-3ffb-25cf-892c-4c87b90bbb5d,Aboriginal Youth And Family Support Service,139 March Street,ORANGE,NSW,2800,-33.27941131591797,149.10267639160156,aboriginal_health
+aaa47a50-799d-e0a6-af0d-fb68fc24f46d,Mabunji Aboriginal Resource Association - Malandari Aged Care,Robinson Road,BORROLOOLA,NT,0854,-16.06966781616211,136.3070831298828,aboriginal_health
+5f62aff9-1c37-c56b-0f2a-9e7d71bc0c49,Yawarra Aboriginal Corporation,15 Molong Street,CONDOBOLIN,NSW,2877,-33.08452224731445,147.15200805664062,aboriginal_health
+508a6b59-3f98-2d05-3dc8-7564b69d6779,Rockhampton District Aboriginal & Islanders Co-Operative Society Ltd - Housing,184 Richardson Road,BERSERKER,QLD,4701,-23.350330352783203,150.50726318359375,aboriginal_health
+8afce436-1930-c5ca-15ae-9191ec584782,Beemar Yumba Aboriginal Children's Hostel,54 Barambah Avenue,CHERBOURG,QLD,4605,-26.28720474243164,151.9532012939453,aboriginal_health
+5f85aec5-af7c-3b3d-d3a2-e5263582b718,Australian Unity Home Care Service - North Coast Bundjalung Aboriginal -was Home Care Service of NSW,"Richmond Arcade,Level 2 Suite 10,Canterbury Street",CASINO,NSW,2470,-28.8614444732666,153.03964233398438,aboriginal_health
+50fe48a3-6471-925d-634b-ff5a1b8460e6,Joining In The Dreaming Aboriginal Corporation,2 Paringa Street,MENINDEE,NSW,2879,-32.3902473449707,142.42295837402344,aboriginal_health
+9b821154-eb96-8925-94ed-a012accdc21d,Rumbalara Indigenous HCP - Loddon Mallee,12 Rutherford Street,SWAN HILL,VIC,3585,-35.342674255371094,143.55972290039062,aboriginal_health
+ca4de78c-7030-f4c9-e71f-b2773f913445,Townsville Aboriginal & Torres Strait Islander Hacc Project,5 Charles Street,GULLIVER,QLD,4812,-19.288515090942383,146.77322387695312,aboriginal_health
+a2910d65-fb6b-55c8-0c17-3c0e866cedc6,Rumbalara Indigenous HCP - Southern Riverina Murray And Southern Orana Far West,58B Jerilderie Street,JERILDERIE,NSW,2716,-35.35676193237305,145.72804260253906,aboriginal_health
+16155b0b-2339-09d6-6e27-7eecac0c206f,Aboriginal Community Services Assoc. Ltd,"VACSAL,496 High Street",NORTHCOTE,VIC,3070,-37.76505661010742,144.99996948242188,aboriginal_health
+7d0ceeac-ac82-ad6f-528e-12ce63a46518,Aboriginal Affairs NSW South Coast Region - Narooma,"Baylink,Level 1,3 Flora Crescent",BATEMANS BAY,NSW,2536,-35.70948028564453,150.1790771484375,aboriginal_health
+0a1a16c1-61b6-6feb-b498-fbb9303d065f,Australian Unity Home Care Service - Alleena Aboriginal Services - formerly Home Care Service of NSW,12A Dadley Street,ALEXANDRIA,NSW,2015,-33.898799896240234,151.19439697265625,aboriginal_health
+da1e1a49-79ef-9486-347b-3814f46918f1,Tharawal Aboriginal Centre Based Day Care South West Sydney,50 Matthews Lane,PICTON,NSW,2571,-34.19061279296875,150.61415100097656,aboriginal_health
+ee642f32-cda2-facf-5fc3-c985f8a8bdc7,Port Lincoln Aboriginal Aged Care,"Hostel,2 Cranston Street",PORT LINCOLN,SA,5606,-34.72439956665039,135.8563232421875,aboriginal_health
+6d6455eb-2ce1-cf5c-88e1-a9cd013f6029,Department Of Aboriginal Affairs (DAA) Head Office,280 Elizabeth Street,SURRY HILLS,NSW,2010,-33.88264083862305,151.2092742919922,aboriginal_health
+113d5456-8254-e477-80f7-1edb8af2c7de,Kalumburu Aboriginal Corporation,Kalumburu Boulevard,KALUMBURU,WA,6740,-14.286675453186035,126.64608001708984,aboriginal_health
+09712210-f73c-4b2f-e1f1-c6e14d2bdcf0,Aboriginal Housing Board,125 Scotchmer Street,FITZROY NORTH,VIC,3068,-37.78303909301758,144.98309326171875,aboriginal_health
+bf0f7b57-c04c-bf62-4a56-0f969a464dd9,Aboriginal Family Support Services Inc,47 Commercial Road,PORT AUGUSTA,SA,5700,-32.49211883544922,137.7623748779297,aboriginal_health
+f6c57bb5-5ba9-d3c0-b426-79e96d492937,Srac Nepean Aboriginal Social Support,127 Lethbridge Street,PENRITH,NSW,2750,-33.756046295166016,150.7000732421875,aboriginal_health
+55b3ce54-9057-956f-4306-bfec3a611c8f,Central Coast Aboriginal Respite Project,48 Victoria Avenue,TOUKLEY,NSW,2263,-33.26504898071289,151.54171752929688,aboriginal_health
+b6695c12-7dac-ff44-21db-62b03f4cf835,Bert Williams Aboriginal Youth Services,21 Normanby Avenue,THORNBURY,VIC,3071,-37.75959014892578,144.9983673095703,aboriginal_health
+6caa33ab-6919-c823-cf93-e0aef3ef0455,Twofold Aboriginal Corporation,"Jigamy Farm,4381 Princes Highway",BROADWATER,NSW,2549,-36.97978973388672,149.90176391601562,aboriginal_health
+2e8a9b12-38f7-2973-e0c7-ca31c451fd4f,Ayiparinya Aboriginal Hostel,"Lot 8139,78 Larapinta Drive",ALICE SPRINGS,NT,0870,-23.70119857788086,133.86029052734375,aboriginal_health
+ac74b90a-7b6e-79e5-3cf1-f0982342d703,Rumbalara Housing Services,20 Rumbalara Road,MOOROOPNA,VIC,3629,-36.40473556518555,145.35350036621094,aboriginal_health
+22bc83d6-3104-b8dc-190f-fa6b2d2a5d49,GAWOOLENG YAWOODENG ABORIGINAL CORPORATION,8 Mistletoe Street,KUNUNURRA,WA,6743,-15.773104667663574,128.7429656982422,aboriginal_health
+c48ada6a-7548-b00c-582d-1a956c6f8567,KIMBERLEY STOLEN GENERATION ABORIGINAL CORPORATION,28 Barker Street,BROOME,WA,6725,-17.9572811126709,122.2352523803711,aboriginal_health
+fc857d9c-ebfc-f2de-e569-8d043df0a2f0,Dyirri-Bang-GU Aboriginal Aged Care Service,50-56 BANNA AVENUE,GRIFFITH,NSW,2680,-34.29020447,146.0572482,aboriginal_health
+248efb7f-07f5-ce6c-cfa9-548e9b90b97f,Woorabinda Aboriginal And Islander Hacc Program,"Woorabinda Hospital,1 Munns Drive",WOORABINDA,QLD,4713,-24.133373260498047,149.45506286621094,aboriginal_health
+0873034f-9efc-9fa3-8ff0-0c96928fd0cf,Aboriginal Hostels,"Level 12,256 Adelaide Terrace",PERTH,WA,6000,-31.957460403442383,115.86589050292969,aboriginal_health
+095aa859-4213-2ac9-b8ba-2ca2c7de316f,Gladstone Hospital - Aboriginal And Torres Strait Islander Hospital Liaison,"Hospital,1 Flinders Street",GLADSTONE,QLD,4680,-23.85015869140625,151.24896240234375,aboriginal_health
+50fdc676-9d11-b66f-7fb6-95f159804c36,Nambour General Hospital - Indigenous Liaison,Hospital Road,NAMBOUR,QLD,4560,-26.62314224243164,152.9549560546875,aboriginal_health
+2ebbfc58-f389-4dc8-e184-37ab95a7f18d,Nambour General Hospital - Indigenous Health Program,Hospital Road,NAMBOUR,QLD,4560,-26.62314224243164,152.9549560546875,aboriginal_health
+03e48e7b-05ec-639b-a089-df79a9150715,Ngala Indigenous Parenting Service,31 The Crescent,MIDLAND,WA,6056,-31.888456344604492,116.00714874267578,aboriginal_health
+30403dcb-5c66-1b21-032c-99081085f734,Pius X Aboriginal Corporation - Clinic,1 Anne Street,MOREE,NSW,2400,-29.473482131958008,149.8510284423828,aboriginal_health
+04af15ff-162b-f811-3efe-d794c4c7c61d,Kummara Indigenous Family Care,221 Boundary Street,WEST END,QLD,4101,-27.48198127746582,153.01161193847656,aboriginal_health
+fe69a14f-9649-c28e-0809-f291aa7f128e,Meerilinga - Aboriginal Parent Support Service (APSS),106 Amazon Drive,BEECHBORO,WA,6063,-31.86534309387207,115.93438720703125,aboriginal_health
+13eaf5c1-3e0e-4051-9f18-250d41fe4a2c,Condobolin Aboriginal Health Service,99 Bathurst Street,CONDOBOLIN,NSW,2877,-33.088157653808594,147.14755249023438,aboriginal_health
+fb598795-ba08-a82f-d1fb-cf51a1c526f1,Twin Cities Aboriginal And Torres Strait Islander Corporation,1 Charters Towers Road,HERMIT PARK,QLD,4812,-19.287622451782227,146.79991149902344,aboriginal_health
+ec19bac2-3ae9-f65d-4cd8-1ca38726d9d5,Morven Community Clinic - Indigenous Health,Warrego Highway,MORVEN,QLD,4468,-26.407419204711914,147.13844299316406,aboriginal_health
+6cca50e3-0d4b-f246-cc0f-b4c2936087c4,Aboriginal Health Unit,"Mount Druitt Hospital,Luxford Road",MOUNT DRUITT,NSW,2770,-33.764793395996094,150.82156372070312,aboriginal_health
+cabc18b2-a5b6-90f5-54ae-964ec3bc74d5,Aboriginal Environmental Health Worker,"Lot 246,Poinciana Street",TOM PRICE,WA,6751,-22.697254180908203,117.79428100585938,aboriginal_health
+51887001-2c63-9074-e7fd-090368d45ba8,Indigenous Mental Health Service - Toowoomba,"Toowoomba Hospital,Pechey Street",TOOWOOMBA CITY,QLD,4350,-27.57052993774414,151.94674682617188,aboriginal_health
+5f99cbfd-7633-3744-3c39-ee115f4c0983,Townsville Aboriginal And Islander Services,49 Hugh Street,GARBUTT,QLD,4814,-19.27042007446289,146.76113891601562,aboriginal_health
+d62b600e-3243-7490-daaf-b0e95d9601a4,Mudth-Niyleta Aboriginal and Torres Strait Islander Corporation,35 Central Street,SARINA,QLD,4737,-21.423675537109375,149.2145233154297,aboriginal_health
+a12e9f20-5b7c-a0af-b4f6-8ac48cfd1b87,Aboriginal and Islander Community Resource Agency,179 Lakes Creek Road,BERSERKER,QLD,4701,-23.372655868530273,150.5344696044922,aboriginal_health
+d93eac51-80ec-461c-c3ca-e5275542a39c,Augathella Hospital - Aboriginal Health Clinic,20 Cavanagh Street,AUGATHELLA,QLD,4477,-25.79488754272461,146.59097290039062,aboriginal_health
+55bb0652-e6a1-4a9c-cea2-b256d11d79e6,COOMADITCHIE UNITED ABORIGINAL CORPORATION,Shellharbour Road,PORT KEMBLA,NSW,2505,-34.48703384399414,150.8930206298828,aboriginal_health
+fd2b58c4-dd05-f702-5a05-c93f31ae440c,Nollamara Hostel-Aboriginals H,160 Hillsborough Drive,NOLLAMARA,WA,6061,-31.87565040588379,115.83567810058594,aboriginal_health
+64dbcb1c-a36c-fd2a-fb73-97dab2964734,Gilaroong Aboriginal Corporation,Confidential Address,FITZROY CROSSING,WA,6765,-18.183212,125.568813,aboriginal_health
+43b92d76-3009-5c07-cf0c-bcb64347364b,Orana Far West Ageing Aboriginal CBDC,265 Oxide Street,BROKEN HILL,NSW,2880,-31.948654174804688,141.46031188964844,aboriginal_health
+f2ecaac4-af96-513b-8f46-848ed61124cf,Mamabulanjin Aboriginal Corp,640 Dora Street,BROOME,WA,6725,-17.96257781982422,122.23075866699219,aboriginal_health
+4c7d63cf-6692-68f3-b48c-b2d5cb8c4ac2,Langford Aboriginal Association Inc. (LAA),15 Imber Turn,LANGFORD,WA,6147,-32.04463195800781,115.93943786621094,aboriginal_health
+f1f126df-3233-072c-43cb-e45b99015f68,Maryborough Aboriginal Corporation For Housing and Cultural Development,"Shop 1,162-164 Bazaar Street",MARYBOROUGH,QLD,4650,-25.539005279541016,152.70252990722656,aboriginal_health
+d9784131-d906-51de-8965-9c175c4de153,"Melbourne Aboriginal Youth, Sport & Recreation Co-operative",184 186 Gertrude Street,FITZROY,VIC,3065,-37.80635452270508,144.9807586669922,aboriginal_health
+dedcf22e-3567-792f-2312-8fbd0cdf2040,Riverland Aboriginal Hacc Services,"Level 11,100 Waymouth Street",ADELAIDE,SA,5000,-34.92527770996094,138.59622192382812,aboriginal_health
+9743cc1a-73b1-246d-3bfc-e22e66f080e9,Kimberley Aboriginal Law and Cultural Centre (KALACC),Great Northern Highway,FITZROY CROSSING,WA,6765,-18.20022201538086,125.56900024414062,aboriginal_health
+ddb33c91-ff1d-747a-a058-aa1885492e40,Yaegl Aboriginal Land Council Yaegl Land Council,"Community Hall,Jubilee Street",MACLEAN,NSW,2463,-29.46692657470703,153.2071533203125,aboriginal_health
+1f6f59b5-3064-493a-9128-3d5f59c34e6f,Albury Wodonga Aboriginal Health Service - Wodonga Clinic,12 STANLEY STREET,WEST WODONGA,VIC,3690,-36.12204972,146.88675147,aboriginal_health
+4df7ecd9-7475-449d-a248-51597dadc05c,North Coast Aboriginal Corporation for Community Health - Aboriginal Medical Service,31 EXCELSIOR ROAD,GYMPIE,QLD,4570,-26.19779462,152.66610968,aboriginal_health
+0d69d729-04f6-4f13-b7a7-48f3124159b0,Victorian Aboriginal Health Service - Preston,238-250 Plenty Road,PRESTON,VIC,3072,-37.74527359008789,145.00672912597656,aboriginal_health
+1b12799c-f5c7-4aee-8983-75bf5bb677c1,Aboriginal Health Service Devonport - Tulaminakali,106 Best Street,DEVONPORT,TAS,7310,-41.17698287963867,146.3524169921875,aboriginal_health
+ab20daf6-4b77-463d-96d5-c27e6827ed99,Victorian Aboriginal Health Service - VAHS St Albans,"Unit 2,22 VICTORIA CRESCENT",ST ALBANS,VIC,3021,-37.74136332761609,144.80088325759374,aboriginal_health
+1b5a924c-2dc2-3c77-7918-cdf951beb7db,Brewarrina Aboriginal Health Service,5-7 Sandon Street,BREWARRINA,NSW,2839,-29.961158752441406,146.8561248779297,aboriginal_health
+be4382f3-2d11-7063-125e-c80780fd2a6c,Pika Wiya Health Service - Copley,South Terrace,COPLEY,SA,5732,-30.55587387084961,138.4275360107422,aboriginal_health
+1c202bb7-2c14-e081-4fdb-12621e8d2b7f,Townsville Aboriginal and Islander Health Services - Ingham Clinic,2-16 McIlwraith Street,INGHAM,QLD,4850,-18.652135848999023,146.16452026367188,aboriginal_health
+adb8790d-b9e3-0c06-a7a5-3458738e477b,Katungul Aboriginal Corporation Community & Medical Services - Narooma,26 Princes Highway,NAROOMA,NSW,2546,-36.214088439941406,150.1239776611328,aboriginal_health
+8e6bf589-fdcf-32fa-cb18-a4fec3e25a61,Winnunga Nimmityjah Aboriginal Health Service,63 Boolimba Crescent,NARRABUNDAH,ACT,2604,-35.333309173583984,149.1548309326172,aboriginal_health
+111bd071-413f-a15c-a1c4-6e944b60084a,Danila Dilba - Men's Clinic,"Suite 3,9 Keith Lane ",FANNIE BAY,NT,0820,-12.4234602,130.8343043,aboriginal_health
+dc045a8b-484b-f988-7cfa-bf2b2e95f87b,Tamworth Aboriginal Medical Service,"Suite 1,180 Peel Street",TAMWORTH,NSW,2340,-31.082597732543945,150.9232635498047,aboriginal_health
+91eb8d04-79ba-4e9d-6e3c-8b2bd912cfd5,Flinders Island Aboriginal Association Inc.,"Aboriginal Culture Centre,16 West Street",LADY BARRON,TAS,7255,-40.209572,148.237789,aboriginal_health
+00578120-671f-5ea5-efa4-623dd90a7050,Murrin Bridge Aboriginal Health Service,10 Foster Street,LAKE CARGELLIGO,NSW,2672,-33.29878616333008,146.3752899169922,aboriginal_health
+80ef1ea7-d005-0c3a-dc98-6a20abe28e68,Danila Dilba  - Malak Clinic,"Shop 3,1 Malak Place",MALAK,NT,0812,-12.39523696899414,130.9044952392578,aboriginal_health
+0cbaaa79-6c8f-f03c-31b0-56e40f66cd87,Bawrunga Aboriginal Medical Service - Gulargambone,12 KIRBAN STREET,GULARGAMBONE,NSW,2828,-31.33239193,148.47705256,aboriginal_health
+822c15a0-fc2c-3c57-bc0e-81cc6bccd8db,Aboriginal and Torres Strait Islander Community Health Service - Northgate,313 Melton Road,NORTHGATE,QLD,4013,-27.394712448120117,153.06991577148438,aboriginal_health
+ceafe75a-13b5-4c97-a18f-61049e21d0b0,Aboriginal and Torres Strait Islander Community Health Service - Bucasia Clinic,"Shop 21 Hibiscus Shopping Centre,54 DOWNIE AVENUE",BUCASIA,QLD,4750,-21.03699262,149.15777384,aboriginal_health
+7eb28823-6681-4b64-5b03-79f2d4324012,First Peoples' Health and Wellbeing Frankston,401-403 NEPEAN HIGHWAY,FRANKSTON,VIC,3199,-38.13951418,145.12334474,aboriginal_health
+7f841f5c-a2c3-4a3f-b1d3-9a9f6d2cc38c,Greater Western Aboriginal Health Service,27-29 Lawson Street,PENRITH,NSW,2750,-33.7529963,150.6977685,aboriginal_health
+f3185363-9045-da6a-9b66-f0e918b60456,Viney Morgan Aboriginal Medical Service Cummeragunja,10 TONGALA AVENUE,MOAMA,NSW,2731,-36.02830358,144.96151234,aboriginal_health
+750f2c5a-d70c-8212-1e5e-339f07e759f1,Armajun Aboriginal Health Service - Inverell Clinic,3 RIVERS STREET,INVERELL,NSW,2360,-29.77796566,151.11360396,aboriginal_health
+a470e998-23b7-42fe-3780-0ca13f82ce59,Gunyangara Clinic (Marngarr)/Miwatj Health Aboriginal Health Corporation,90 Yunupingu Road,GUNYANGARA,NT,0880,-12.2177514,136.7053634,aboriginal_health
+825d15c4-e818-458a-90ba-34bd0295124e,Aboriginal Family Clinics Clovelly Park,9-11 Wingfield Street,CLOVELLY PARK,SA,5042,-34.99426,138.57398,aboriginal_health
+ac2715d2-2cb5-4712-1f18-b791809d64f5,Bidgerdii Community Health Service - Rockhampton,88 HIGH STREET,BERSERKER,QLD,4701,-23.35902511,150.52721925,aboriginal_health
+801c418f-6ef8-989f-4500-f392e015fced,Bawrunga Aboriginal Medical Centre - Macksville,35 PRINCESS STREET,MACKSVILLE,NSW,2447,-30.70884826,152.91924488,aboriginal_health
+7c97e1b5-b9c5-354c-deb9-4c93156cca92,Tumake Yande Aboriginal Elders Group,2 South Terrace,MENINGIE,SA,5264,-35.69319152832031,139.33538818359375,aboriginal_health
+4978f249-9a93-4214-8e95-09639743c170,REFOCUS Aboriginal Torres Strait Islander Corporation,41 CURRIE STREET,NAMBOUR,QLD,4560,-26.62532106,152.95946523,aboriginal_health
+aa210446-9ff7-4ec6-b7f1-219451418057,Newman Clinic - Puntukurnu Aboriginal Medical Service,65 Mindarra Drive,NEWMAN,WA,6753,-23.35543,119.7331613,aboriginal_health
+ed9b602e-3287-c5b1-a080-cbcf621c052a,Watto Purrunna Aboriginal Health Service - Wonggangga Turtpandi,11 Church Street,PORT ADELAIDE,SA,5015,-34.846763610839844,138.50270080566406,aboriginal_health
+7a8fafe0-3c3f-471e-0ca0-e2c004ca327c,Yura Yungi Aboriginal Medical Services Aboriginal Corporation incorporating Ringer Soak Clinic,Lot 342 Terrone Street,HALLS CREEK,WA,6770,-18.2266312,127.6711301,aboriginal_health
+a9af6e97-4969-4db3-a8ee-b77d5807b5d5,Parnngurr Clinic - Puntukurnu Aboriginal Medical Service,"Parnngurr Community,PMB 32 via Newman",NEWMAN,WA,6753,-23.35932159423828,119.73503112792969,aboriginal_health
+c4ff6d7a-87af-46f6-5710-7098eeb47993,Armajun Health Service Aboriginal Corporation - Armidale,100 TAYLOR STREET,ARMIDALE,NSW,2350,-30.51410337,151.67147436,aboriginal_health
+09467d45-a7bb-398c-8d47-4224b7a2d503,Mallee District Aboriginal Services - Kerang,9 Nolan Street,KERANG,VIC,3579,-35.734100341796875,143.91766357421875,aboriginal_health
+21ac297e-cf4d-d18f-cf15-292d10c41db7,Cowra Community Health Centre Aboriginal Health Service,"Cowra Hospital,64 Liverpool Street",COWRA,NSW,2794,-33.83194351196289,148.6924591064453,aboriginal_health
+65a55a9f-789a-a78e-6dc3-0be4c11dbda7,Westhaven Aged Care Facility - Indigenous Health Service,"Roma Hospital,197 235 McDowall Street",ROMA,QLD,4455,-26.56854820251465,148.7755584716797,aboriginal_health
+ad5b88ca-0f61-ffe6-124d-96b2d265c34f,Stanthorpe Hospital - Indigenous Health Care Services,8 McGregor Terrace,STANTHORPE,QLD,4380,-28.660921096801758,151.92822265625,aboriginal_health
+ab36d6a6-9306-48e9-8888-a67722b57345,Aboriginal Family Clinic Noarlunga,Alexander Kelly Drive,NOARLUNGA CENTRE,SA,5168,-35.1388688,138.4997422,aboriginal_health
+6ee6f937-04e6-ffc6-77ef-1aa98049b975,Mossman Multi Purpose Health Service - Aboriginal Health Clinic,"Mossman Hospital,9 Hospital Street",MOSSMAN,QLD,4873,-16.463937759399414,145.36817932128906,aboriginal_health
+689d178f-f14c-742f-5c7d-c35d0326a2b2,Mt Morgan Community Health Centre - Aboriginal And Torres Strait Islander Community Health,Black Street,MOUNT MORGAN,QLD,4714,-23.647525787353516,150.39193725585938,aboriginal_health
+a447f4ff-707b-4f21-a4d4-2387733a0422,Victorian Aboriginal Health Service - VAHS South Morang,855 PLENTY ROAD,SOUTH MORANG,VIC,3752,-37.64885637,145.08952541,aboriginal_health
+7cca1577-6700-b940-e4a8-da9cb5177af0,Tully Hospital - Aboriginal Health Services,"Hospital,17 Bryant Street",TULLY,QLD,4854,-17.926929473876953,145.92376708984375,aboriginal_health
+77cdc100-4964-c6db-48d1-0d09fe1d452e,Wheatbelt General Practice - Aboriginal Health Northam,65 Wellington Street E,NORTHAM,WA,6401,-31.65447425842285,116.67263793945312,aboriginal_health
