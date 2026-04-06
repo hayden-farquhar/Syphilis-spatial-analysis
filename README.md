@@ -2,7 +2,7 @@
 
 Replication code and data for the spatial and temporal analysis of infectious syphilis notifications across Australia (2011-2024). This repository accompanies the manuscript examining geographic clustering patterns, demographic disparities, congenital syphilis risk factors, and the impact of COVID-19 on syphilis notification trends.
 
-**Author:** Hayden Farquhar ([ORCID: 0009-0002-3399-6428](https://orcid.org/0009-0002-3399-6428))
+**Author:** Hayden Farquhar ([ORCID: 0009-0002-6226-440X](https://orcid.org/0009-0002-6226-440X))
 
 ## Overview
 
@@ -230,4 +230,4 @@ Note: The underlying surveillance data are subject to the terms of use of their 
 
 If you use this code or build on this analysis, please cite:
 
-> Farquhar, H. (2025). Spatial and temporal analysis of Australia's syphilis surge: geographic clustering, congenital risk, and COVID-19 impact. *[Journal]*. https://github.com/hayden-farquhar/Syphilis-spatial-analysis
+> Farquhar, H. (2026). Spatial and temporal analysis of Australia's syphilis surge: geographic clustering, congenital risk, and COVID-19 impact. *Preprint*. https://doi.org/10.64898/2026.02.13.26346302. Manuscript under consideration at a peer-reviewed journal.
