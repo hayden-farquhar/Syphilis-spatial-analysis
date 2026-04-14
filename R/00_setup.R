@@ -40,7 +40,7 @@ library(gt)
 # ---- Project paths -----------------------------------------------------------
 # Determine project root: try here::here(), then script location, then getwd()
 proj_root <- tryCatch(here::here(), error = function(e) NULL)
-if (is.null(proj_root) || !file.exists(file.path(proj_root, "R", "00_setup.R"))) {
+if (is.null(proj_root) || !file.exists(file.path(proj_root, "CLAUDE.md"))) {
   # Try to find from script location (works when sourced)
   script_dir <- tryCatch({
     # When sourced from another script
@@ -53,7 +53,7 @@ if (is.null(proj_root) || !file.exists(file.path(proj_root, "R", "00_setup.R")))
   }
 
   # Final fallback: assume working directory is project root
-  if (is.null(proj_root) || !file.exists(file.path(proj_root, "R", "00_setup.R"))) {
+  if (is.null(proj_root) || !file.exists(file.path(proj_root, "CLAUDE.md"))) {
     proj_root <- getwd()
   }
 }

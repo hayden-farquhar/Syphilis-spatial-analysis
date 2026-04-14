@@ -82,7 +82,8 @@ sa2_population <- g01 %>%
     pop_indigenous = Indigenous_P_Tot_P,
     pop_15_29 = Age_15_19_yr_P + Age_20_24_yr_P + Age_25_34_yr_P * 0.5,
     pop_15_44 = Age_15_19_yr_P + Age_20_24_yr_P + Age_25_34_yr_P +
-                Age_35_44_yr_P
+                Age_35_44_yr_P,
+    pop_male_20_44 = Age_20_24_yr_M + Age_25_34_yr_M + Age_35_44_yr_M
   ) %>%
   filter(!sa2_code %in% c("AUST", "0"))  # Remove summary rows
 
@@ -390,6 +391,82 @@ if (file.exists(nsw_monthly_path)) {
   saveRDS(nsw_monthly, file.path(path_processed, "nsw_monthly_notifications.rds"))
 } else {
   message("  NSW monthly: CSV not found — run Python extraction first")
+}
+
+# ==============================================================================
+# 6h. ABS SAME-SEX COUPLE DATA (TableBuilder) — MSM residential proxy
+# ==============================================================================
+# Source: ABS Census 2021, SSCF (Same-Sex Couple Indicator) by LGA
+# Downloaded from ABS TableBuilder: Counting Families × SSCF × LGA (VIC)
+# File: data/raw/demographics/ABS_SSCF_VIC_LGA_2021.csv
+
+message("Loading ABS same-sex couple data...")
+
+sscf_path <- file.path(path_demographics, "ABS_SSCF_VIC_LGA_2021.csv")
+
+if (file.exists(sscf_path)) {
+  sscf_raw <- read_csv(sscf_path, show_col_types = FALSE)
+
+  # Flexible parsing: detect column structure from TableBuilder output
+  # TableBuilder CSV typically has LGA identifier + SSCF category counts
+  names_lower <- tolower(names(sscf_raw))
+
+  # Try to identify LGA column (code or name)
+  lga_col <- names(sscf_raw)[which(str_detect(names_lower, "lga|area|geography"))[1]]
+  if (is.na(lga_col)) lga_col <- names(sscf_raw)[1]  # fallback: first column
+
+  # Try to identify male same-sex couple column
+  male_ss_col <- names(sscf_raw)[which(str_detect(names_lower, "male.*same|male_same"))[1]]
+  female_ss_col <- names(sscf_raw)[which(str_detect(names_lower, "female.*same|female_same"))[1]]
+  not_ss_col <- names(sscf_raw)[which(str_detect(names_lower, "not.*same|not_a_same"))[1]]
+  total_col <- names(sscf_raw)[which(str_detect(names_lower, "^total$"))[1]]
+
+  if (!is.na(male_ss_col)) {
+    sscf_clean <- sscf_raw %>%
+      transmute(
+        lga_raw = as.character(.data[[lga_col]]),
+        male_ss_couples = as.numeric(.data[[male_ss_col]]),
+        female_ss_couples = if (!is.na(female_ss_col)) as.numeric(.data[[female_ss_col]]) else NA_real_,
+        not_ss_families = if (!is.na(not_ss_col)) as.numeric(.data[[not_ss_col]]) else NA_real_,
+        total_families = if (!is.na(total_col)) as.numeric(.data[[total_col]]) else NA_real_
+      ) %>%
+      # Extract LGA name from TableBuilder format: "Alpine (S) (21410)" → "Alpine"
+      mutate(
+        lga_name_clean = str_remove(lga_raw, "\\s*\\(\\d+\\)$") %>%
+          str_remove("\\s*\\(.*\\)$") %>%
+          str_trim()
+      ) %>%
+      filter(!str_detect(lga_raw, "^Total|^Australia"),
+             !is.na(male_ss_couples))
+
+    # If counting families, male_ss_couples IS the couple count
+    # If counting persons, divide by 2 (check: if counts are all even, likely persons)
+    if (all(sscf_clean$male_ss_couples %% 2 == 0, na.rm = TRUE) &&
+        max(sscf_clean$male_ss_couples, na.rm = TRUE) > 10) {
+      message("  SSCF appears to count persons — dividing by 2 for couple counts")
+      sscf_clean <- sscf_clean %>%
+        mutate(male_ss_couples = male_ss_couples / 2,
+               female_ss_couples = female_ss_couples / 2)
+    }
+
+    message("  Same-sex couple data: ", nrow(sscf_clean), " LGAs")
+    message("  Total male-male couples (VIC): ", sum(sscf_clean$male_ss_couples, na.rm = TRUE))
+    message("  Range per LGA: ", min(sscf_clean$male_ss_couples, na.rm = TRUE),
+            " - ", max(sscf_clean$male_ss_couples, na.rm = TRUE))
+
+    saveRDS(sscf_clean, file.path(path_processed, "sscf_vic_lga.rds"))
+  } else {
+    message("  WARNING: Could not identify male same-sex couple column in SSCF data")
+    message("  Column names found: ", paste(names(sscf_raw), collapse = ", "))
+    message("  Expected a column matching 'male.*same' or 'male_same'")
+    sscf_clean <- NULL
+  }
+} else {
+  message("  SSCF data not yet available — download from ABS TableBuilder")
+  message("  Expected file: ", sscf_path)
+  message("  Instructions: TableBuilder > 2021 Census > Counting Families >")
+  message("    Row: LGA (VIC only) > Column: SSCF > Download CSV")
+  sscf_clean <- NULL
 }
 
 # ==============================================================================

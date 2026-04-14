@@ -172,7 +172,11 @@ sa2_analysis <- sa2 %>%
   # Calculate percentage Indigenous
   mutate(
     pct_indigenous = ifelse(pop_total > 0,
-                            indigenous_total / pop_total * 100, NA_real_)
+                            indigenous_total / pop_total * 100, NA_real_),
+    pct_male_20_44 = ifelse(pop_total > 0,
+                            pop_male_20_44 / pop_total * 100, NA_real_),
+    pop_density = ifelse(area_sqkm > 0,
+                         pop_total / area_sqkm, NA_real_)
   )
 
 # Filter to meaningful SA2s (exclude "Migratory - Offshore - Shipping"
@@ -270,6 +274,69 @@ message("  VIC LGA analysis: ", n_distinct(vic_analysis$area_name), " LGAs, ",
         nrow(vic_analysis), " records")
 
 # ==============================================================================
+# 6b. JOIN SAME-SEX COUPLE DATA TO VIC LGA ANALYSIS
+# ==============================================================================
+
+message("Joining same-sex couple data to VIC LGA dataset...")
+
+sscf_path <- file.path(path_processed, "sscf_vic_lga.rds")
+if (file.exists(sscf_path)) {
+  sscf_clean <- readRDS(sscf_path)
+
+  # Join to vic_analysis via cleaned LGA names
+  # vic_analysis already has area_name from notifications (e.g., "Alpine (S)")
+  # sscf_clean has lga_name_clean (e.g., "Alpine")
+  # Also try matching via boundary file LGA names
+  vic_lga_names <- vic_lga %>%
+    st_drop_geometry() %>%
+    transmute(LGA_NAME21, LGA_CODE21)
+
+  # Match SSCF to boundary LGA names
+  sscf_matched <- sscf_clean %>%
+    left_join(vic_lga_names, by = c("lga_name_clean" = "LGA_NAME21"))
+
+  n_matched <- sum(!is.na(sscf_matched$LGA_CODE21))
+  message("  SSCF matched to LGA boundaries: ", n_matched, " of ", nrow(sscf_clean))
+
+  if (n_matched < nrow(sscf_clean) * 0.5) {
+    message("  WARNING: Low match rate. Trying fuzzy matching...")
+    # Fallback: match on first word of LGA name
+    sscf_matched <- sscf_clean %>%
+      mutate(lga_first_word = word(lga_name_clean, 1)) %>%
+      left_join(
+        vic_lga_names %>% mutate(lga_first_word = word(LGA_NAME21, 1)),
+        by = "lga_first_word"
+      )
+    n_matched <- sum(!is.na(sscf_matched$LGA_CODE21))
+    message("  After fuzzy matching: ", n_matched, " matched")
+  }
+
+  # Calculate male-male couple density
+  sscf_for_join <- sscf_matched %>%
+    filter(!is.na(LGA_CODE21)) %>%
+    transmute(
+      LGA_CODE21,
+      male_ss_couples,
+      female_ss_couples,
+      total_couple_families = not_ss_families + male_ss_couples + female_ss_couples,
+      # Male-male couples per 1,000 couple families
+      male_ss_per_1000 = ifelse(total_couple_families > 0,
+                                 male_ss_couples / total_couple_families * 1000,
+                                 NA_real_)
+    )
+
+  message("  Male-male couple density range: ",
+          round(min(sscf_for_join$male_ss_per_1000, na.rm = TRUE), 2), " - ",
+          round(max(sscf_for_join$male_ss_per_1000, na.rm = TRUE), 2),
+          " per 1,000 couple families")
+
+  saveRDS(sscf_for_join, file.path(path_processed, "sscf_vic_lga_density.rds"))
+} else {
+  message("  SSCF data not available — skipping same-sex couple density calculation")
+  sscf_for_join <- NULL
+}
+
+# ==============================================================================
 # 7. VALIDATION CHECKS
 # ==============================================================================
 
@@ -330,7 +397,7 @@ saveRDS(vic_analysis, file.path(path_processed, "vic_lga_analysis.rds"))
 sa2_analysis_sf <- sa2_sf %>%
   rename(sa2_code = SA2_CODE21) %>%
   left_join(sa2_analysis %>% select(-sa2_name, -sa3_code, -sa3_name,
-                                     -ste_code, -ste_name, -area_sqkm,
+                                     -ste_code, -ste_name,
                                      -state),
             by = "sa2_code")
 

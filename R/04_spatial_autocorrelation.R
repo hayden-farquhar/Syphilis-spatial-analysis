@@ -74,6 +74,10 @@ lga_covariates <- joined %>%
     lga_pop = sum(pop_total, na.rm = TRUE),
     lga_pop_indigenous = sum(pop_indigenous, na.rm = TRUE),
     pct_indigenous = lga_pop_indigenous / lga_pop * 100,
+    lga_pop_male_20_44 = sum(pop_male_20_44, na.rm = TRUE),
+    pct_male_20_44 = lga_pop_male_20_44 / lga_pop * 100,
+    lga_area_sqkm = sum(area_sqkm, na.rm = TRUE),
+    pop_density = ifelse(lga_area_sqkm > 0, lga_pop / lga_area_sqkm, NA_real_),
     mean_irsd = {
       valid <- !is.na(irsd_score) & !is.na(pop_total)
       if (sum(valid) > 0) weighted.mean(irsd_score[valid], pop_total[valid])
@@ -325,7 +329,8 @@ message("\n6. OLS regression (baseline model)...")
 reg_data <- vic_spatial %>%
   filter(
     !is.na(mean_annual_rate),
-    !is.na(pct_indigenous),
+    !is.na(pct_male_20_44),
+    !is.na(pop_density),
     !is.na(mean_irsd),
     !is.na(mean_dist_sh_km),
     !is.na(remoteness_mode)
@@ -333,11 +338,12 @@ reg_data <- vic_spatial %>%
 
 message("  Regression dataset: ", nrow(reg_data), " LGAs (of ", nrow(vic_spatial), ")")
 
-# Log-transform distance and rate for better model fit
+# Log-transform distance, density, and rate for better model fit
 reg_data <- reg_data %>%
   mutate(
     log_rate = log1p(mean_annual_rate),
     log_dist_sh = log1p(mean_dist_sh_km),
+    log_pop_density = log1p(pop_density),
     remoteness_factor = factor(remoteness_mode,
                                levels = c("Major Cities", "Inner Regional",
                                           "Outer Regional", "Remote", "Very Remote"))
@@ -345,7 +351,7 @@ reg_data <- reg_data %>%
 
 # OLS model
 ols_model <- lm(
-  log_rate ~ pct_indigenous + mean_irsd + log_dist_sh + remoteness_factor,
+  log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
   data = reg_data
 )
 
@@ -448,7 +454,7 @@ if (lm_lag_sig & lm_err_sig) {
 message("\n8. Spatial lag model...")
 
 lag_model <- lagsarlm(
-  log_rate ~ pct_indigenous + mean_irsd + log_dist_sh + remoteness_factor,
+  log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
   data = reg_data,
   listw = lw_reg,
   zero.policy = TRUE
@@ -480,7 +486,7 @@ for (i in seq_len(nrow(lag_coefs))) {
 message("\n9. Spatial error model...")
 
 error_model <- errorsarlm(
-  log_rate ~ pct_indigenous + mean_irsd + log_dist_sh + remoteness_factor,
+  log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
   data = reg_data,
   listw = lw_reg,
   zero.policy = TRUE
@@ -573,7 +579,8 @@ table2_display <- coef_table %>%
   transmute(
     Variable = case_when(
       variable == "(Intercept)" ~ "Intercept",
-      variable == "pct_indigenous" ~ "% Indigenous population",
+      variable == "pct_male_20_44" ~ "% Males aged 20-44",
+      variable == "log_pop_density" ~ "log(Population density, per km2)",
       variable == "mean_irsd" ~ "IRSD score (socioeconomic)",
       variable == "log_dist_sh" ~ "log(Distance to SH clinic, km)",
       variable == "remoteness_factorInner Regional" ~ "Inner Regional (ref: Major Cities)",
@@ -619,6 +626,181 @@ gtsave(table2_gt, file.path(path_tables, "table2_spatial_regression.html"))
 write_csv(table2_full, file.path(path_tables, "table2_spatial_regression.csv"))
 
 # ==============================================================================
+# 11b. SAME-SEX COUPLE PROXY REGRESSION (if data available)
+# ==============================================================================
+
+message("\n11b. Same-sex couple proxy regression models...")
+
+sscf_density_path <- file.path(path_processed, "sscf_vic_lga_density.rds")
+
+if (file.exists(sscf_density_path)) {
+  sscf_density <- readRDS(sscf_density_path)
+
+  # Join SSCF density to regression data
+  reg_data_ss <- reg_data %>%
+    left_join(sscf_density, by = c("LGA_CODE21")) %>%
+    filter(!is.na(male_ss_per_1000))
+
+  message("  LGAs with SSCF data: ", nrow(reg_data_ss), " of ", nrow(reg_data))
+
+  if (nrow(reg_data_ss) >= 30) {
+    # ---- Proxy validation: correlate pct_male_20_44 with male_ss_per_1000 ----
+    proxy_cor <- cor.test(reg_data_ss$pct_male_20_44, reg_data_ss$male_ss_per_1000,
+                          method = "pearson")
+    proxy_cor_spearman <- cor.test(reg_data_ss$pct_male_20_44, reg_data_ss$male_ss_per_1000,
+                                   method = "spearman")
+
+    message("  Proxy correlation (pct_male_20_44 vs male_ss_per_1000):")
+    message("    Pearson r = ", round(proxy_cor$estimate, 3),
+            " (p = ", format.pval(proxy_cor$p.value, digits = 3), ")")
+    message("    Spearman rho = ", round(proxy_cor_spearman$estimate, 3),
+            " (p = ", format.pval(proxy_cor_spearman$p.value, digits = 3), ")")
+
+    # Scatter plot: proxy validation
+    fig_proxy <- ggplot(reg_data_ss, aes(x = pct_male_20_44, y = male_ss_per_1000)) +
+      geom_point(alpha = 0.6, colour = "#2c3e50") +
+      geom_smooth(method = "lm", se = TRUE, colour = "#e74c3c", linewidth = 0.8) +
+      labs(
+        title = "Proxy validation: % Males 20-44 vs Same-sex couple density",
+        subtitle = paste0("Victorian LGAs (n=", nrow(reg_data_ss),
+                          ") | r = ", round(proxy_cor$estimate, 3),
+                          ", p = ", format.pval(proxy_cor$p.value, digits = 3)),
+        x = "% Males aged 20-44 (Census 2021)",
+        y = "Male-male couples per 1,000 couple families"
+      )
+    save_plot(fig_proxy, "figS_proxy_validation", width = 8, height = 7)
+
+    # ---- Model 2: Same-sex couple density as MSM proxy ----
+    # Rebuild spatial weights for SSCF subset
+    nb_ss <- poly2nb(reg_data_ss, queen = TRUE)
+    n_islands_ss <- sum(card(nb_ss) == 0)
+    if (n_islands_ss > 0) {
+      islands_ss <- which(card(nb_ss) == 0)
+      for (i in islands_ss) {
+        dists <- as.numeric(st_distance(st_centroid(reg_data_ss[i, ]),
+                                         st_centroid(reg_data_ss[-i, ])))
+        nearest <- which.min(dists)
+        if (nearest >= i) nearest <- nearest + 1
+        nb_ss[[i]] <- as.integer(nearest)
+        nb_ss[[nearest]] <- sort(unique(c(nb_ss[[nearest]], as.integer(i))))
+      }
+    }
+    lw_ss <- nb2listw(nb_ss, style = "W", zero.policy = TRUE)
+
+    # OLS Model 2: same-sex proxy
+    ols_ss <- lm(
+      log_rate ~ male_ss_per_1000 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+      data = reg_data_ss
+    )
+    ols_ss_summ <- summary(ols_ss)
+
+    message("\n  Model 2 (same-sex proxy) OLS:")
+    message("    R-squared: ", round(ols_ss_summ$r.squared, 4))
+    message("    Adj R-squared: ", round(ols_ss_summ$adj.r.squared, 4))
+    cat("    Coefficients:\n")
+    coefs_ss <- coef(ols_ss_summ)
+    for (i in seq_len(nrow(coefs_ss))) {
+      sig <- ifelse(coefs_ss[i, 4] < 0.001, "***",
+             ifelse(coefs_ss[i, 4] < 0.01, "**",
+             ifelse(coefs_ss[i, 4] < 0.05, "*", "")))
+      message("      ", rownames(coefs_ss)[i], ": ",
+              round(coefs_ss[i, 1], 4), " (p=", format.pval(coefs_ss[i, 4], digits = 3), ")", sig)
+    }
+
+    # Spatial lag Model 2
+    lag_ss <- lagsarlm(
+      log_rate ~ male_ss_per_1000 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+      data = reg_data_ss, listw = lw_ss, zero.policy = TRUE
+    )
+    lag_ss_summ <- summary(lag_ss)
+
+    message("\n  Model 2 spatial lag:")
+    message("    Rho: ", round(lag_ss$rho, 4),
+            " (p = ", format.pval(lag_ss_summ$Wald1$p.value, digits = 4), ")")
+    message("    AIC: ", round(AIC(lag_ss), 2))
+
+    # Spatial error Model 2
+    err_ss <- errorsarlm(
+      log_rate ~ male_ss_per_1000 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+      data = reg_data_ss, listw = lw_ss, zero.policy = TRUE
+    )
+
+    # ---- Model 3: Both proxies combined ----
+    ols_both <- lm(
+      log_rate ~ pct_male_20_44 + male_ss_per_1000 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+      data = reg_data_ss
+    )
+    ols_both_summ <- summary(ols_both)
+
+    message("\n  Model 3 (combined proxies) OLS:")
+    message("    R-squared: ", round(ols_both_summ$r.squared, 4))
+    coefs_both <- coef(ols_both_summ)
+    for (i in seq_len(nrow(coefs_both))) {
+      sig <- ifelse(coefs_both[i, 4] < 0.001, "***",
+             ifelse(coefs_both[i, 4] < 0.01, "**",
+             ifelse(coefs_both[i, 4] < 0.05, "*", "")))
+      message("      ", rownames(coefs_both)[i], ": ",
+              round(coefs_both[i, 1], 4), " (p=", format.pval(coefs_both[i, 4], digits = 3), ")", sig)
+    }
+
+    lag_both <- lagsarlm(
+      log_rate ~ pct_male_20_44 + male_ss_per_1000 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+      data = reg_data_ss, listw = lw_ss, zero.policy = TRUE
+    )
+
+    # ---- Model comparison table (all specifications) ----
+    model_comparison_dual <- tibble(
+      Model = c("Model 1: % Male 20-44 (OLS)", "Model 1: % Male 20-44 (Lag)",
+                "Model 2: SS couple density (OLS)", "Model 2: SS couple density (Lag)",
+                "Model 3: Both proxies (OLS)", "Model 3: Both proxies (Lag)"),
+      N = nrow(reg_data_ss),
+      AIC = c(AIC(lm(log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor, data = reg_data_ss)),
+              AIC(lagsarlm(log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+                           data = reg_data_ss, listw = lw_ss, zero.policy = TRUE)),
+              AIC(ols_ss), AIC(lag_ss),
+              AIC(ols_both), AIC(lag_both)),
+      R2_or_rho = c(
+        round(summary(lm(log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor, data = reg_data_ss))$r.squared, 3),
+        round(lagsarlm(log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+                        data = reg_data_ss, listw = lw_ss, zero.policy = TRUE)$rho, 3),
+        round(ols_ss_summ$r.squared, 3), round(lag_ss$rho, 3),
+        round(ols_both_summ$r.squared, 3), round(lag_both$rho, 3)
+      )
+    )
+
+    message("\n  Dual-proxy model comparison:")
+    print(as.data.frame(model_comparison_dual))
+
+    # Save comparison table
+    write_csv(model_comparison_dual,
+              file.path(path_tables, "tableS_dual_proxy_comparison.csv"))
+
+    # Save results for manuscript figures
+    saveRDS(list(
+      proxy_cor = proxy_cor,
+      proxy_cor_spearman = proxy_cor_spearman,
+      ols_m1 = lm(log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor, data = reg_data_ss),
+      ols_m2 = ols_ss,
+      ols_m3 = ols_both,
+      lag_m1 = lagsarlm(log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh + remoteness_factor,
+                         data = reg_data_ss, listw = lw_ss, zero.policy = TRUE),
+      lag_m2 = lag_ss,
+      lag_m3 = lag_both,
+      err_m2 = err_ss,
+      comparison = model_comparison_dual,
+      reg_data_ss = reg_data_ss
+    ), file.path(path_processed, "dual_proxy_results.rds"))
+
+    message("  Dual-proxy results saved")
+  } else {
+    message("  Insufficient LGAs with SSCF data for regression (need >= 30, have ", nrow(reg_data_ss), ")")
+  }
+} else {
+  message("  SSCF density data not available — skipping dual-proxy analysis")
+  message("  Run 01_data_acquisition.R after placing ABS_SSCF_VIC_LGA_2021.csv in data/raw/demographics/")
+}
+
+# ==============================================================================
 # 12. GEOGRAPHICALLY WEIGHTED REGRESSION (GWR)
 # ==============================================================================
 
@@ -631,7 +813,8 @@ coords <- st_coordinates(st_centroid(reg_data))
 
 # Simpler model for GWR (fewer parameters given n~80)
 # GWR needs n >> parameters at each local fit
-gwr_formula <- log_rate ~ pct_indigenous + mean_irsd + log_dist_sh
+# Uses pct_male_20_44 and log_pop_density instead of pct_indigenous
+gwr_formula <- log_rate ~ pct_male_20_44 + log_pop_density + mean_irsd + log_dist_sh
 
 # Bandwidth selection via cross-validation
 message("  Selecting optimal bandwidth (cross-validation)...")
@@ -675,7 +858,8 @@ if (!is.null(gwr_model)) {
   reg_data <- reg_data %>%
     mutate(
       gwr_localR2 = gwr_results$localR2,
-      gwr_coef_indigenous = gwr_results$pct_indigenous,
+      gwr_coef_male2044 = gwr_results$pct_male_20_44,
+      gwr_coef_density = gwr_results$log_pop_density,
       gwr_coef_irsd = gwr_results$mean_irsd,
       gwr_coef_dist = gwr_results$log_dist_sh
     )
@@ -712,27 +896,44 @@ if (!is.null(gwr_model)) {
 
   save_map(fig_gwr_dist, "fig14_gwr_coef_distance", width = 8, height = 8)
 
-  # Map local coefficient for Indigenous proportion
-  fig_gwr_indig <- tm_shape(reg_data) +
+  # Map local coefficient for % males 20-44
+  fig_gwr_male2044 <- tm_shape(reg_data) +
     tm_polygons(
-      fill = "gwr_coef_indigenous",
+      fill = "gwr_coef_male2044",
       fill.scale = tm_scale_continuous(
         values = "brewer.rd_yl_bu",
         midpoint = 0
       ),
-      fill.legend = tm_legend(title = "Coefficient:\n% Indigenous")
+      fill.legend = tm_legend(title = "Coefficient:\n% Males 20-44")
     ) +
-    tm_title("GWR local coefficient: Indigenous population proportion, VIC LGAs")
+    tm_title("GWR local coefficient: % Males aged 20-44, VIC LGAs")
 
-  save_map(fig_gwr_indig, "fig15_gwr_coef_indigenous", width = 8, height = 8)
+  save_map(fig_gwr_male2044, "fig15_gwr_coef_male2044", width = 8, height = 8)
+
+  # Map local coefficient for population density
+  fig_gwr_density <- tm_shape(reg_data) +
+    tm_polygons(
+      fill = "gwr_coef_density",
+      fill.scale = tm_scale_continuous(
+        values = "brewer.rd_yl_bu",
+        midpoint = 0
+      ),
+      fill.legend = tm_legend(title = "Coefficient:\nlog(Pop density)")
+    ) +
+    tm_title("GWR local coefficient: Population density, VIC LGAs")
+
+  save_map(fig_gwr_density, "fig16_gwr_coef_density", width = 8, height = 8)
 } else {
   message("  GWR skipped due to fitting error")
 }
 
 # ==============================================================================
-# 13. QLD HHS SPATIAL AUTOCORRELATION (SUPPLEMENTARY)
+# 13. QLD HHS SPATIAL AUTOCORRELATION (SUPPLEMENTARY) — REMOVED in MSM rewrite
 # ==============================================================================
+# QLD HHS analysis removed: paper now focuses on Victoria only.
+# Original code retained as comments for reference.
 
+if (FALSE) {
 message("\n13. Supplementary: QLD HHS spatial autocorrelation...")
 
 qld_hhs_boundaries <- readRDS(file.path(path_processed, "boundaries_qld_hhs.rds"))
@@ -806,6 +1007,7 @@ if (nrow(qld_spatial) >= 5) {
 } else {
   message("  Too few QLD HHS areas for spatial analysis")
 }
+} # end if(FALSE) — QLD HHS section removed
 
 # ==============================================================================
 # 14. SAVE SPATIAL ANALYSIS DATASETS
@@ -828,7 +1030,7 @@ message("Figures saved to: ", path_figures)
 message("Maps saved to: ", path_maps)
 message("Tables saved to: ", path_tables)
 
-fig_files <- list.files(path_figures, pattern = "fig1[0-5]")
+fig_files <- list.files(path_figures, pattern = "fig1[0-6]")
 map_files <- list.files(path_maps, pattern = "fig1[1-6]")
 table_files <- list.files(path_tables, pattern = "table2")
 
@@ -845,10 +1047,6 @@ message("  - Global Moran's I (VIC mean rate): ",
         " (p=", format.pval(moran_result$p.value, digits = 3), ")")
 message("  - Best regression model: ", best_model,
         " (AIC=", round(min(model_comparison$aic), 1), ")")
-if (exists("moran_qld")) {
-  message("  - QLD HHS Moran's I: ",
-          round(moran_qld$estimate["Moran I statistic"], 4),
-          " (p=", format.pval(moran_qld$p.value, digits = 3), ")")
-}
+# QLD HHS analysis removed in MSM-focused rewrite
 
 message("\nPhase 3 complete.")
