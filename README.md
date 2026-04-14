@@ -6,6 +6,8 @@ Replication code and data for the spatial analysis of infectious syphilis notifi
 
 **Preprint:** [doi.org/10.64898/2026.02.13.26346302](https://doi.org/10.64898/2026.02.13.26346302)
 
+**Code archive:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19564000.svg)](https://doi.org/10.5281/zenodo.19564000)
+
 ## Overview
 
 This analysis uses publicly available aggregate surveillance data from the Victorian Department of Health, ABS Census 2021, and the National Health Services Directory. The study examines:
@@ -163,4 +165,4 @@ Note: The underlying surveillance data are subject to the terms of use of their 
 
 If you use this code or build on this analysis, please cite:
 
-> Farquhar, H. (2026). Spatial clustering of infectious syphilis in Victoria, Australia: disentangling MSM residential geography from epidemiological heterogeneity. *Preprint*. https://doi.org/10.64898/2026.02.13.26346302
+> Farquhar, H. (2026). Spatial clustering of infectious syphilis in Victoria, Australia: disentangling MSM residential geography from epidemiological heterogeneity. *Preprint*. https://doi.org/10.64898/2026.02.13.26346302. Code: https://doi.org/10.5281/zenodo.19564000
